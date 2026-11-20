@@ -1,0 +1,65 @@
+test_deliberate_last_row_j_error_is_detected (test_independent_zero.Countercheck.test_deliberate_last_row_j_error_is_detected) ... ok
+test_deliberate_last_row_p_error_is_detected (test_independent_zero.Countercheck.test_deliberate_last_row_p_error_is_detected) ... ok
+test_synthetic_clean (test_independent_zero.Countercheck.test_synthetic_clean) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.009s
+
+OK
+{
+  "frozen_gate": "PASSED",
+  "by_tolerance": [
+    {
+      "tol": "standard",
+      "errors": [
+        3.3187160653749746e-08,
+        2.070640153002529e-09,
+        1.2950929150052408e-10
+      ],
+      "refinement_error_ratios": [
+        16.027488216929797,
+        15.988352102089523
+      ]
+    },
+    {
+      "tol": "tight",
+      "errors": [
+        3.3187171490922095e-08,
+        2.0706520347980175e-09,
+        1.2951066984426134e-10
+      ],
+      "refinement_error_ratios": [
+        16.027401481852237,
+        15.98827368654652
+      ]
+    }
+  ]
+}
+{
+  "version": "v18.11.1",
+  "kind": "CENTERED_NONLINEAR_RHS_ONLY_SENSITIVITY",
+  "original_model_SHA256_verified": true,
+  "no_baseline_orbit_regeneration": true,
+  "epsilon": 0.0002,
+  "xi_probes": [
+    0.0,
+    1.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0
+  ],
+  "perturbed_initial_coordinates_zero_based": [
+    10,
+    0,
+    5,
+    9
+  ],
+  "trajectories": 9,
+  "max_material_response_relative_error": 5.135795657813369e-07,
+  "max_phase_response_absolute_error": 2.0227162167429924e-09,
+  "max_original_rhs_clock_minus_2pi": 0.0,
+  "status": "PASSED",
+  "not_a_nonlinear_material_constraint_certificate": true
+}
+SEND_BACK_ZIP=/root/elab1/hysteresis/q550_kick203_phase_zero_independent_check_v18_11_1_sendback.zip

@@ -1,0 +1,40 @@
+test_forced_phase_variational_block (test_phase_fibre_v18_11.TestPhaseFibre.test_forced_phase_variational_block) ... ok
+test_invariant_vertical_subbundle (test_phase_fibre_v18_11.TestPhaseFibre.test_invariant_vertical_subbundle) ... ok
+test_line_plane_angle (test_phase_fibre_v18_11.TestPhaseFibre.test_line_plane_angle) ... ok
+test_projector_rate_against_difference (test_phase_fibre_v18_11.TestPhaseFibre.test_projector_rate_against_difference) ... ok
+test_source_birth_additivity (test_phase_fibre_v18_11.TestPhaseFibre.test_source_birth_additivity) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.051s
+
+OK
+{
+  "version": "v18.11",
+  "phase_sector": {
+    "standard": {
+      "max_jacobian_phase_row": 0.0,
+      "max_cocycle_phase_row_to_z": 0.0,
+      "max_cocycle_phase_diagonal_from_one": 0.0,
+      "max_source_phase_component": 0.0,
+      "max_phase_to_z_jacobian_column_norm": 15.282595123932785,
+      "max_phase_to_z_cocycle_column_norm": 2.0058796367016383
+    },
+    "tight": {
+      "max_jacobian_phase_row": 0.0,
+      "max_cocycle_phase_row_to_z": 0.0,
+      "max_cocycle_phase_diagonal_from_one": 0.0,
+      "max_source_phase_component": 0.0,
+      "max_phase_to_z_jacobian_column_norm": 15.282595123955199,
+      "max_phase_to_z_cocycle_column_norm": 2.0058796367072236
+    }
+  },
+  "status": "FROZEN_CHECKPOINT_GATE_PASSED"
+}
+Wrote two v18.11 diagnostic figures.
+{
+  "replay_success": true,
+  "max_red_state_error": 1.2535478641507282e-14,
+  "max_phi10_error": 1.33585033958001e-11,
+  "max_q_error": 6.200528313479666e-10
+}
+SEND_BACK_ZIP=/root/elab1/hysteresis/q550_kick203_phase_fixed_material_constraint_geometry_v18_11_sendback.zip

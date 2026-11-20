@@ -1,0 +1,30 @@
+{
+  "version": "v18.11",
+  "files": {
+    "README.md": "8f8be0198d4350126e3f689e4e5db9e70792feb8c1ebc55e06ee6548bd098be8",
+    "inputs/v18_10_original_sendback.zip": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "reference/analyze_cached_v18_9.py": "9a1825294c4b9d0f3c2fdd8366e9071b651868c1a18b6e369b78c5b4d55374b0",
+    "reference/q550_state_impulse_response_v13.py": "28bb3562a8b6e32b9b1c6f4bd544ade6afc75b6a5758e24fe671a85df28c7506",
+    "reference/structural_math_v18_9.py": "6de1b39e73cde62544e3f62b288266a65db2fbb6913c116caf21f85ce7030140",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "results/REPORT.md": "044757ed1bf11c35644555deb96ee8dd5953081f5324f9e4d29c415ea9b093db",
+    "results/grassmann_speed_transport_birth.png": "8a8fd04bfba98ecedb10555034d10ff5e3e7374e73900e2690be58afa43645f3",
+    "results/ode_phase_replay_profile.csv": "5e40c450f25b613bba9f89c5105d0bd6abdfd1dfc69196f7fbd0c1089bc5f987",
+    "results/ode_phase_replay_summary.json": "f97ab8403b9ff26e52c2915254f3e74e6138874ea2e493d4bb04ce2053aaf7b9",
+    "results/ode_phase_structural_probes.csv": "42e4f027d839bddd76b87b5ae76102de368a24295a82169232168aaacaa10248",
+    "results/phase_fixed_plane_profile.csv": "564c3a51791aa654029e18242d27f44d8d186ceb34d3d772ab04b2ee7b1ebb00",
+    "results/plane_principal_increment.png": "956bd925b916e6afb37cf7d37ac77dcf0e1eaa278b806ff5f63dd84258ae8599",
+    "results/summary.json": "376b43081bb31966e72f6159fad52ffcd6857b36c244d3f115d4f9d264fe9b55",
+    "scripts/analyze_phase_fibre_v18_11.py": "609360ae5cc5dfd1082c325caa2ac32f117ced0a88c613b1645e580c70e6f0c3",
+    "scripts/checkpoint_io_v18_11.py": "5badde4cdec2f86bef007e4577f186b4f138fdd0b94ad34e99a9993e141afc53",
+    "scripts/pack_sendback_v18_11.py": "1caf9bfc3329c62a32322b0c7098142e2b02b78f9797fd654a8f60ac88e9a2f8",
+    "scripts/phase_fibre_math_v18_11.py": "4518cb8a21683c95b8968fa17216e62f6fa1ebbc8d317c402140866c8909430f",
+    "scripts/plot_phase_fibre_v18_11.py": "8d9151ab7f700631201f42b3363bcd7466a635bc2c5cf3219732eea11758039f",
+    "scripts/replay_phase_ode_v18_11.py": "e81fcac60e5a62d7e504539c9f4376b6fed082fe7f2b63d8b98d3e1a0830159f",
+    "scripts/run_on_server.sh": "5b9eff73219b2cbed6ce401fe7e5a0acd217de99582f77ab638639536091cf82",
+    "templates/CONSTRAINT_PROVENANCE_GATE.md": "9a500fdded7891e4cfd3f152e7e868d8c05b4de2962cd88dae0df7bced4b35e6",
+    "tests/test_phase_fibre_v18_11.py": "ae86298364f9c06c35b394c0da9907caca98d951fffee478458e5eb02c75b42d",
+    "v18_11_offline_preflight.log": "5a4eee7a3cc0f2dee9b6d95ec90f516772e56b55d160df2ef719971d78ff7cd0",
+    "v18_11_server.log": "fafea065ae8ba3262845126626d4b43cafe96a272155de0896ee5f758a3e022e"
+  }
+}

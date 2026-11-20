@@ -1,0 +1,90 @@
+{
+  "version": "2026-10-18-Q550-v18.11-phase-fixed-material-transport",
+  "historical_provenance": {
+    "source_v18_10_sha256": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "v18_10_verified_members": 27,
+    "v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_verified_members": 17,
+    "v18_10_label": "v18.10",
+    "v18_10_server_ode_replay": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    }
+  },
+  "per_tolerance": [
+    {
+      "tolerance": "standard",
+      "n_samples_xi_gt_one": 560,
+      "clock_coordinate_index_zero_based": 10,
+      "phase_sector": {
+        "max_jacobian_phase_row": 0.0,
+        "max_cocycle_phase_row_to_z": 0.0,
+        "max_cocycle_phase_diagonal_from_one": 0.0,
+        "max_source_phase_component": 0.0,
+        "max_phase_to_z_jacobian_column_norm": 15.282595123932785,
+        "max_phase_to_z_cocycle_column_norm": 2.0058796367016383
+      },
+      "phase_fixed_subbundle_invariant_on_archived_samples": true,
+      "phase_fixed_ten_d_not_automatically_autonomous": true,
+      "ten_d_phi_variational_fd_relative_median": 0.00013063214310363324,
+      "ten_d_phi_variational_fd_relative_max": 0.00019010132227297214,
+      "phase_to_shape_driven_q_fd_relative_median": 9.020141314142046e-05,
+      "phase_to_shape_driven_q_fd_relative_max": 9.115696638734412e-05,
+      "plane_min_singular_value_gauge": 0.03808423350751396,
+      "plane_max_condition_gauge": 71.12896778469567,
+      "grassmann_projector_derivative_relative_median_xi_gt_1_1": 0.00047137983379274325,
+      "grassmann_projector_derivative_relative_max_xi_gt_1_1": 0.0010529794886981543,
+      "grassmann_rate_transport_plus_birth_max_algebraic_error": 1.1806905029250572e-14,
+      "max_one_step_principal_angle_rad_gauge": 0.03490894135503866,
+      "median_grassmann_total_speed_gauge": 1.800774697551319,
+      "median_grassmann_transport_speed_gauge": 1.9176232036800616,
+      "median_grassmann_birth_speed_gauge": 0.3401806803767897,
+      "phase_clock_is_time_dependent_kinematic_leaf_not_material_constraint": true,
+      "identified_nonlinear_material_constraint": false,
+      "identified_physical_metric": false
+    },
+    {
+      "tolerance": "tight",
+      "n_samples_xi_gt_one": 560,
+      "clock_coordinate_index_zero_based": 10,
+      "phase_sector": {
+        "max_jacobian_phase_row": 0.0,
+        "max_cocycle_phase_row_to_z": 0.0,
+        "max_cocycle_phase_diagonal_from_one": 0.0,
+        "max_source_phase_component": 0.0,
+        "max_phase_to_z_jacobian_column_norm": 15.282595123955199,
+        "max_phase_to_z_cocycle_column_norm": 2.0058796367072236
+      },
+      "phase_fixed_subbundle_invariant_on_archived_samples": true,
+      "phase_fixed_ten_d_not_automatically_autonomous": true,
+      "ten_d_phi_variational_fd_relative_median": 0.000130632143194577,
+      "ten_d_phi_variational_fd_relative_max": 0.00019010132227276406,
+      "phase_to_shape_driven_q_fd_relative_median": 9.020141309064048e-05,
+      "phase_to_shape_driven_q_fd_relative_max": 9.115696637885586e-05,
+      "plane_min_singular_value_gauge": 0.03808423349984931,
+      "plane_max_condition_gauge": 71.12896779879956,
+      "grassmann_projector_derivative_relative_median_xi_gt_1_1": 0.0004713798066295418,
+      "grassmann_projector_derivative_relative_max_xi_gt_1_1": 0.0010529794893108999,
+      "grassmann_rate_transport_plus_birth_max_algebraic_error": 1.3728852376968397e-14,
+      "max_one_step_principal_angle_rad_gauge": 0.03490894136285116,
+      "median_grassmann_total_speed_gauge": 1.8007746974215557,
+      "median_grassmann_transport_speed_gauge": 1.9176232036059337,
+      "median_grassmann_birth_speed_gauge": 0.34018068034453736,
+      "phase_clock_is_time_dependent_kinematic_leaf_not_material_constraint": true,
+      "identified_nonlinear_material_constraint": false,
+      "identified_physical_metric": false
+    }
+  ],
+  "standard_tight_median_geometry_disagreement": {
+    "median_grassmann_total_speed_gauge": 1.2976331120739815e-10,
+    "median_grassmann_transport_speed_gauge": 7.41278149973823e-11,
+    "median_grassmann_birth_speed_gauge": 3.2252367443419416e-11
+  },
+  "what_is_proved_exactly": "Algebraic invariance of the fixed-phase tangent sector conditional on the observed block-zero Jacobian structure; samplewise ODE checks are numerical.",
+  "constraint_status": "NO_PHYSICAL_HOLONOMIC_CONSTRAINT_IDENTIFIED",
+  "metric_status": "EUCLIDEAN_10D_GAUGE_ONLY_NOT_PHYSICAL",
+  "higher_order_constraint_curvature_status": "NOT_DERIVABLE_WITHOUT_SOURCE_VERIFIED_C_AND_D2C",
+  "limitation": "No interval certification of all phase-space states; phase fibre is a time-dependent kinematic leaf, not a fixed flow invariant hypersurface. The Grassmann speeds and principal angles vary with the metric."
+}

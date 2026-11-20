@@ -1,0 +1,39 @@
+{
+  "version": "v18.11",
+  "replay_success": true,
+  "original_ode_pinned_sources": {
+    "audit": {
+      "relative_name": "test_support_mobius_monodromy_audit.py",
+      "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864",
+      "server_path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_mobius_monodromy_audit.py"
+    },
+    "support": {
+      "relative_name": "test_support_q550_support_ode_interval_residual_pilot_v1.py",
+      "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61",
+      "server_path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_support_ode_interval_residual_pilot_v1.py"
+    },
+    "tube": {
+      "relative_name": "test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+      "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881",
+      "server_path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_exact_nonlinear_local_tube_v2_1.py"
+    }
+  },
+  "archived_kick203_state_used": true,
+  "no_400_orbit_reintegration": true,
+  "xi_samples": 641,
+  "source_phase0": 4358.098866813001,
+  "phase_rate_ode_clock": 6.283185307179586,
+  "max_full_vs_reduced_10d_state_rel_error": 1.2535478641507282e-14,
+  "max_reduced_10d_phi_rel_error_against_archived_11d": 1.33585033958001e-11,
+  "median_reduced_10d_phi_rel_error_against_archived_11d": 9.014023889689392e-12,
+  "max_driven_phase_column_q_rel_error_against_archived_11d": 6.200528313479666e-10,
+  "median_driven_phase_column_q_rel_error_against_archived_11d": 1.2612173731568498e-11,
+  "max_moving_phase_clock_residual": 5.275069270282984e-11,
+  "max_original_rhs_phase_deviation_from_2pi": 0.0,
+  "max_original_jac_phase_row": 0.0,
+  "min_original_z_phase_coupling_norm": 15.281994663981486,
+  "max_original_phase_shift_linearization_residual": 9.225989123953947e-12,
+  "phase_fibre_structural_status": "NUMERICAL_ODE_VERIFIED_NOT_MECHANICAL_CONSTRAINT",
+  "true_material_constraint_or_metric_claim": false,
+  "note": "Varying initial phase drives z and q, so a 10D autonomous vector field cannot be inferred. Phase-clock leaf is time dependent."
+}
