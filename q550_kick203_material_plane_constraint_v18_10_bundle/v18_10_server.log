@@ -1,0 +1,29 @@
+test_algebraic_invertible_covariance (test_exterior_v18_10.ExteriorTests.test_algebraic_invertible_covariance) ... ok
+test_antisymmetry_and_collinearity (test_exterior_v18_10.ExteriorTests.test_antisymmetry_and_collinearity) ... ok
+test_bivector_is_not_metric_dot (test_exterior_v18_10.ExteriorTests.test_bivector_is_not_metric_dot) ... ok
+test_continuous_transport_rate (test_exterior_v18_10.ExteriorTests.test_continuous_transport_rate) ... ok
+test_rank3_outside_plane (test_exterior_v18_10.ExteriorTests.test_rank3_outside_plane) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.179s
+
+OK
+{
+  "version": "v18.10",
+  "standard": {
+    "3": 560
+  },
+  "tight": {
+    "3": 560
+  },
+  "status": "off_constraint_plane_diagnostic"
+}
+{
+  "ode_replay_success": true,
+  "max_rel_jacobian": 9.73154931921378e-12,
+  "jacobian_zero_row_indices": [
+    10
+  ],
+  "physical_metric_certified": false
+}
+SEND_BACK_ZIP=/root/elab1/hysteresis/q550_kick203_material_plane_constraint_v18_10_sendback.zip

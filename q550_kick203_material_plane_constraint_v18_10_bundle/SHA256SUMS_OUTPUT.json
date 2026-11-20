@@ -1,0 +1,32 @@
+{
+  "version": "v18.10",
+  "files": {
+    "README.md": "4ee60b6171fec04636f9dea1dd8a251c45176b7aa837fa7aba5888c57e9c2e99",
+    "inputs/v18_9_original_sendback.zip": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "reference/analyze_cached_v18_9.py": "9a1825294c4b9d0f3c2fdd8366e9071b651868c1a18b6e369b78c5b4d55374b0",
+    "reference/history_bridge_v16.py": "f0945d39a07980555a7ae79068cca78be425a7c34bd6116f22ecdf0d267c2835",
+    "reference/q550_state_impulse_response_v13.py": "28bb3562a8b6e32b9b1c6f4bd544ade6afc75b6a5758e24fe671a85df28c7506",
+    "reference/structural_math_v18_9.py": "6de1b39e73cde62544e3f62b288266a65db2fbb6913c116caf21f85ce7030140",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "results/REPORT.md": "cc95ec1107094e281c3e19dd423dbe652c8ffebf9aac0ca4c8dfa49af00d35a4",
+    "results/crossing_plane_diagnostics.csv": "df40b5cb8c9f7e9a99899b5a6cc512dccbf0230c1c161fd78da799d88180a268",
+    "results/laboratory_plane_sine.png": "a1ea4d291efe34d284168292c7888b295be65817ac6a754f75439828ff629cd6",
+    "results/material_plane_profile.csv": "339a955f50a836cc534bc756bd10280270ca1dfdfe528c5776c96bb2bea28b92",
+    "results/ode_coordinate_inventory.csv": "a012a05efdfe908277e28e39e057ae1bb60de3493e669a7f046fc3e0d0535b0c",
+    "results/ode_jacobian_replay.csv": "5e281a1ce25b1358ae4f375c460896ea04ae532261c25e599975baec321e906f",
+    "results/ode_structure_summary.json": "0063b50a0e60d53fc3b559f0925cbb23348e84c5cb4d80a7d5b64b7a4e59fc4e",
+    "results/source_escape_3volume.png": "3c6a3d70f4dc71cc4d9019ceff479ba747491a77d01acba15340555116dfaf0f",
+    "results/source_frame_plane_sine.png": "7bf7934e5b72b57eebe04a7f85c8fb197f88a5e141ed5368edb000b24d9aa55e",
+    "results/summary.json": "ffb0c7456ed143b7c1242c057a42deda059962fd7d118b14a25418290aa00418",
+    "scripts/analyze_plane_v18_10.py": "548544ef4f7d52047f02df11b651ee35c1068405755957a29601c9b1d64d6bea",
+    "scripts/checkpoint_io_v18_10.py": "d737602f599dc06e4b9f69758b77b907d4274791e362e6f313b93784f5c3eafe",
+    "scripts/exterior_geometry_v18_10.py": "714729dbe17e0b183b493712ce5d1cf1e9c2ab8cd1ffc9ef7f51bc069e4ef235",
+    "scripts/inspect_original_ode_v18_10.py": "8696760a8f3ed99bdc394e3ac9b52113029185b7923d9cbeb1fa513b4988e0a9",
+    "scripts/pack_sendback_v18_10.py": "2fab6589f678cca57f1c896c8d3a6bb58111f41a8edd574a03edf2fe228aa348",
+    "scripts/plot_plane_v18_10.py": "7a653ea8720f0716bfc3c03a7f9ee80b552a9b11d2341fc1a4ddd9f2a9d911ce",
+    "scripts/run_on_server.sh": "87b45f11f9116d1e9e677ea241ab7c4641c92b48217adbedbb8046e8f16f4665",
+    "templates/STRUCTURAL_GATE.md": "27abbca31cf97a03f7a6e49505cc111837e988759c64e2642c9f831343638d61",
+    "tests/test_exterior_v18_10.py": "13bd917105d4ef584ef5340e8efeb3c541ed7b435fc6771b268be01c69468d86",
+    "v18_10_server.log": "677eeb78bd33b461c9320aaebc812ff744920d6353d890effa950290f0516340"
+  }
+}

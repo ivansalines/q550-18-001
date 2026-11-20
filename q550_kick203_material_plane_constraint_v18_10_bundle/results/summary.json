@@ -1,0 +1,92 @@
+{
+  "version": "v18.10",
+  "provenance": {
+    "original_v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_manifest_entries": 17,
+    "v18_9_summary_version": "2026-10-18-q550-v18.9-ode-structure-metric-candidate-audit",
+    "v18_9_ode_replay_success": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    }
+  },
+  "by_tolerance": [
+    {
+      "tolerance": "standard",
+      "nodes": 641,
+      "xi_range": [
+        0.0,
+        8.0
+      ],
+      "observed_euclidean_dot_crossings_xi": [
+        4.135198957916547,
+        4.997336555757831,
+        7.174435813614622
+      ],
+      "initial_plane_degenerate_at_xi_1_by_construction": true,
+      "max_relative_exterior_transport_reconstruction": 0.0,
+      "exterior_rate_fd_relative_median": 0.00016212735829753373,
+      "exterior_rate_fd_relative_max": 0.001324223785193649,
+      "source_blade_rate_fd_relative_median": 0.00015743417136362506,
+      "source_blade_rate_fd_relative_max": 0.0025193175544134454,
+      "xi_gt_1_min_source_plane_sine_gauge": 0.018801693307855895,
+      "xi_gt_1_min_lab_plane_sine_gauge": 0.028115285875064077,
+      "xi_gt_1_min_trivector_gauge": 8.81732781893699e-05,
+      "xi_gt_1_max_trivector_gauge": 0.984762422810641,
+      "xi_gt_1_median_source_departure_gauge": 0.9018346838404263,
+      "xi_gt_1_rank2_counts": {
+        "2": 560
+      },
+      "xi_gt_1_rank3_counts": {
+        "3": 560
+      },
+      "coordinate_relabelled_exterior_rate_relative_max": 1.045023398749494e-15,
+      "coordinate_relabelled_numerical_rank_agreements": 7,
+      "coordinate_relabelled_samples": 7,
+      "exterior_invariance": "EXACT_ZERO_AND_ALGEBRAIC_COVARIANCE_ONLY",
+      "physical_body_plane_certified": false,
+      "warning": "Rank threshold and normalized magnitudes depend on coordinates and numerical precision; off-constraint source and unknown physical metric/constraints."
+    },
+    {
+      "tolerance": "tight",
+      "nodes": 641,
+      "xi_range": [
+        0.0,
+        8.0
+      ],
+      "observed_euclidean_dot_crossings_xi": [
+        4.135198957889596,
+        4.997336555780125,
+        7.1744358136467605
+      ],
+      "initial_plane_degenerate_at_xi_1_by_construction": true,
+      "max_relative_exterior_transport_reconstruction": 0.0,
+      "exterior_rate_fd_relative_median": 0.00016212735666666417,
+      "exterior_rate_fd_relative_max": 0.0013242239875607298,
+      "source_blade_rate_fd_relative_median": 0.00015743410988874665,
+      "source_blade_rate_fd_relative_max": 0.002519317539711532,
+      "xi_gt_1_min_source_plane_sine_gauge": 0.018801693305176854,
+      "xi_gt_1_min_lab_plane_sine_gauge": 0.02811528586949189,
+      "xi_gt_1_min_trivector_gauge": 8.817327708735832e-05,
+      "xi_gt_1_max_trivector_gauge": 0.9847624228354596,
+      "xi_gt_1_median_source_departure_gauge": 0.901834683844887,
+      "xi_gt_1_rank2_counts": {
+        "2": 560
+      },
+      "xi_gt_1_rank3_counts": {
+        "3": 560
+      },
+      "coordinate_relabelled_exterior_rate_relative_max": 1.7180590737337167e-15,
+      "coordinate_relabelled_numerical_rank_agreements": 7,
+      "coordinate_relabelled_samples": 7,
+      "exterior_invariance": "EXACT_ZERO_AND_ALGEBRAIC_COVARIANCE_ONLY",
+      "physical_body_plane_certified": false,
+      "warning": "Rank threshold and normalized magnitudes depend on coordinates and numerical precision; off-constraint source and unknown physical metric/constraints."
+    }
+  ],
+  "physical_metric_identified": false,
+  "genuine_constraints_identified": false,
+  "scientific_interpretation": "OFF_CONSTRAINT_MATERIAL_PLANE_DIAGNOSTIC",
+  "next_gate": "Independently derive constraints and a physical bilinear form from the model; compare structure-preserving second-order perturbations, including extrinsic curvature."
+}
