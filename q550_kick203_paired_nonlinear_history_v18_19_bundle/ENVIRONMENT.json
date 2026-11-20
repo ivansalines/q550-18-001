@@ -1,0 +1,8 @@
+{
+  "version": "v18.19",
+  "python": "3.11+ or 3.13",
+  "dependency_origin": "Original pinned Q550 full11D RHS on server",
+  "experiment": "Paired independent non-linear trajectories at identical observed present, optionally first derivative matched",
+  "run_required": "server original RHS",
+  "offline_status": "FROZEN_PREFLIGHT_ONLY"
+}

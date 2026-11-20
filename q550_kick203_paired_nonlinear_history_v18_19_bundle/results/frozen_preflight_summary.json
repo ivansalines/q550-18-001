@@ -1,0 +1,223 @@
+{
+  "version": "v18.19",
+  "status": "FROZEN_PREFLIGHT_ONLY_NO_NONLINEAR_SERVER_RESULT",
+  "xi_match": 4.0,
+  "source_tolerances_available": [
+    "standard",
+    "tight"
+  ],
+  "s0": 693.6129771367538,
+  "slope": 0.1343837359721647,
+  "original_server_chain": {
+    "source_v18_11_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_11_verified_members": 25,
+    "source_v18_10_sha256": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "v18_10_verified_members": 27,
+    "v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_verified_members": 17,
+    "v18_10_label": "v18.10",
+    "v18_10_server_ode_replay": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    },
+    "source_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_12_members_verified": 18,
+    "v18_12_status": "NO_INTRINSIC_MECHANICAL_METRIC_OR_NONLINEAR_CONSTRAINT_CERTIFIED",
+    "v18_12_input_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_13_original_sha256": "3968e63515e98b60616ad710d3472932b7f0b1134e5245d464be1f8124a59198",
+    "v18_13_verified_members": 23,
+    "v18_13_status": "NUMERICAL_LOCAL_ORIENTATION_PERSISTENCE_GAUGE_DECLARED",
+    "v18_13_nested_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_14_original_sha256": "6e3f5b31ee2b42c6d40c3933613cb8e0103fa3fd41f87e9629349126cf6be25a",
+    "v18_14_verified_members": 24,
+    "v18_14_status": "HISTORY_WINDOW_DIRECTIONAL_ECHO_NUMERIC_GAUGE_DECLARED",
+    "v18_14_events": [
+      2.625653076601633,
+      3.9496097675037007,
+      5.560114949222021,
+      6.958293256917203
+    ],
+    "v18_15_original_sha256": "ad19c1ab78314d6c87130624d58e8f2c63b747c5099c777d9633bede6feb33cd",
+    "v18_15_verified_members": 29,
+    "v18_15_status": "SOURCE_AGE_INTERFERENCE_NUMERIC_GAUGE_DECLARED",
+    "v18_15_original_root": "q550_kick203_age_slab_source_interference_v18_15_bundle/",
+    "v18_16_original_sha256": "a63944dd2612cdeffb767272965be8b96b45e68d387ce774e50487a27b2b2fa8",
+    "v18_16_manifest_members_verified": 30,
+    "v18_16_original_status": "FROZEN_SOURCE_LAG_OBSERVER_AUDIT",
+    "v18_17_original_sha256": "52509228dc39b746316366ea8b391b1decec9a96621c89ca6a45348acaa84cc4",
+    "v18_17_verified_immutable_members": 31,
+    "v18_17_original_status": "FROZEN_SOURCE_RIDGE_OBSERVER_AUDIT",
+    "server_v18_18_sha256": "144b642e6aa5c4e0509a4a1c3a184cc783d3a0595da3f29776925cacdc0c0732",
+    "server_v18_18_verified_members": 29,
+    "server_v18_18_status": "FROZEN_SOURCE_EXACT_CLOSURE_AND_SURROGATE_AUDIT"
+  },
+  "modes": [
+    {
+      "observer": "material3",
+      "kind": "jet",
+      "second": false,
+      "seed_10D": [
+        0.09344398272426181,
+        0.8217709827274401,
+        0.06548891747055859,
+        0.08228744328571165,
+        0.19640104691998542,
+        -0.5071045208451856,
+        -0.023758469966745945,
+        -0.03481309751177312,
+        -0.0854260597483568,
+        -0.00991250600474427
+      ],
+      "observer_rank": 3,
+      "hidden_dim": 7,
+      "jac_hidden_singular_values": [
+        25.93689266999948,
+        16.549934086686317,
+        6.52647402183892
+      ],
+      "state_match_defect": 1.6554265466656027e-16,
+      "jet_match_defect": 3.0732328983132737e-15
+    },
+    {
+      "observer": "material3",
+      "kind": "jet",
+      "second": true,
+      "seed_10D": [
+        0.848117729673323,
+        -0.3364569142930113,
+        -0.09279330778498857,
+        -0.04615263986412377,
+        0.07160963260319705,
+        -0.3834101686201188,
+        -0.04040992374993577,
+        -0.020532718549229525,
+        0.031115532592579605,
+        0.03997961458288593
+      ],
+      "observer_rank": 3,
+      "hidden_dim": 7,
+      "jac_hidden_singular_values": [
+        25.93689266999948,
+        16.549934086686317,
+        6.52647402183892
+      ],
+      "state_match_defect": 1.2084654033341276e-16,
+      "jet_match_defect": 3.81758999522792e-15
+    },
+    {
+      "observer": "material3",
+      "kind": "state_only",
+      "second": false,
+      "seed_10D": [
+        -0.30981026761859803,
+        -0.23452823591189648,
+        -0.4465133239299744,
+        -0.1426856912372691,
+        0.7457728453172415,
+        -0.20855708997267433,
+        -0.13776793446231655,
+        0.030086389199525002,
+        -0.09763968746128532,
+        0.013742269398997808
+      ],
+      "observer_rank": 3,
+      "hidden_dim": 7,
+      "jac_hidden_singular_values": [
+        25.93689266999948,
+        16.549934086686317,
+        6.52647402183892
+      ],
+      "state_match_defect": 1.7045714183773883e-16,
+      "jet_match_defect": 25.936892669999473
+    },
+    {
+      "observer": "raw4",
+      "kind": "jet",
+      "second": false,
+      "seed_10D": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.1102230246251563e-16,
+        1.0,
+        -4.770489558936219e-18,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observer_rank": 4,
+      "hidden_dim": 6,
+      "jac_hidden_singular_values": [
+        3.0433118983024596,
+        0.07179969286657416,
+        0.07179467337009568,
+        5.720015130188065e-26
+      ],
+      "state_match_defect": 0.0,
+      "jet_match_defect": 7.978722645968552e-18
+    },
+    {
+      "observer": "raw4",
+      "kind": "state_only",
+      "second": false,
+      "seed_10D": [
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        0.00027904424854963144,
+        -0.0,
+        -2.0864675097882886e-07,
+        -0.0,
+        0.9999999610671312,
+        -0.0
+      ],
+      "observer_rank": 4,
+      "hidden_dim": 6,
+      "jac_hidden_singular_values": [
+        3.0433118983024596,
+        0.07179969286657416,
+        0.07179467337009568,
+        5.720015130188065e-26
+      ],
+      "state_match_defect": 0.0,
+      "jet_match_defect": 3.04331189830246
+    },
+    {
+      "observer": "raw6",
+      "kind": "state_only",
+      "second": false,
+      "seed_10D": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0009236274342516232,
+        0.046842263396097664,
+        0.9989018716932576,
+        0.0
+      ],
+      "observer_rank": 6,
+      "hidden_dim": 4,
+      "jac_hidden_singular_values": [
+        8.22996049111148,
+        0.15344265854373215,
+        0.07178184849881852,
+        0.0
+      ],
+      "state_match_defect": 0.0,
+      "jet_match_defect": 8.229960491111482
+    }
+  ],
+  "phase_row_archive_norm": 0.0,
+  "limitations": [
+    "Selected projections and jet-matched histories are observer-dependent",
+    "Exact reduced matching is constructed; independent nonlinear ODE integration is not run in preflight",
+    "No material invariant/energy metric supplied; off-constraint experiment"
+  ]
+}

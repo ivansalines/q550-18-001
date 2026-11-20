@@ -1,0 +1,33 @@
+{
+  "files": {
+    "inputs/v18_18_original_server_sendback.zip": "144b642e6aa5c4e0509a4a1c3a184cc783d3a0595da3f29776925cacdc0c0732",
+    "scripts/build_manifest.py": "c6c052975ec1363faeac6ab04da527bdffe12cf5777af7997baa035f69e184b4",
+    "scripts/checkpoint_io_v18_11.py": "ae829166712d3b33d7f85aa79eb7db6888199943aa1e21a25e59f788faf523d6",
+    "scripts/checkpoint_io_v18_13.py": "f1baec5b6718d22965f70cc61451aaebc9204fad4f7bec9970882af6768bf051",
+    "scripts/checkpoint_io_v18_14.py": "c863a0fa4c7a5fa340217038f31aa8dfb2eb6d20b755d49ec436e537c1a627cb",
+    "scripts/checkpoint_io_v18_15.py": "fb2b3ef5b203c4a733d3c496804bb800a9ff050b767a50d1939849e3a224cf59",
+    "scripts/checkpoint_io_v18_16.py": "caef21247c0f10242003bc2d510acbe17bb7daa62a2ec17d34218d3c213b7a17",
+    "scripts/checkpoint_io_v18_17.py": "cc5a9002bf68bfc6b8efe32c227e62e0a77699bef9e727ccd98f7a36c15803c4",
+    "scripts/checkpoint_io_v18_18.py": "81402182f5f1d7629ed8ac7f5d0fe0d5fc65f1bcbeacc73fd647809bd696449f",
+    "scripts/checkpoint_io_v18_19.py": "36a55aa2fd6be041dd0f81e55afc37ef9c0879ee5a43f1688f708461feeb6512",
+    "scripts/frozen_preflight.py": "802db65ced0459d6228891fed6181ccdaa94cca39d7217d426a41ac9cfbd0ef4",
+    "scripts/nonlinear_pairs_v18_19.py": "c019244c07583fec63e7b516b943dbea792f982b1307fab989150e5f45b5b90a",
+    "scripts/pack_sendback.py": "59641aee3c53856168a653842a888907f03b7ea3ac8ebb1e2c801269ccde4036",
+    "scripts/pair_math.py": "fc1260501a3dab5d5b5a9d7225bd8738ddd9a8aba88c93f91fae9097cca2d8a2",
+    "scripts/plot_v18_19.py": "367e3c7266275eacea4d69b335dceb73d071c3bccc3370a8615ed99f8a4b8e93",
+    "scripts/run_on_server.sh": "e5b0006eea9391b55d73f60e0cb04b2ca3a40d2e0eb6c38a6df705260651a658",
+    "scripts/run_preflight.sh": "156785580b8b92a444dd28f302ced8d63e33f83202885c00ab7224c471ebc4d8",
+    "reference/analyze_cached_v18_9.py": "9a1825294c4b9d0f3c2fdd8366e9071b651868c1a18b6e369b78c5b4d55374b0",
+    "reference/q550_state_impulse_response_v13.py": "28bb3562a8b6e32b9b1c6f4bd544ade6afc75b6a5758e24fe671a85df28c7506",
+    "reference/structural_math_v18_9.py": "6de1b39e73cde62544e3f62b288266a65db2fbb6913c116caf21f85ce7030140",
+    "tests/test_pair_math.py": "4fc01779ead81e7d911324e1a9b378547caa320c7eb65abf8ae254043e8d18f1",
+    "results/frozen_preflight_summary.json": "26761719da56d16cca9b9bf0064be76c01687ab5245a1c437f1df17e4d4d9843",
+    "results/nonlinear_pair_summary.json": "d33bd79d59e549fdde74318053e1948ce584b81b2e2d0354dfb249a4760bf2c0",
+    "results/pair_summary.csv": "2a05a412a5d7a38ab2c55648069944eea0ed3e879c7f5adb6d979e085cff5fb1",
+    "results/paired_future_discrimination.png": "25e664782b633087ba6aa05b4d17b4bc7d52a63a74005c067f50439b2def63c0",
+    "results/paired_trajectories.csv": "f7296e2b3e8605232f5ad7daa64fd638be059908e9aca554ea0f798072603688",
+    "README.md": "bf8ab89afa9d2111b1591dcd0b4199f7a3a379fe46a499151ff6ca92da682a8a",
+    "ENVIRONMENT.json": "29d6569eb8327ba1977450e5d09d85f0d03b13f5dd365362ea1f02cce29a8cc3",
+    "requirements.txt": "51ae3d7c8621b892bc627f43793c43abff3b4eda2b2d0b7c6341d4e56c5f3996"
+  }
+}
