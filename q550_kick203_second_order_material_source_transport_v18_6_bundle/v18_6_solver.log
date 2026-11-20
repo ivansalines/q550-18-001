@@ -1,0 +1,30 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+standard: source state relative replay difference=0.0000e+00
+  standard: source xi=0 cond(P)=1
+  standard: source xi=1 cond(P)=11.1
+  standard: source xi=2 cond(P)=23.5
+  standard: source xi=3 cond(P)=27
+  standard: source xi=4 cond(P)=46.5
+  standard: source xi=5 cond(P)=94.2
+  standard: source xi=6 cond(P)=136
+  standard: source xi=7 cond(P)=196
+  standard: source xi=8 cond(P)=333
+SAVED /root/elab1/hysteresis/q550_kick203_second_order_material_source_transport_v18_6_bundle/checkpoint/standard_source_transport.npz
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+tight: source state relative replay difference=0.0000e+00
+  tight: source xi=0 cond(P)=1
+  tight: source xi=1 cond(P)=11.1
+  tight: source xi=2 cond(P)=23.5
+  tight: source xi=3 cond(P)=27
+  tight: source xi=4 cond(P)=46.5
+  tight: source xi=5 cond(P)=94.2
+  tight: source xi=6 cond(P)=136
+  tight: source xi=7 cond(P)=196
+  tight: source xi=8 cond(P)=333
+SAVED /root/elab1/hysteresis/q550_kick203_second_order_material_source_transport_v18_6_bundle/checkpoint/tight_source_transport.npz

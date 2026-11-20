@@ -1,0 +1,18 @@
+{
+  "version": "2026-10-16-q550-v18.6",
+  "status": "Q550 source reconstructed",
+  "counts": {
+    "physical_solver_tolerances": 2,
+    "echo_comparisons": 180,
+    "source_bin_rows": 72,
+    "source_nodes_per_tol": 641
+  },
+  "median_immediate_relative_vector_error": 8.169603200652254e-05,
+  "max_immediate_relative_vector_error": 0.001863805295922705,
+  "median_all_read_relative_vector_error": 9.043310560870496e-05,
+  "median_hessian_step_relative_error": 1.328986468580076e-08,
+  "median_simpson_relative_error": 2.1554007852312707e-07,
+  "median_extrapolated_rel_error": 0.00035818337122926476,
+  "max_source_cocycle_condition": 333.41200765790364,
+  "reliability_note": "All numerical gates descriptive; no invariant-manifold certificate"
+}

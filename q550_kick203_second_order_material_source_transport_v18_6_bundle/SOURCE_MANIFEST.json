@@ -1,0 +1,10 @@
+{
+  "version": "2026-10-16-q550-v18.6",
+  "input_file": "q550_kick203_forward_echo_material_memory_v18_5_sendback.zip",
+  "input_sha256": "3c3ee0f040c2e07021d28f5e373462702a08206d8d0aeb08d87ebd59e8b2adf7",
+  "input_role": "Original Q550 v18.5 11D checkpoints, including historical v18.4 runnable ancestry",
+  "constraint_status": "OFF_CONSTRAINT_DIAGNOSTIC",
+  "external_server_dependencies": "Pinned original Q550 orbit/model source files and x500 archive, checked by the original v13 validator",
+  "historical_v13_source_sha256": "28bb3562a8b6e32b9b1c6f4bd544ade6afc75b6a5758e24fe671a85df28c7506",
+  "historical_v16_source_sha256": "f0945d39a07980555a7ae79068cca78be425a7c34bd6116f22ecdf0d267c2835"
+}
