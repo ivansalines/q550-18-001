@@ -1,0 +1,78 @@
+test_full_npz_and_crossing_controls (test_dense_pipeline_synthetic.TestSyntheticDensePipeline.test_full_npz_and_crossing_controls) ... ok
+test_reports_and_plots (test_postprocess_synthetic.TestReporting.test_reports_and_plots) ... ok
+test_crossover_from_birth_not_metric (test_real_runner_synthetic.TestSyntheticRunner.test_crossover_from_birth_not_metric) ... ok
+test_angle (test_sign_crossing_math.TestSignCrossing.test_angle) ... ok
+test_co_moving_returns_constant (test_sign_crossing_math.TestSignCrossing.test_co_moving_returns_constant) ... ok
+test_hermite_cubic (test_sign_crossing_math.TestSignCrossing.test_hermite_cubic) ... ok
+test_rates_nontrivial_strain (test_sign_crossing_math.TestSignCrossing.test_rates_nontrivial_strain) ... ok
+test_roots_all (test_sign_crossing_math.TestSignCrossing.test_roots_all) ... ok
+test_rotation_and_11d_gauge (test_sign_crossing_math.TestSignCrossing.test_rotation_and_11d_gauge) ... ok
+test_simpson_polynomial (test_sign_crossing_math.TestSignCrossing.test_simpson_polynomial) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.448s
+
+OK
+{
+  "version": "2026-10-16-q550-v18.7-material-birth-crossing",
+  "root_concordance": [
+    {
+      "index": 1,
+      "standard_xi": 6.006378493279749,
+      "tight_xi": 6.006378493279749,
+      "difference_xi": 0.0
+    }
+  ],
+  "num_dense_rows": {
+    "standard": 561,
+    "tight": 561
+  },
+  "max_v186_anchor_relative_error": 0.0,
+  "source": "original frozen v18.6 source and Q550 11D variational replay",
+  "mode": "OFF_CONSTRAINT_DIAGNOSTIC",
+  "interpretation": "Neither a material rigid-body flip nor constitutive hysteresis is certified."
+}
+Preflight OK: {"history_sha256": "e0de030db11b12263719f158fa6bd39986ae35b9caeb677d8010e605900865d1", "source_manifest_entries": 32}
+VERIFIED v18.6 history: {'history_sha256': 'e0de030db11b12263719f158fa6bd39986ae35b9caeb677d8010e605900865d1', 'source_manifest_entries': 32}
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+standard: found 3 roots: [4.135198958, 4.997336556, 7.174435814]
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+tight: found 3 roots: [4.135198958, 4.997336556, 7.174435814]
+{
+  "version": "2026-10-16-q550-v18.7-material-birth-crossing",
+  "root_concordance": [
+    {
+      "index": 1,
+      "standard_xi": 4.135198957916547,
+      "tight_xi": 4.135198957889596,
+      "difference_xi": -2.69508859673806e-11
+    },
+    {
+      "index": 2,
+      "standard_xi": 4.997336555757831,
+      "tight_xi": 4.997336555780125,
+      "difference_xi": 2.2294166512892843e-11
+    },
+    {
+      "index": 3,
+      "standard_xi": 7.174435813614622,
+      "tight_xi": 7.1744358136467605,
+      "difference_xi": 3.213873611684903e-11
+    }
+  ],
+  "num_dense_rows": {
+    "standard": 561,
+    "tight": 561
+  },
+  "max_v186_anchor_relative_error": 5.390728595179295e-14,
+  "source": "original frozen v18.6 source and Q550 11D variational replay",
+  "mode": "OFF_CONSTRAINT_DIAGNOSTIC",
+  "interpretation": "Neither a material rigid-body flip nor constitutive hysteresis is certified."
+}
+/root/elab1/hysteresis/q550_kick203_source_birth_sign_crossing_v18_7_bundle/q550_kick203_source_birth_sign_crossing_v18_7_sendback.zip members: 36

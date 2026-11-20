@@ -1,0 +1,11 @@
+VERIFIED v18.6 history: {'history_sha256': 'e0de030db11b12263719f158fa6bd39986ae35b9caeb677d8010e605900865d1', 'source_manifest_entries': 32}
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+standard: found 3 roots: [4.135198958, 4.997336556, 7.174435814]
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+tight: found 3 roots: [4.135198958, 4.997336556, 7.174435814]

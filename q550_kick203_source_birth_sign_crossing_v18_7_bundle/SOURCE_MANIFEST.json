@@ -1,0 +1,8 @@
+{
+  "version": "2026-10-16-q550-v18.7-material-birth-crossing",
+  "v18_6_sha256": "e0de030db11b12263719f158fa6bd39986ae35b9caeb677d8010e605900865d1",
+  "input": "inputs/v18_6_original_sendback.zip",
+  "lineage": "v18.6 zipped sendback includes v18.5 solver checkpoints, original v16/v13 historical source, v18.6 Hessian quadrature, SHA256",
+  "mode": "OFF_CONSTRAINT_DIAGNOSTIC",
+  "event": "kick 203 at xi=0 (local delay since kick)"
+}

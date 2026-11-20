@@ -1,0 +1,31 @@
+{
+  "version": "2026-10-16-q550-v18.7-material-birth-crossing",
+  "root_concordance": [
+    {
+      "index": 1,
+      "standard_xi": 4.135198957916547,
+      "tight_xi": 4.135198957889596,
+      "difference_xi": -2.69508859673806e-11
+    },
+    {
+      "index": 2,
+      "standard_xi": 4.997336555757831,
+      "tight_xi": 4.997336555780125,
+      "difference_xi": 2.2294166512892843e-11
+    },
+    {
+      "index": 3,
+      "standard_xi": 7.174435813614622,
+      "tight_xi": 7.1744358136467605,
+      "difference_xi": 3.213873611684903e-11
+    }
+  ],
+  "num_dense_rows": {
+    "standard": 561,
+    "tight": 561
+  },
+  "max_v186_anchor_relative_error": 5.390728595179295e-14,
+  "source": "original frozen v18.6 source and Q550 11D variational replay",
+  "mode": "OFF_CONSTRAINT_DIAGNOSTIC",
+  "interpretation": "Neither a material rigid-body flip nor constitutive hysteresis is certified."
+}

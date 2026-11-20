@@ -1,0 +1,101 @@
+{
+  "version": "2026-10-16-q550-v18.7-material-birth-crossing",
+  "tolerance": "tight",
+  "constraint_status": "OFF_CONSTRAINT_DIAGNOSTIC",
+  "full_11D_anchor_max_relative_error": 5.97905543233202e-17,
+  "max_cocycle_condition": 333.41200765694236,
+  "old_co_moving_inverse_drift_max": 1.4178397487375447e-15,
+  "dense_nodes_from_xi1_to_xi8": 561,
+  "roots": [
+    {
+      "tolerance": "tight",
+      "crossing_index": 1,
+      "xi_root": 4.135198957889596,
+      "absolute_s": 694.1686806217032,
+      "dot_at_root": -7.706090973669255e-12,
+      "old_norm": 3.352537404681663,
+      "total_norm": 9.711924842223022,
+      "old_total_angle_deg": 90.00000000001364,
+      "old_signed_pct_left_0_05": 1.1759778225528577,
+      "old_signed_pct_right_0_05": -1.187123547512235,
+      "dot_rate_metric": -19.67147510509196,
+      "dot_rate_source": -2.6627690406024156,
+      "dot_rate_sum": -22.334244145694377,
+      "dot_rate_fd": -22.334239513134914,
+      "metric_fraction_of_net_derivative": 0.8807763977490257,
+      "source_fraction_of_net_derivative": 0.1192236022509742
+    },
+    {
+      "tolerance": "tight",
+      "crossing_index": 2,
+      "xi_root": 4.997336555780125,
+      "absolute_s": 694.2845378930298,
+      "dot_at_root": -7.866415852042508e-12,
+      "old_norm": 3.455243925813123,
+      "total_norm": 9.531675887826928,
+      "old_total_angle_deg": 90.00000000001373,
+      "old_signed_pct_left_0_05": -1.999154764950629,
+      "old_signed_pct_right_0_05": 2.1683614062147925,
+      "dot_rate_metric": 38.303305996883864,
+      "dot_rate_source": -0.2621675914064857,
+      "dot_rate_sum": 38.041138405477376,
+      "dot_rate_fd": 38.041134070173094,
+      "metric_fraction_of_net_derivative": 1.006891686274266,
+      "source_fraction_of_net_derivative": -0.006891686274266107
+    },
+    {
+      "tolerance": "tight",
+      "crossing_index": 3,
+      "xi_root": 7.1744358136467605,
+      "absolute_s": 694.5771046248841,
+      "dot_at_root": 1.5849332263284666e-11,
+      "old_norm": 4.492575430534659,
+      "total_norm": 19.290226494421375,
+      "old_total_angle_deg": 89.99999999998951,
+      "old_signed_pct_left_0_05": 0.9701247764690605,
+      "old_signed_pct_right_0_05": -0.9771939233204037,
+      "dot_rate_metric": -71.67628482324078,
+      "dot_rate_source": -0.780365225454095,
+      "dot_rate_sum": -72.45665004869487,
+      "dot_rate_fd": -72.45664398457781,
+      "metric_fraction_of_net_derivative": 0.9892299019492394,
+      "source_fraction_of_net_derivative": 0.010770098050760648
+    }
+  ],
+  "root_controls": [
+    {
+      "fine_root_xi": 4.135198957889596,
+      "half_hessian_difference_xi": -6.79879352816215e-09,
+      "coarse_quadrature_difference_xi": -9.574282255897515e-08
+    },
+    {
+      "fine_root_xi": 4.997336555780125,
+      "half_hessian_difference_xi": 7.910766264274116e-09,
+      "coarse_quadrature_difference_xi": 3.5520306695957515e-08
+    },
+    {
+      "fine_root_xi": 7.1744358136467605,
+      "half_hessian_difference_xi": -6.213059400295151e-09,
+      "coarse_quadrature_difference_xi": -6.324235535259959e-08
+    }
+  ],
+  "anchors": [
+    {
+      "xi": 1.0,
+      "signed_percent": 100.0
+    },
+    {
+      "xi": 2.0,
+      "signed_percent": 47.95241867155574
+    },
+    {
+      "xi": 4.0,
+      "signed_percent": 3.123618282023825
+    },
+    {
+      "xi": 8.0,
+      "signed_percent": -13.329741038318918
+    }
+  ],
+  "warning": "Crossing defined by an 11D Euclidean inner product; not a rigid-body flip or constitutive hysteresis."
+}
