@@ -1,0 +1,17 @@
+{
+  "version": "18.24",
+  "artifact": "Q550 Endpoint-Preserved History Scrambling & Latent Closure Robustness Audit",
+  "reference_anchor_xi": 4.0,
+  "holdout_anchor_xi": [3.5, 4.5],
+  "original_q550_source": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle",
+  "source_integrity": "pinned SHA256-verified original ODE from v18.13 reference",
+  "python": ">=3.10; server convention python3.13",
+  "threading": "OPENBLAS_NUM_THREADS=1, OMP_NUM_THREADS=1, MKL_NUM_THREADS=1",
+  "original_ode_solver": "scipy.integrate.solve_ivp DOP853; rtol=5e-11, atol=6e-12, max_step=0.04 xi",
+  "preflight_tangent_spline": "scipy.interpolate.CubicSpline through authenticated xi nodes",
+  "observations": "17 historical points, 3 future points, 3 observer families",
+  "random_seeds": [182319, 1824000, 13, 29, 47],
+  "dependencies": ["numpy", "scipy", "matplotlib"],
+  "provenance": "v18.23 original server sendback plus SHA256-checked historical nested lineage",
+  "scientific_claim_limit": "diagnostic off-constraint reduced observations, not constitutive memory proof"
+}

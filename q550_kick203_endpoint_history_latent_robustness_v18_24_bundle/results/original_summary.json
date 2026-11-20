@@ -1,0 +1,74 @@
+{
+  "version": "v18.24",
+  "status": "original",
+  "method": "endpoint-preserved independently scrambled past",
+  "metadata": {
+    "status": "ORIGINAL_Q550_ENDPOINT_PRESERVED_BLIND_NONLINEAR_VALIDATION_COMPLETED",
+    "original_ode_pinned_sources": {
+      "audit": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_mobius_monodromy_audit.py",
+        "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864"
+      },
+      "support": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_support_ode_interval_residual_pilot_v1.py",
+        "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+      },
+      "tube": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+        "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+      },
+      "orbit": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/q_550_orbit.npz",
+        "sha256": "537f6326b841f36f963be3736b1034724041994a07f9ac9e5377de6c99048f34"
+      },
+      "events": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/inputs/presence_metrology_events.csv",
+        "sha256": "bc18df957b9dc311978584132b9cf0690e30a9576a306bda6f189a4ba33df892"
+      },
+      "shared": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/support_q550_shared_generator_arc_cocycle_cell49_v1_pilot.json",
+        "sha256": "be9ad38fc157073efeb95890588ead7ff47e2a8a7e381bba1cdea3d5682567aa"
+      }
+    },
+    "parent_server_sha256": "f228ed6e2e33b48afc489b98dc1576d7655fea0402130d6e4eb5b22ac78233f5",
+    "train_amp": 1e-05,
+    "validation_amp": 1e-05,
+    "heldout_amp": 3e-06,
+    "n_original_q550_integrations": 248,
+    "one_shared_test_set_at_all_three_anchors": true,
+    "reference_phase_coordinates": {
+      "3.5": 4361.054119516863,
+      "4.0": 4361.476298474558,
+      "4.5": 4361.898477432252
+    },
+    "shifted_observations": "phase and material posture both shift",
+    "same_observer_projection_at_all_anchors": true
+  },
+  "anchors": [
+    3.5,
+    4.0,
+    4.5
+  ],
+  "noise_levels": [
+    0.0,
+    0.0001,
+    0.001
+  ],
+  "past_samples": 16,
+  "endpoint_exactly_preserved": true,
+  "global_shared_reversal_prediction_invariant": true,
+  "train_val_anchor": 4.0,
+  "shifted_anchors_test_only": [
+    3.5,
+    4.5
+  ],
+  "rank_selection_validation_only": true,
+  "recorded_models": 189,
+  "max_shared_reversal_defect": 5.573319583618286e-14,
+  "caveats": [
+    "Synthetic normalized measurement noise, not empirical sensor uncertainty.",
+    "Temporal anchor changes both phase and reference posture: not a pure clock-phase intervention.",
+    "Material3 diagnostic observer was originally ODE-informed; only predictor fit/test is model blind.",
+    "No physical constitutive memory or uniquely identifiable hidden coordinates established."
+  ]
+}

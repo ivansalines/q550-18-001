@@ -1,0 +1,39 @@
+{
+  "version": "v18.24",
+  "status": "frozen",
+  "method": "endpoint-preserved independently scrambled past",
+  "metadata": {
+    "data_type": "ORIGINAL_Q550_FROZEN_TANGENT_ONLY",
+    "parent_sha256": "f228ed6e2e33b48afc489b98dc1576d7655fea0402130d6e4eb5b22ac78233f5",
+    "parent_status": "ORIGINAL_Q550_MODEL_BLIND_NONLINEAR_TEST_COMPLETED",
+    "source_grid": "CubicSpline on authenticated propagator checkpoints",
+    "phase_shift_is_also_posture_shift": true
+  },
+  "anchors": [
+    3.5,
+    4.0,
+    4.5
+  ],
+  "noise_levels": [
+    0.0,
+    0.0001,
+    0.001
+  ],
+  "past_samples": 16,
+  "endpoint_exactly_preserved": true,
+  "global_shared_reversal_prediction_invariant": true,
+  "train_val_anchor": 4.0,
+  "shifted_anchors_test_only": [
+    3.5,
+    4.5
+  ],
+  "rank_selection_validation_only": true,
+  "recorded_models": 189,
+  "max_shared_reversal_defect": 3.652633751016765e-14,
+  "caveats": [
+    "Synthetic normalized measurement noise, not empirical sensor uncertainty.",
+    "Temporal anchor changes both phase and reference posture: not a pure clock-phase intervention.",
+    "Material3 diagnostic observer was originally ODE-informed; only predictor fit/test is model blind.",
+    "No physical constitutive memory or uniquely identifiable hidden coordinates established."
+  ]
+}

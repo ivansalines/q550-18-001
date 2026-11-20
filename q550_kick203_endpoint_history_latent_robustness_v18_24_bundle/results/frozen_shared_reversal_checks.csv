@@ -1,0 +1,10 @@
+scope,observer,sigma,shared_reversal_prediction_max_abs_defect,shared_reversal_lambda_match
+frozen,material3,0.0,3.58046925441613e-14,True
+frozen,material3,0.0001,3.652633751016765e-14,True
+frozen,material3,0.001,2.020605904817785e-14,True
+frozen,raw4,0.0,1.2878587085651816e-14,True
+frozen,raw4,0.0001,1.6708856520608606e-14,True
+frozen,raw4,0.001,9.992007221626409e-15,True
+frozen,raw6,0.0,3.622102617839573e-15,True
+frozen,raw6,0.0001,5.218048215738236e-15,True
+frozen,raw6,0.001,3.9968028886505635e-15,True
