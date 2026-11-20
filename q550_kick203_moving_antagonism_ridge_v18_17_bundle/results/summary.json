@@ -1,0 +1,441 @@
+{
+  "version": "Q550-v18.17-moving-source-antagonism-ridge",
+  "status": "FROZEN_SOURCE_RIDGE_OBSERVER_AUDIT",
+  "source": "Authenticated original v18.16 sendback and nested v18.7 11D source; phase-fixed 10D projection",
+  "xi_profile": {
+    "from": 4.0,
+    "to": 8.0,
+    "step": 0.05,
+    "n": 81
+  },
+  "lag_scan": {
+    "from": 1.0,
+    "to": 2.0,
+    "step": 0.025,
+    "n": 41
+  },
+  "reference": "e=A(1), metric orthogonal projection; source from original archived cumulative A",
+  "fixed_paired_age_support_xi": [
+    0.0,
+    1.0
+  ],
+  "variable_support_horizon_xi": 3.0,
+  "quadrature_nodes_for_convergence": [
+    20,
+    40,
+    80
+  ],
+  "ridge_metrics": {
+    "euclidean": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.3861072922619573,
+      "lag_range": [
+        1.2635097809682088,
+        1.4153533138740022
+      ],
+      "lag_std": 0.04838702241462328,
+      "median_kernel": -0.8809001120745391,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17500000000000004,
+      "edge_fraction": 0.0
+    },
+    "moderate_diag": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.3928956405879778,
+      "lag_range": [
+        1.2702139492428277,
+        1.4250735871707914
+      ],
+      "lag_std": 0.04928048847097851,
+      "median_kernel": -0.8822746505609999,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17500000000000004,
+      "edge_fraction": 0.0
+    },
+    "strong_diag": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.413310863258086,
+      "lag_range": [
+        1.2889537266626905,
+        1.4504021096460185
+      ],
+      "lag_std": 0.05243498688307523,
+      "median_kernel": -0.8865318196815974,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17499999999999982,
+      "edge_fraction": 0.0
+    }
+  },
+  "ridge_methods": {
+    "matched_1xi": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.3861072922619573,
+      "lag_range": [
+        1.2635097809682088,
+        1.4153533138740022
+      ],
+      "lag_std": 0.04838702241462328,
+      "median_kernel": -0.8809001120745391,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17500000000000004,
+      "edge_fraction": 0.0
+    },
+    "recent_half_xi": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.3651096291581157,
+      "lag_range": [
+        1.2831680551943563,
+        1.4560754407616363
+      ],
+      "lag_std": 0.053131669540865185,
+      "median_kernel": -0.8920332867660112,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17499999999999982,
+      "edge_fraction": 0.0
+    },
+    "older_half_xi": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.366946415219961,
+      "lag_range": [
+        1.2831680551943552,
+        1.4560754407616363
+      ],
+      "lag_std": 0.05314435095200804,
+      "median_kernel": -0.8862977166251479,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17499999999999982,
+      "edge_fraction": 0.0
+    },
+    "instantaneous_pair": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.3690568390958946,
+      "lag_range": [
+        1.2789470894398867,
+        1.4925611736389066
+      ],
+      "lag_std": 0.061855075213777956,
+      "median_kernel": -0.9061671872325409,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17500000000000004,
+      "edge_fraction": 0.0
+    },
+    "variable_support_3xi": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.3841889011872843,
+      "lag_range": [
+        1.3005954914998863,
+        1.416380279305452
+      ],
+      "lag_std": 0.03730669669815022,
+      "median_kernel": -0.868528837510719,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17500000000000004,
+      "edge_fraction": 0.0
+    }
+  },
+  "max_standard_tight_K_drift": 1.3899723039223488e-10,
+  "max_fixed_ridge_metric_location_change_xi": 0.04598894985947233,
+  "source_quality": [
+    {
+      "tolerance": "standard",
+      "max_absolute_source_mismatch": 0.3615186406917377,
+      "median_relative_source_mismatch": 0.0008398560196461572,
+      "max_relative_source_mismatch": 0.012588474664579139
+    },
+    {
+      "tolerance": "tight",
+      "max_absolute_source_mismatch": 0.36151864266147576,
+      "median_relative_source_mismatch": 0.0008398559964720531,
+      "max_relative_source_mismatch": 0.012588474534285514
+    }
+  ],
+  "fixed_quadrature_and_independent_source_checks": [
+    {
+      "tolerance": "standard",
+      "metric": "euclidean",
+      "max_k_quadrature_20_80": 0.0011515689819946995,
+      "max_k_quadrature_40_80": 0.0007583139855674298,
+      "max_ridge_lag_20_80": 0.0036635754079723526,
+      "max_independent_A_derivative_vs_original_g_K": 0.0001866577263697211,
+      "paired_negative_fraction_1xi": 0.999096657633243,
+      "instant_negative_fraction": 0.989159891598916,
+      "flattened_instant_vs_matched_pearson": 0.9017496341369299
+    },
+    {
+      "tolerance": "standard",
+      "metric": "moderate_diag",
+      "max_k_quadrature_20_80": 0.0011422304127382543,
+      "max_k_quadrature_40_80": 0.000739655337707229,
+      "max_ridge_lag_20_80": 0.002662055983269518,
+      "max_independent_A_derivative_vs_original_g_K": 0.00018484868470358684,
+      "paired_negative_fraction_1xi": 1.0,
+      "instant_negative_fraction": 0.9906654622101777,
+      "flattened_instant_vs_matched_pearson": 0.8971175017304475
+    },
+    {
+      "tolerance": "standard",
+      "metric": "strong_diag",
+      "max_k_quadrature_20_80": 0.0010954741533250045,
+      "max_k_quadrature_40_80": 0.0007659920533787945,
+      "max_ridge_lag_20_80": 0.0029122810595150206,
+      "max_independent_A_derivative_vs_original_g_K": 0.00020851107955521808,
+      "paired_negative_fraction_1xi": 1.0,
+      "instant_negative_fraction": 0.9921710328214394,
+      "flattened_instant_vs_matched_pearson": 0.8762459827258451
+    },
+    {
+      "tolerance": "tight",
+      "metric": "euclidean",
+      "max_k_quadrature_20_80": 0.0011515690051844274,
+      "max_k_quadrature_40_80": 0.0007583139789654886,
+      "max_ridge_lag_20_80": 0.003663575479851966,
+      "max_independent_A_derivative_vs_original_g_K": 0.00018665773093839988,
+      "paired_negative_fraction_1xi": 0.999096657633243,
+      "instant_negative_fraction": 0.989159891598916,
+      "flattened_instant_vs_matched_pearson": 0.9017496341893129
+    },
+    {
+      "tolerance": "tight",
+      "metric": "moderate_diag",
+      "max_k_quadrature_20_80": 0.0011422304350038326,
+      "max_k_quadrature_40_80": 0.0007396553315559551,
+      "max_ridge_lag_20_80": 0.0026620560382448755,
+      "max_independent_A_derivative_vs_original_g_K": 0.00018484867783163939,
+      "paired_negative_fraction_1xi": 1.0,
+      "instant_negative_fraction": 0.9906654622101777,
+      "flattened_instant_vs_matched_pearson": 0.8971175017842247
+    },
+    {
+      "tolerance": "tight",
+      "metric": "strong_diag",
+      "max_k_quadrature_20_80": 0.0010954741722515315,
+      "max_k_quadrature_40_80": 0.0007659920549761834,
+      "max_ridge_lag_20_80": 0.0029122810608102068,
+      "max_independent_A_derivative_vs_original_g_K": 0.00020851107095765098,
+      "paired_negative_fraction_1xi": 1.0,
+      "instant_negative_fraction": 0.9921710328214394,
+      "flattened_instant_vs_matched_pearson": 0.8762459827846253
+    }
+  ],
+  "anchor_sensitivity": [
+    {
+      "reference_xi": 0.75,
+      "max_abs_K_change_vs_default": 0.11096703349233364,
+      "max_argmin_lag_change_vs_default": 0.024144401473381594
+    },
+    {
+      "reference_xi": 1.0,
+      "max_abs_K_change_vs_default": 0.0,
+      "max_argmin_lag_change_vs_default": 0.0
+    },
+    {
+      "reference_xi": 1.25,
+      "max_abs_K_change_vs_default": 0.08219873269316183,
+      "max_argmin_lag_change_vs_default": 0.02848610294605658
+    }
+  ],
+  "event_comparison": [
+    {
+      "tolerance": "standard",
+      "event": 1,
+      "event_xi": 2.625653076601633,
+      "profile_coverage": "insufficient_post_anchor_history",
+      "nearest_profile_xi": null,
+      "profile_offset_xi": null,
+      "matched_1xi_ridge_lag": null,
+      "matched_1xi_min_K": null,
+      "recent_half_xi_ridge_lag": null,
+      "recent_half_xi_min_K": null,
+      "older_half_xi_ridge_lag": null,
+      "older_half_xi_min_K": null,
+      "instantaneous_pair_ridge_lag": null,
+      "instantaneous_pair_min_K": null,
+      "variable_support_3xi_ridge_lag": null,
+      "variable_support_3xi_min_K": null,
+      "K_at_lag_1_5_fixed": null
+    },
+    {
+      "tolerance": "standard",
+      "event": 2,
+      "event_xi": 3.9496097675037007,
+      "profile_coverage": "boundary_proxy_0.05xi",
+      "nearest_profile_xi": 4.0,
+      "profile_offset_xi": 0.05039023249629926,
+      "matched_1xi_ridge_lag": 1.3286413059962654,
+      "matched_1xi_min_K": -0.793672523302811,
+      "recent_half_xi_ridge_lag": 1.3024347734668107,
+      "recent_half_xi_min_K": -0.8387592875448994,
+      "older_half_xi_ridge_lag": 1.361080331148384,
+      "older_half_xi_min_K": -0.8171801690285107,
+      "instantaneous_pair_ridge_lag": 1.287453278874496,
+      "instantaneous_pair_min_K": -0.8918340852260775,
+      "variable_support_3xi_ridge_lag": 1.385353192691805,
+      "variable_support_3xi_min_K": -0.7150015779935284,
+      "K_at_lag_1_5_fixed": -0.7420117294164889
+    },
+    {
+      "tolerance": "standard",
+      "event": 3,
+      "event_xi": 5.560114949222021,
+      "profile_coverage": "nearest_grid_sample",
+      "nearest_profile_xi": 5.55,
+      "profile_offset_xi": -0.010114949222021608,
+      "matched_1xi_ridge_lag": 1.397581552590396,
+      "matched_1xi_min_K": -0.8992416525226332,
+      "recent_half_xi_ridge_lag": 1.4136219585644199,
+      "recent_half_xi_min_K": -0.8891515284745904,
+      "older_half_xi_ridge_lag": 1.3324763671071356,
+      "older_half_xi_min_K": -0.9597275074963143,
+      "instantaneous_pair_ridge_lag": 1.4646012730411135,
+      "instantaneous_pair_min_K": -0.9096078253634954,
+      "variable_support_3xi_ridge_lag": 1.3798748922004835,
+      "variable_support_3xi_min_K": -0.8934601363619594,
+      "K_at_lag_1_5_fixed": -0.8671740373469704
+    },
+    {
+      "tolerance": "standard",
+      "event": 4,
+      "event_xi": 6.958293256917203,
+      "profile_coverage": "nearest_grid_sample",
+      "nearest_profile_xi": 6.95,
+      "profile_offset_xi": -0.008293256917203173,
+      "matched_1xi_ridge_lag": 1.4001398082021321,
+      "matched_1xi_min_K": -0.8804540308134506,
+      "recent_half_xi_ridge_lag": 1.4452078211832795,
+      "recent_half_xi_min_K": -0.9148130806632476,
+      "older_half_xi_ridge_lag": 1.3551625659535862,
+      "older_half_xi_min_K": -0.865979320471438,
+      "instantaneous_pair_ridge_lag": 1.460055063123453,
+      "instantaneous_pair_min_K": -0.9068312025644377,
+      "variable_support_3xi_ridge_lag": 1.4154594844150834,
+      "variable_support_3xi_min_K": -0.8788246568424057,
+      "K_at_lag_1_5_fixed": -0.8593424767725449
+    },
+    {
+      "tolerance": "tight",
+      "event": 1,
+      "event_xi": 2.625653076843487,
+      "profile_coverage": "insufficient_post_anchor_history",
+      "nearest_profile_xi": null,
+      "profile_offset_xi": null,
+      "matched_1xi_ridge_lag": null,
+      "matched_1xi_min_K": null,
+      "recent_half_xi_ridge_lag": null,
+      "recent_half_xi_min_K": null,
+      "older_half_xi_ridge_lag": null,
+      "older_half_xi_min_K": null,
+      "instantaneous_pair_ridge_lag": null,
+      "instantaneous_pair_min_K": null,
+      "variable_support_3xi_ridge_lag": null,
+      "variable_support_3xi_min_K": null,
+      "K_at_lag_1_5_fixed": null
+    },
+    {
+      "tolerance": "tight",
+      "event": 2,
+      "event_xi": 3.9496097674925497,
+      "profile_coverage": "boundary_proxy_0.05xi",
+      "nearest_profile_xi": 4.0,
+      "profile_offset_xi": 0.05039023250745034,
+      "matched_1xi_ridge_lag": 1.3286413059343187,
+      "matched_1xi_min_K": -0.7936725233016995,
+      "recent_half_xi_ridge_lag": 1.3024347734220374,
+      "recent_half_xi_min_K": -0.8387592875444062,
+      "older_half_xi_ridge_lag": 1.361080331054994,
+      "older_half_xi_min_K": -0.8171801690201049,
+      "instantaneous_pair_ridge_lag": 1.287453278885517,
+      "instantaneous_pair_min_K": -0.8918340851978984,
+      "variable_support_3xi_ridge_lag": 1.3853531926952092,
+      "variable_support_3xi_min_K": -0.7150015779870419,
+      "K_at_lag_1_5_fixed": -0.7420117293961912
+    },
+    {
+      "tolerance": "tight",
+      "event": 3,
+      "event_xi": 5.560114949409318,
+      "profile_coverage": "nearest_grid_sample",
+      "nearest_profile_xi": 5.55,
+      "profile_offset_xi": -0.010114949409318008,
+      "matched_1xi_ridge_lag": 1.3975815525769235,
+      "matched_1xi_min_K": -0.8992416525194445,
+      "recent_half_xi_ridge_lag": 1.413621958567303,
+      "recent_half_xi_min_K": -0.8891515284863486,
+      "older_half_xi_ridge_lag": 1.3324763670810142,
+      "older_half_xi_min_K": -0.9597275075060037,
+      "instantaneous_pair_ridge_lag": 1.4646012735005896,
+      "instantaneous_pair_min_K": -0.9096078255104069,
+      "variable_support_3xi_ridge_lag": 1.3798748921829944,
+      "variable_support_3xi_min_K": -0.8934601363551974,
+      "K_at_lag_1_5_fixed": -0.8671740373316776
+    },
+    {
+      "tolerance": "tight",
+      "event": 4,
+      "event_xi": 6.958293256633061,
+      "profile_coverage": "nearest_grid_sample",
+      "nearest_profile_xi": 6.95,
+      "profile_offset_xi": -0.008293256633060686,
+      "matched_1xi_ridge_lag": 1.4001398082198613,
+      "matched_1xi_min_K": -0.8804540308449859,
+      "recent_half_xi_ridge_lag": 1.4452078211820165,
+      "recent_half_xi_min_K": -0.9148130806922901,
+      "older_half_xi_ridge_lag": 1.3551625659908448,
+      "older_half_xi_min_K": -0.8659793205143425,
+      "instantaneous_pair_ridge_lag": 1.4600550629980389,
+      "instantaneous_pair_min_K": -0.9068312025888748,
+      "variable_support_3xi_ridge_lag": 1.4154594844339174,
+      "variable_support_3xi_min_K": -0.8788246568717811,
+      "K_at_lag_1_5_fixed": -0.8593424768048065
+    }
+  ],
+  "provenance": {
+    "source_v18_11_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_11_verified_members": 25,
+    "source_v18_10_sha256": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "v18_10_verified_members": 27,
+    "v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_verified_members": 17,
+    "v18_10_label": "v18.10",
+    "v18_10_server_ode_replay": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    },
+    "source_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_12_members_verified": 18,
+    "v18_12_status": "NO_INTRINSIC_MECHANICAL_METRIC_OR_NONLINEAR_CONSTRAINT_CERTIFIED",
+    "v18_12_input_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_13_original_sha256": "3968e63515e98b60616ad710d3472932b7f0b1134e5245d464be1f8124a59198",
+    "v18_13_verified_members": 23,
+    "v18_13_status": "NUMERICAL_LOCAL_ORIENTATION_PERSISTENCE_GAUGE_DECLARED",
+    "v18_13_nested_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_14_original_sha256": "6e3f5b31ee2b42c6d40c3933613cb8e0103fa3fd41f87e9629349126cf6be25a",
+    "v18_14_verified_members": 24,
+    "v18_14_status": "HISTORY_WINDOW_DIRECTIONAL_ECHO_NUMERIC_GAUGE_DECLARED",
+    "v18_14_events": [
+      2.625653076601633,
+      3.9496097675037007,
+      5.560114949222021,
+      6.958293256917203
+    ],
+    "v18_15_original_sha256": "ad19c1ab78314d6c87130624d58e8f2c63b747c5099c777d9633bede6feb33cd",
+    "v18_15_verified_members": 29,
+    "v18_15_status": "SOURCE_AGE_INTERFERENCE_NUMERIC_GAUGE_DECLARED",
+    "v18_15_original_root": "q550_kick203_age_slab_source_interference_v18_15_bundle/",
+    "v18_16_original_sha256": "a63944dd2612cdeffb767272965be8b96b45e68d387ce774e50487a27b2b2fa8",
+    "v18_16_manifest_members_verified": 30,
+    "v18_16_original_status": "FROZEN_SOURCE_LAG_OBSERVER_AUDIT"
+  },
+  "interpretation_limits": [
+    "Correlation ridge is NOT a mechanical torsion, physical lag, phase locking or constitutive memory estimate.",
+    "Finite lag search [1,2] censors any true optimum outside that window; edge minima are flagged.",
+    "Quadratic refined argmin is a numerical locator, not a confidence interval.",
+    "A broad minimum or strongly metric-dependent lag should not be called a unique ridge.",
+    "The fixed 1xi paired support compares like-with-like across lags; the variable-support comparator does not.",
+    "The source is from a single computed trajectory; source recurrences do not establish propagation, heredity, or independent memory.",
+    "All metrics are declared test metrics, not intrinsic material metrics; xi is not calibrated physical time.",
+    "Source derivative of PCHIP is checked against archived integrand; differences are interpolation error.",
+    "Instantaneous endpoint similarity does not isolate which source contributions survive dynamical transport."
+  ]
+}

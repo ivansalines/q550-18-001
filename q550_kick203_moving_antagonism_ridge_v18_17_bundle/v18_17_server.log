@@ -1,0 +1,62 @@
+test_constant_source_matches_any_lag (test_ridge_math.TestRidgeMath.test_constant_source_matches_any_lag) ... ok
+test_instantaneous_source_returns_negative_one (test_ridge_math.TestRidgeMath.test_instantaneous_source_returns_negative_one) ... ok
+test_metric_covariance_with_consistent_coordinates (test_ridge_math.TestRidgeMath.test_metric_covariance_with_consistent_coordinates) ... ok
+test_midpoint_convergence_smooth (test_ridge_math.TestRidgeMath.test_midpoint_convergence_smooth) ... ok
+test_project_is_transverse (test_ridge_math.TestRidgeMath.test_project_is_transverse) ... ok
+test_ridge_flags_boundary (test_ridge_math.TestRidgeMath.test_ridge_flags_boundary) ... ok
+test_ridge_parabolic_interpolation (test_ridge_math.TestRidgeMath.test_ridge_parabolic_interpolation) ... ok
+test_sinusoidal_antagonism_at_one_xi (test_ridge_math.TestRidgeMath.test_sinusoidal_antagonism_at_one_xi) ... ok
+test_variable_support_rejects_insufficient_history (test_ridge_math.TestRidgeMath.test_variable_support_rejects_insufficient_history) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.556s
+
+OK
+{
+  "status": "FROZEN_SOURCE_RIDGE_OBSERVER_AUDIT",
+  "ridge_metrics": {
+    "euclidean": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.3861072922619573,
+      "lag_range": [
+        1.2635097809682088,
+        1.4153533138740022
+      ],
+      "lag_std": 0.04838702241462328,
+      "median_kernel": -0.8809001120745391,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17500000000000004,
+      "edge_fraction": 0.0
+    },
+    "moderate_diag": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.3928956405879778,
+      "lag_range": [
+        1.2702139492428277,
+        1.4250735871707914
+      ],
+      "lag_std": 0.04928048847097851,
+      "median_kernel": -0.8822746505609999,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17500000000000004,
+      "edge_fraction": 0.0
+    },
+    "strong_diag": {
+      "n_xi": 81,
+      "median_argmin_lag": 1.413310863258086,
+      "lag_range": [
+        1.2889537266626905,
+        1.4504021096460185
+      ],
+      "lag_std": 0.05243498688307523,
+      "median_kernel": -0.8865318196815974,
+      "negative_fraction": 1.0,
+      "broad_ridge_span_002_median_xi": 0.17499999999999982,
+      "edge_fraction": 0.0
+    }
+  },
+  "max_standard_tight_K_drift": 1.3899723039223488e-10,
+  "max_source_K_difference": 0.00020851107955521808
+}
+SHA256 verified immutable files: 31 (active .log files excluded)
+Certified output: /root/elab1/hysteresis/q550_kick203_moving_antagonism_ridge_v18_17_sendback.zip

@@ -1,0 +1,9 @@
+{
+  "version": "v18.17",
+  "workflow": "offline frozen Q550 kick 203 source, source-lag ridge tracking",
+  "python": "3.10 or later (tested with available system Python)",
+  "dependencies": ["numpy", "scipy", "matplotlib"],
+  "input": "inputs/v18_16_original_sendback.zip (authentic server data, nested genealogy)",
+  "required_external_files": [],
+  "notes": ["No original Q550 400-orbit replay", "Active .log files are intentionally excluded from immutable SHA256 manifest and output archive"]
+}
