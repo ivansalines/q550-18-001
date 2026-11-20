@@ -1,0 +1,23 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "README.md": "322ec0a2ccb27cda4ba32257d65611b570cda01d8d0bd083d73984d02e75c9a7",
+    "inputs/v18_11_original_sendback.zip": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "reference/analyze_cached_v18_9.py": "9a1825294c4b9d0f3c2fdd8366e9071b651868c1a18b6e369b78c5b4d55374b0",
+    "reference/structural_math_v18_9.py": "6de1b39e73cde62544e3f62b288266a65db2fbb6913c116caf21f85ce7030140",
+    "requirements.txt": "bde68ffcfb53dd010e2ca394340aee83803b9f8e90ecfb32b1c600cd4d3db081",
+    "results/REPORT.md": "b876c2b15e3ecfcb6b0ba186c63acaef21d84e3b298205787cb9969246b25890",
+    "results/residual_plane_cumulative_path.png": "827b61206938cc6bc7b66246059367cd2d61c751f331ecccf9fac019d46c4e55",
+    "results/residual_plane_profile.csv": "a8de2449fe3311c6ff9c0a5a5992c60d56c368ba08eb07bb7b20191dbe1908b7",
+    "results/residual_plane_turn_rate.png": "355a37be84aeeb5ae584e1a54f964872c2077413a80a136c3424d27f2ce2e823",
+    "results/summary.json": "f317feab52b90c62663a2d925e2011dbecdd781ec8faa1f02ec4b758c654e5e6",
+    "scripts/analyze_residual_v18_12.py": "8eba87637dbc300b6665e42ab4a73fdcbe816347322cbd5cb8f75d62a94d293d",
+    "scripts/checkpoint_io_v18_11.py": "ae829166712d3b33d7f85aa79eb7db6888199943aa1e21a25e59f788faf523d6",
+    "scripts/pack_sendback.py": "e4754357781023853050eff1b0780b228a20525fb639426b49a02d127ef9f796",
+    "scripts/plot_residual_v18_12.py": "e81897a61523727d7d053f90ed2b21babd66abba602256784f973c989cd34d9c",
+    "scripts/residual_plane_math.py": "b81e4265711467cd101678bb87880c141a1642c04032d35b1132f7bedfaa4228",
+    "scripts/run_on_server.sh": "ef481008613c1f9185fab42c8124e766e0e14b19ac1ad4282ff87cb6c507235f",
+    "tests/test_math.py": "a7bd3ce76ff36cbc1bef8495ba21ce07b15eb15446d3d2de8e8d873657056180",
+    "v18_12_server.log": "9c7fa2a0efc1d64c78c28e38393d25bb506e36087d11d83d122ca5bd590be513"
+  }
+}

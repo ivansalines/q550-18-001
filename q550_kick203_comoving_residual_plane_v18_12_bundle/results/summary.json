@@ -1,0 +1,151 @@
+{
+  "version": "Q550-v18.12-comoving-residual-plane",
+  "input_provenance": {
+    "source_v18_11_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_11_verified_members": 25,
+    "source_v18_10_sha256": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "v18_10_verified_members": 27,
+    "v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_verified_members": 17,
+    "v18_10_label": "v18.10",
+    "v18_10_server_ode_replay": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    }
+  },
+  "by_tolerance": [
+    {
+      "tolerance": "standard",
+      "samples": 560,
+      "xi_range": [
+        1.0125,
+        8.0
+      ],
+      "inverse_transport_E_relative_max": 1.894370834027588e-15,
+      "inverse_transport_K_relative_max": 1.3510923328419604e-15,
+      "phi_condition_max": 330.95844917826986,
+      "phi_condition_median": 72.83621450897277,
+      "source_frame_A_derivative_fd_relative_median": 0.0001552646586921154,
+      "source_frame_A_derivative_fd_relative_max": 0.00027141094631236845,
+      "residual_line_derivative_fd_relative_median": 0.00018856096546595653,
+      "residual_line_derivative_fd_relative_max": 0.0005344632992789325,
+      "projector_speed_identity_max_error": 8.881784197001252e-16,
+      "residual_turn_rate_min": 0.610229298348387,
+      "residual_turn_rate_median": 1.1172060780573148,
+      "residual_turn_rate_max": 2.4984331306240772,
+      "residual_turn_rate_positive_count_above_1e-7": 560,
+      "residual_line_path_length_from_rate_rad": 9.243118045289364,
+      "residual_line_path_length_from_steps_rad": 9.242925019110764,
+      "residual_endpoint_vector_angle_rad": 0.8754048787773503,
+      "residual_endpoint_unoriented_line_angle_rad": 0.8754048787773503,
+      "accumulated_path_to_endpoint_angle_ratio": 10.558677783700416,
+      "radial_rate_crossings_linear_interp_xi": [
+        2.625657101668224,
+        3.9495961439515224,
+        5.5601123573738995,
+        6.958368050844046
+      ],
+      "min_source_out_of_plane_fraction_gauge": 0.008269834104426513,
+      "median_source_out_of_plane_fraction_gauge": 0.9440096824928081,
+      "covariant_source_wedge_GL10_relative_max": 2.2042418398127225e-16,
+      "old_metric_roots_diagnostics": [
+        {
+          "approx_old_euclidean_root": 4.1351989579,
+          "sample_xi": 4.1375,
+          "residual_speed": 2.4984331306240772,
+          "tangent_source_fraction": 0.9571624151782323,
+          "radius_rate": 7.211758616388787
+        },
+        {
+          "approx_old_euclidean_root": 4.9973365558,
+          "sample_xi": 5.0,
+          "residual_speed": 1.0406367027595012,
+          "tangent_source_fraction": 0.8903498529110618,
+          "radius_rate": 13.351609527879809
+        },
+        {
+          "approx_old_euclidean_root": 7.1744358136,
+          "sample_xi": 7.175000000000001,
+          "residual_speed": 1.9547676656293134,
+          "tangent_source_fraction": 0.9974503468080761,
+          "radius_rate": 2.5666140459207645
+        }
+      ],
+      "status": "NUMERICAL_COMOVING_RESIDUAL_DETECTED_GAUGE_DECLARED_NO_PHYSICAL_HYSTERESIS_CERTIFICATE"
+    },
+    {
+      "tolerance": "tight",
+      "samples": 560,
+      "xi_range": [
+        1.0125,
+        8.0
+      ],
+      "inverse_transport_E_relative_max": 2.8848741219178285e-15,
+      "inverse_transport_K_relative_max": 1.1356334236722487e-15,
+      "phi_condition_max": 330.9584491770142,
+      "phi_condition_median": 72.83621450826242,
+      "source_frame_A_derivative_fd_relative_median": 0.0001552646206202403,
+      "source_frame_A_derivative_fd_relative_max": 0.00027141100720167946,
+      "residual_line_derivative_fd_relative_median": 0.0001885609613371519,
+      "residual_line_derivative_fd_relative_max": 0.0005344632998312113,
+      "projector_speed_identity_max_error": 8.881784197001252e-16,
+      "residual_turn_rate_min": 0.6102292983781578,
+      "residual_turn_rate_median": 1.117206077930835,
+      "residual_turn_rate_max": 2.4984331306707137,
+      "residual_turn_rate_positive_count_above_1e-7": 560,
+      "residual_line_path_length_from_rate_rad": 9.243118045396685,
+      "residual_line_path_length_from_steps_rad": 9.242925019276413,
+      "residual_endpoint_vector_angle_rad": 0.8754048786694955,
+      "residual_endpoint_unoriented_line_angle_rad": 0.8754048786694955,
+      "accumulated_path_to_endpoint_angle_ratio": 10.5586777851239,
+      "radial_rate_crossings_linear_interp_xi": [
+        2.6256571018943267,
+        3.949596143939995,
+        5.5601123575363,
+        6.958368050559088
+      ],
+      "min_source_out_of_plane_fraction_gauge": 0.008269834002371917,
+      "median_source_out_of_plane_fraction_gauge": 0.9440096824861208,
+      "covariant_source_wedge_GL10_relative_max": 2.0407042978332713e-16,
+      "old_metric_roots_diagnostics": [
+        {
+          "approx_old_euclidean_root": 4.1351989579,
+          "sample_xi": 4.1375,
+          "residual_speed": 2.4984331306707137,
+          "tangent_source_fraction": 0.957162415166711,
+          "radius_rate": 7.211758617343477
+        },
+        {
+          "approx_old_euclidean_root": 4.9973365558,
+          "sample_xi": 5.0,
+          "residual_speed": 1.0406367028720012,
+          "tangent_source_fraction": 0.890349852951025,
+          "radius_rate": 13.351609525988545
+        },
+        {
+          "approx_old_euclidean_root": 7.1744358136,
+          "sample_xi": 7.175000000000001,
+          "residual_speed": 1.954767665287595,
+          "tangent_source_fraction": 0.9974503467765824,
+          "radius_rate": 2.566614061638523
+        }
+      ],
+      "status": "NUMERICAL_COMOVING_RESIDUAL_DETECTED_GAUGE_DECLARED_NO_PHYSICAL_HYSTERESIS_CERTIFICATE"
+    }
+  ],
+  "standard_tight_absolute_disagreements": {
+    "residual_turn_rate_median": 1.2647971558976678e-10,
+    "residual_line_path_length_from_rate_rad": 1.0732037480920553e-10,
+    "residual_endpoint_vector_angle_rad": 1.0785483617326008e-10
+  },
+  "mathematical_identity": "Phi^-1 E=e_0, Phi^-1 K=A; A_xi=s*g; after homogeneous transport removal the residual plane span(e_0,A) turns iff e_0 wedge A wedge g !=0 (on full rank interval).",
+  "metric_and_observer_scope": "Speeds/path-lengths/angles use the Euclidean metric at the INITIAL 10D frame and are not metric-free. The wedge-zero criterion and transformed 2-form covariance are coordinate-invariant under GL(10).",
+  "status": "NO_INTRINSIC_MECHANICAL_METRIC_OR_NONLINEAR_CONSTRAINT_CERTIFIED",
+  "limits": [
+    "Computing accumulated source A already contains history by definition; nonzero turn does NOT alone prove physical hysteresis or material torsion.",
+    "Not an interval proof between sampled nodes.",
+    "Phase leaf is time dependent, not an autonomous 10D mechanical constraint."
+  ]
+}

@@ -1,0 +1,27 @@
+test_degeneracy_detected (test_math.Tests.test_degeneracy_detected) ... ok
+test_line_not_vector_angle (test_math.Tests.test_line_not_vector_angle) ... ok
+test_nonuniform_coordinate_change_raw_wedge (test_math.Tests.test_nonuniform_coordinate_change_raw_wedge) ... ok
+test_outside_source_must_turn (test_math.Tests.test_outside_source_must_turn) ... ok
+test_pure_transport_source_zero (test_math.Tests.test_pure_transport_source_zero) ... ok
+test_source_parallel_to_current_plane_cannot_turn (test_math.Tests.test_source_parallel_to_current_plane_cannot_turn) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK
+{
+  "status": "FROZEN_AUDIT_PASSED",
+  "std": {
+    "residual_turn_rate_median": 1.1172060780573148,
+    "residual_turn_rate_max": 2.4984331306240772,
+    "residual_line_path_length_from_rate_rad": 9.243118045289364,
+    "residual_endpoint_vector_angle_rad": 0.8754048787773503,
+    "phi_condition_max": 330.95844917826986
+  },
+  "standard_tight_abs_diff": {
+    "residual_turn_rate_median": 1.2647971558976678e-10,
+    "residual_line_path_length_from_rate_rad": 1.0732037480920553e-10,
+    "residual_endpoint_vector_angle_rad": 1.0785483617326008e-10
+  }
+}
+sendback: /root/elab1/hysteresis/q550_kick203_comoving_residual_plane_v18_12_sendback.zip
