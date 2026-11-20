@@ -1,0 +1,138 @@
+{
+  "version": "2026-10-17-q550-v18.8-material-metric-constraint-sensitivity",
+  "constraint_status": "OFF_CONSTRAINT_DIAGNOSTIC",
+  "original_integrity": {
+    "input_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+    "original_member_hashes_verified": 35
+  },
+  "by_tolerance": {
+    "standard": {
+      "original_roots_xi": [
+        4.135198957916547,
+        4.997336555757831,
+        7.174435813614622
+      ],
+      "reconstructed_roots_xi": [
+        4.135198957200635,
+        4.997336555349751,
+        7.174435813608548
+      ],
+      "root_max_absolute_replay_discrepancy_xi": 7.159117743071874e-10,
+      "inverse_cocycle_positive_on_all_561_nodes": true,
+      "pullback_root_extinction_thresholds_approx": [
+        {
+          "xi_approx": 4.6960821193652205,
+          "alpha_critical_approx": 0.24646845240137552,
+          "negative_lobe_range": [
+            4.1375,
+            4.987500000000001
+          ]
+        },
+        {
+          "xi_approx": 7.929889780769069,
+          "alpha_critical_approx": 0.37911434328765325,
+          "negative_lobe_range": [
+            7.175000000000001,
+            8.0
+          ]
+        }
+      ],
+      "ensemble_distributions": {
+        "1.1": {
+          "3": 200
+        },
+        "1.5": {
+          "3": 200
+        },
+        "2.0": {
+          "3": 200
+        },
+        "4.0": {
+          "1": 19,
+          "3": 181
+        },
+        "10.0": {
+          "1": 32,
+          "3": 161,
+          "5": 5,
+          "7": 2
+        }
+      },
+      "fixed_reference_counts": {
+        "fixed_reference_whitening_xi_1": 2,
+        "fixed_reference_whitening_xi_2": 4,
+        "fixed_reference_whitening_xi_4": 3,
+        "fixed_reference_whitening_xi_8": 4
+      },
+      "condition_P_max": 333.4120076579036
+    },
+    "tight": {
+      "original_roots_xi": [
+        4.135198957889596,
+        4.997336555780125,
+        7.1744358136467605
+      ],
+      "reconstructed_roots_xi": [
+        4.135198957173348,
+        4.997336555372095,
+        7.174435813641126
+      ],
+      "root_max_absolute_replay_discrepancy_xi": 7.162483939282538e-10,
+      "inverse_cocycle_positive_on_all_561_nodes": true,
+      "pullback_root_extinction_thresholds_approx": [
+        {
+          "xi_approx": 4.696082119381494,
+          "alpha_critical_approx": 0.24646845242650625,
+          "negative_lobe_range": [
+            4.1375,
+            4.987500000000001
+          ]
+        },
+        {
+          "xi_approx": 7.92988978079678,
+          "alpha_critical_approx": 0.3791143433076595,
+          "negative_lobe_range": [
+            7.175000000000001,
+            8.0
+          ]
+        }
+      ],
+      "ensemble_distributions": {
+        "1.1": {
+          "3": 200
+        },
+        "1.5": {
+          "3": 200
+        },
+        "2.0": {
+          "3": 200
+        },
+        "4.0": {
+          "1": 19,
+          "3": 181
+        },
+        "10.0": {
+          "1": 32,
+          "3": 161,
+          "5": 5,
+          "7": 2
+        }
+      },
+      "fixed_reference_counts": {
+        "fixed_reference_whitening_xi_1": 2,
+        "fixed_reference_whitening_xi_2": 4,
+        "fixed_reference_whitening_xi_4": 3,
+        "fixed_reference_whitening_xi_8": 4
+      },
+      "condition_P_max": 333.41200765694236
+    }
+  },
+  "constraint_projection": null,
+  "interpretation_limits": [
+    "Metric contrast changes the 11D observer: no physical 11D metric is known.",
+    "The dynamical pullback metric uses the cocycle and is NOT a fixed mechanical/energy metric.",
+    "Diagonal reweighting experiments are coordinate-unit sensitivities, not physical perturbations.",
+    "The constrained protocol requires genuine constraint equations plus on-manifold 1st/2nd variation and independent validation.",
+    "Grid-resolved crossings are not an interval-certified count of all roots."
+  ]
+}

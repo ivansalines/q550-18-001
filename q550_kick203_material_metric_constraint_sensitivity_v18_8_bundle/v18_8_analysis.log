@@ -1,0 +1,28 @@
+{
+  "version": "2026-10-17-q550-v18.8-material-metric-constraint-sensitivity",
+  "summary": "/root/elab1/hysteresis/q550_kick203_material_metric_constraint_sensitivity_v18_8_bundle/results/summary.json",
+  "euclidean_roots_standard": [
+    4.135198957200635,
+    4.997336555349751,
+    7.174435813608548
+  ],
+  "metric_extinction_thresholds": [
+    {
+      "xi_approx": 4.6960821193652205,
+      "alpha_critical_approx": 0.24646845240137552,
+      "negative_lobe_range": [
+        4.1375,
+        4.987500000000001
+      ]
+    },
+    {
+      "xi_approx": 7.929889780769069,
+      "alpha_critical_approx": 0.37911434328765325,
+      "negative_lobe_range": [
+        7.175000000000001,
+        8.0
+      ]
+    }
+  ],
+  "constraint_status": "OFF_CONSTRAINT_DIAGNOSTIC"
+}

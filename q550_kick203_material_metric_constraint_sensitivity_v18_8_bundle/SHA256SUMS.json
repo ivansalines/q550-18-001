@@ -1,0 +1,21 @@
+{
+  "version": "2026-10-17-q550-v18.8",
+  "files": {
+    "README.md": "c78dd615fe0f2f5e4d85c84cb31504fea338d84c5dcf4624963a08c39c6b672b",
+    "inputs/v18_7_original_sendback.zip": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "results/REPORT.md": "bdfd89f554890c45754c8107efdf6345a821087003daa795fb2596636aa4f6d7",
+    "results/diagonal_metric_ensemble.csv": "341019d479f3373753d694a1920ef42bac5bf6b3453afa61d61adc40901cedca",
+    "results/diagonal_metric_robustness.png": "883296903db45e8a9b1c2b996a5f55ba166d05af53f605a8cf1151376b6c683d",
+    "results/metric_root_sensitivity.csv": "cd60a013ed7dc1f277b71abb7bf8f1cb6fb9cf5d0c43b4e8da90eecc80863319",
+    "results/mixed_metric_signs.png": "ee298ddc47e908a9fd71f845674b8e2d4fdebdb629390305270cd5548ef8f43e",
+    "results/summary.json": "75bc390c47ca45d1bb50dba2ea1dce4c2308c2278e914dc676053dae01478318",
+    "scripts/analyze_metric_v18_8.py": "6f8b0ea6796d9699a750cf96d58cb07890ac0bf43a1340436b0e11eaf587b985",
+    "scripts/metric_math_v18_8.py": "d3639c760db19fa98ced496f1907852920c099af7b84cb2eaee1aee37ce027fe",
+    "scripts/pack_sendback_v18_8.py": "bc27c12ce8c79663f7eeea6caac0cc6af9edc11c83dee2fb8e1a24b845a6ae51",
+    "scripts/run_on_server.sh": "b37fc661e8bf2aebfad2d9c481f0d02295d3ddebd722361feac5ced897f8e82a",
+    "templates/CONSTRAINT_INPUT.md": "c370fa8da45e3993af588121e35275d04e4f26a85ce8a3fa695808fce86ae854",
+    "tests/test_metric_math_v18_8.py": "8ff4e5e6a7d483f4d86a5e030535ae8f2e6222013144d6d8f6a3a063aa6b4d7b",
+    "v18_8_analysis.log": "0cc359980b0490cccfe491c4df7c52b45be542b9e449086049d0258fd5c1db1a"
+  }
+}
