@@ -1,0 +1,18 @@
+{
+  "README.md": "941ea63803aa0911c0ccea6f203da321eafddbd022999114867a6db211ed9243",
+  "SOURCE_MANIFEST.json": "3d4f7c55d20b15d158d5c32c046fbf09da0e731968db757875e0cda5898c0bf9",
+  "inputs/q550_kick203_event_micro_v17_9_sendback.zip": "eb317e8d0602a3e785ddc66e3fedd14d3f2902b12f9a87e3bc2261bf95d5e5ca",
+  "inputs/q550_kick203_one_sided_observer_v18_0_sendback.zip": "64abffbcee6f2e921ef091a4719013211e3769a285bca84a73f73fa12a90afe8",
+  "inputs/singular_direction_vectors.csv": "c1047dbd6056da6ed81fd5364fea408150a082357772015f17ed485b090e914e",
+  "reference/audit_kick203_event_micro_v17_9.py": "44aff9a0d3185331aac6401c8b3604ceea2eb244cc2b1a197b7f4feea14587f9",
+  "reference/history_bridge_v16.py": "f0945d39a07980555a7ae79068cca78be425a7c34bd6116f22ecdf0d267c2835",
+  "reference/observer_math_v17.py": "3b57dbc6c8d70a30882ddda18904b9b6d31c9f9663bee0dfd093a72cade85ec6",
+  "reference/q550_state_impulse_response_v13.py": "28bb3562a8b6e32b9b1c6f4bd544ade6afc75b6a5758e24fe671a85df28c7506",
+  "reference/run_kick203_event_micro_v17_9.py": "2c0b1b9ce9cf301beca693b7d93e3887c767f67e8a921cdbab9cbd6ad24da55d",
+  "requirements.txt": "80a99a0c63fa6519d6eea6737550e563e0520a66120e976256264ba1ec7bc143",
+  "scripts/frame_geometry.py": "595eb81293d9536d15da369c0a0914a0f1ba8d837d21b0e559774f858d8f7e1b",
+  "scripts/pack_sendback_v18_1.py": "7ccbf8c3b44aa97b3e04d09b2b80f2f22de04fdee98ee6a78320eb90699bc4fb",
+  "scripts/run_kick203_second_order_observer_v18_1.py": "46e0317a9c682ef36886ddd63727e1b285221e65bcc58c2476316a48f0ae6bf7",
+  "scripts/run_on_server.sh": "65631c14cd4b35f5c39dc3ed0b5868f84ec376692cd1ac3f7e670bb85579e20b",
+  "tests/test_v18_1_geometry.py": "4a72fac62f154093c451d7f1cb3b27abeafea6adf9a81ce1a127e9a3bb722379"
+}

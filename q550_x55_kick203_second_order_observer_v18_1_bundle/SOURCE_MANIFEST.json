@@ -1,0 +1,19 @@
+{
+  "version": "2026-10-16-v18.1",
+  "archived_input_sha256": {
+    "q550_kick203_event_micro_v17_9_sendback.zip": {
+      "sha256": "eb317e8d0602a3e785ddc66e3fedd14d3f2902b12f9a87e3bc2261bf95d5e5ca",
+      "size": 7782719
+    },
+    "q550_kick203_one_sided_observer_v18_0_sendback.zip": {
+      "sha256": "64abffbcee6f2e921ef091a4719013211e3769a285bca84a73f73fa12a90afe8",
+      "size": 8713787
+    },
+    "singular_direction_vectors.csv": {
+      "sha256": "c1047dbd6056da6ed81fd5364fea408150a082357772015f17ed485b090e914e",
+      "size": 119423
+    }
+  },
+  "original_external_source_sha256": "09702bc06c5c927ee7656a0fcd510ffddbabdccbe5733ecc1e64f1acd67f8f0d",
+  "external_data": "Q550 full11D dense sampling bundle and original x500 source; see README"
+}

@@ -1,0 +1,73 @@
+test_archive_shape_and_keys (test_v18_1_geometry.Tests.test_archive_shape_and_keys) ... ok
+test_frame_orthonormal (test_v18_1_geometry.Tests.test_frame_orthonormal) ... ok
+test_shapley_identity_11d (test_v18_1_geometry.Tests.test_shapley_identity_11d) ... ok
+test_unilateral_second_order_converges_faster (test_v18_1_geometry.Tests.test_unilateral_second_order_converges_faster) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.061s
+
+OK
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+computed standard eps=1e-08 A=hquarter B=hhalf points=47
+computed standard eps=1e-08 A=hquarter B=hquarter points=47
+computed standard eps=1e-08 A=hquarter B=heighth points=47
+computed standard eps=1e-08 A=hquarter B=hsixteenth points=47
+computed standard eps=3e-08 A=hquarter B=hhalf points=47
+computed standard eps=3e-08 A=hquarter B=hquarter points=47
+computed standard eps=3e-08 A=hquarter B=heighth points=47
+computed standard eps=3e-08 A=hquarter B=hsixteenth points=47
+computed tight eps=1e-08 A=hquarter B=hhalf points=47
+computed tight eps=1e-08 A=hquarter B=hquarter points=47
+computed tight eps=1e-08 A=hquarter B=heighth points=47
+computed tight eps=1e-08 A=hquarter B=hsixteenth points=47
+computed tight eps=3e-08 A=hquarter B=hhalf points=47
+computed tight eps=3e-08 A=hquarter B=hquarter points=47
+computed tight eps=3e-08 A=hquarter B=heighth points=47
+computed tight eps=3e-08 A=hquarter B=hsixteenth points=47
+{
+  "version": "2026-10-16-Q550-kick203-second-order-one-sided-observer-v18.1",
+  "crossing_xi": 210.8611366031777,
+  "sample_count_total": 320,
+  "sample_count_zoom": 47,
+  "frozen_A_stencil": "hquarter",
+  "B_support_heights": {
+    "hhalf": 0.0008897569444444444,
+    "hquarter": 0.0004448784722222222,
+    "heighth": 0.0002224392361111111,
+    "hsixteenth": 0.00011121961805555555
+  },
+  "B_halfwidth_in_xi": {
+    "hhalf": 0.00694262987960236,
+    "hquarter": 0.00347131493980118,
+    "heighth": 0.00173565746990059,
+    "hsixteenth": 0.000867828734950295
+  },
+  "source_sha256": "09702bc06c5c927ee7656a0fcd510ffddbabdccbe5733ecc1e64f1acd67f8f0d",
+  "max_legacy_frame_reproduction": 0.0,
+  "max_shapley_closure": 5.739680694812657e-17,
+  "cross_order_csv": "order1_vs_order2.csv",
+  "convergence_near_event": [
+    {
+      "observer": "non_straddling1",
+      "n_near": 16,
+      "max_angle_h8_vs_h16": 12.674363899599761,
+      "median_angle_h8_vs_h16": 6.338971236663139,
+      "median_relative_diff_h8_h16": 0.11240694424637135,
+      "median_fine_difference_ratio": 1.9998521462216585
+    },
+    {
+      "observer": "non_straddling2",
+      "n_near": 16,
+      "max_angle_h8_vs_h16": 0.11293059317000644,
+      "median_angle_h8_vs_h16": 0.008784341238935836,
+      "median_relative_diff_h8_h16": 0.0002257944033145625,
+      "median_fine_difference_ratio": 0.5848612929494208
+    }
+  ],
+  "reading": "No two physical histories are recomputed differently across observers. Frozen section A and full11D M preserve v17.9 genealogy; only B tangent differences change. Odd/even first/second-order numerical convergence of the off-shell Shapley residual is tested. Neither the observer-induced 90-degree band nor a sign change in a moving frame proves physical torsion."
+}
+SEND_BACK_READY = /root/elab1/hysteresis/q550_x55_kick203_second_order_observer_v18_1_bundle/q550_kick203_second_order_observer_v18_1_sendback.zip
+SHA256 manifest items = 29
