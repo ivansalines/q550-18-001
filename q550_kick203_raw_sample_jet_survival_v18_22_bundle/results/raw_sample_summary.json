@@ -1,0 +1,99 @@
+{
+  "version": "v18.22",
+  "status": "FROZEN_ORIGINAL_Q550_RAW_SAMPLE_TANGENT_PREFLIGHT",
+  "config": {
+    "center": 4.0,
+    "sample_count": 33,
+    "halfwidths": [
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "noise_levels": [
+      1e-05,
+      0.0001,
+      0.001
+    ],
+    "repeats": 128,
+    "poly_degrees": [
+      3,
+      5
+    ],
+    "source": "original-v18.21 server / v18.20 hidden seeds, original tangent propagator",
+    "units": "Noise sigma applied to raw perturbation response normalized by 2*epsilon; no physical units",
+    "seed": 1822
+  },
+  "provenance": {
+    "source_v18_11_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_11_verified_members": 25,
+    "source_v18_10_sha256": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "v18_10_verified_members": 27,
+    "v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_verified_members": 17,
+    "v18_10_label": "v18.10",
+    "v18_10_server_ode_replay": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    },
+    "source_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_12_members_verified": 18,
+    "v18_12_status": "NO_INTRINSIC_MECHANICAL_METRIC_OR_NONLINEAR_CONSTRAINT_CERTIFIED",
+    "v18_12_input_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_13_original_sha256": "3968e63515e98b60616ad710d3472932b7f0b1134e5245d464be1f8124a59198",
+    "v18_13_verified_members": 23,
+    "v18_13_status": "NUMERICAL_LOCAL_ORIENTATION_PERSISTENCE_GAUGE_DECLARED",
+    "v18_13_nested_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_14_original_sha256": "6e3f5b31ee2b42c6d40c3933613cb8e0103fa3fd41f87e9629349126cf6be25a",
+    "v18_14_verified_members": 24,
+    "v18_14_status": "HISTORY_WINDOW_DIRECTIONAL_ECHO_NUMERIC_GAUGE_DECLARED",
+    "v18_14_events": [
+      2.625653076601633,
+      3.9496097675037007,
+      5.560114949222021,
+      6.958293256917203
+    ],
+    "v18_15_original_sha256": "ad19c1ab78314d6c87130624d58e8f2c63b747c5099c777d9633bede6feb33cd",
+    "v18_15_verified_members": 29,
+    "v18_15_status": "SOURCE_AGE_INTERFERENCE_NUMERIC_GAUGE_DECLARED",
+    "v18_15_original_root": "q550_kick203_age_slab_source_interference_v18_15_bundle/",
+    "v18_16_original_sha256": "a63944dd2612cdeffb767272965be8b96b45e68d387ce774e50487a27b2b2fa8",
+    "v18_16_manifest_members_verified": 30,
+    "v18_16_original_status": "FROZEN_SOURCE_LAG_OBSERVER_AUDIT",
+    "v18_17_original_sha256": "52509228dc39b746316366ea8b391b1decec9a96621c89ca6a45348acaa84cc4",
+    "v18_17_verified_immutable_members": 31,
+    "v18_17_original_status": "FROZEN_SOURCE_RIDGE_OBSERVER_AUDIT",
+    "server_v18_18_sha256": "144b642e6aa5c4e0509a4a1c3a184cc783d3a0595da3f29776925cacdc0c0732",
+    "server_v18_18_verified_members": 29,
+    "server_v18_18_status": "FROZEN_SOURCE_EXACT_CLOSURE_AND_SURROGATE_AUDIT",
+    "v18_19_original_server_sha256": "cc09cff9db658e15fc94c19613010ecf51e6be589319105f8a8dc43e96853f07",
+    "v18_19_verified_immutable_files": 29,
+    "v18_19_server_status": "NONLINEAR_PAIRED_REDUCED_OBSERVER_DIAGNOSTIC_COMPLETED",
+    "v18_20_server_sendback_sha256": "2eb74e46553fa1dcf19a53ac591ea978662994a8f6d3f7e3973e311e726ba5ba",
+    "v18_20_verified_immutable_members": 37,
+    "v18_20_status": "ORIGINAL_Q550_NONLINEAR_JET_VALIDATION_COMPLETED",
+    "v18_21_original_server_sha256": "2739e02a97c35940f5a7ee014428d2da3f7810798033aaa18a68b2479a8c4ab5",
+    "v18_21_members_verified": 42,
+    "v18_21_original_ode_check": "ORIGINAL_Q550_INDEPENDENT_NONLINEAR_SPOT_CHECK_COMPLETED"
+  },
+  "predecessor_nonlinear_server_status": "ORIGINAL_Q550_INDEPENDENT_NONLINEAR_SPOT_CHECK_COMPLETED",
+  "matched_seeds": [
+    "material3_jet2",
+    "raw4_jet1",
+    "raw6_jet1"
+  ],
+  "full_rank_all": true,
+  "whiten_max_defect": 2.154887203172415e-15,
+  "max_standard_tight_window_drift": 6.74387744490213e-11,
+  "limitations": [
+    "Raw samples are synthetically noisy observations of the certified tangent propagator, not measured sensor readings.",
+    "Noise acts on differences of paired trajectories normalized by their amplitude; physical noise scale is unknown.",
+    "Polynomial reconstruction has finite-window truncation bias and correlated coefficient errors.",
+    "Jet map uses local third-order Taylor coefficients even for degree-five polynomial regression.",
+    "No intrinsic physical metric or full nonlinear history-dependent constitutive law is certified.",
+    "Direct and compressed estimators both use model knowledge and a fixed 10D diagnostic gauge."
+  ]
+}

@@ -1,0 +1,89 @@
+test_basis_endpoints (test_raw_sample_jet.RawSampleJetTest.test_basis_endpoints) ... ok
+test_compressed_polynomial_signal (test_raw_sample_jet.RawSampleJetTest.test_compressed_polynomial_signal) ... ok
+test_continuous_time_no_node_duplication (test_raw_sample_jet.RawSampleJetTest.test_continuous_time_no_node_duplication) ... ok
+test_correlated_coefficient_noise_monte_carlo (test_raw_sample_jet.RawSampleJetTest.test_correlated_coefficient_noise_monte_carlo) ... ok
+test_direct_constant_map (test_raw_sample_jet.RawSampleJetTest.test_direct_constant_map) ... ok
+test_invalid_even_count (test_raw_sample_jet.RawSampleJetTest.test_invalid_even_count) ... ok
+test_nontrivial_model_truncation (test_raw_sample_jet.RawSampleJetTest.test_nontrivial_model_truncation) ... ok
+test_polynomial_coefficient_covariance (test_raw_sample_jet.RawSampleJetTest.test_polynomial_coefficient_covariance) ... ok
+test_quintic_polynomial_exact_recovery (test_raw_sample_jet.RawSampleJetTest.test_quintic_polynomial_exact_recovery) ... ok
+test_raw_least_squares_exact (test_raw_sample_jet.RawSampleJetTest.test_raw_least_squares_exact) ... ok
+test_unknown_jet_covariance_not_assumed_identity (test_raw_sample_jet.RawSampleJetTest.test_unknown_jet_covariance_not_assumed_identity) ... ok
+test_whitened_covariance (test_raw_sample_jet.RawSampleJetTest.test_whitened_covariance) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.970s
+
+OK
+{
+  "status": "FROZEN_ORIGINAL_Q550_RAW_SAMPLE_TANGENT_PREFLIGHT",
+  "rows": 90,
+  "max_standard_tight_window_drift": 6.74387744490213e-11,
+  "all_full_rank": true,
+  "representative": [
+    {
+      "label": "material3_jet2",
+      "observer": "material3",
+      "window_halfwidth": 0.2,
+      "sample_count": 33,
+      "degree": 5,
+      "noise_sigma": 0.0001,
+      "trials": 128,
+      "direct_rms": 0.05337697276162049,
+      "jet_rms": 0.22399719850199612,
+      "direct_projection_mean": 1.0010710106926775,
+      "jet_projection_mean": 1.0161047020339327,
+      "direct_projection_sd": 0.04752367892654098,
+      "jet_projection_sd": 0.20279589157904612,
+      "direct_snr_seed": 56.239361273052765,
+      "jet_snr_seed": 12.58163340279389,
+      "poly_jet_bias_norm": 2.035087769709218e-06,
+      "jet_over_direct_rms": 4.196513719546423
+    },
+    {
+      "label": "raw4_jet1",
+      "observer": "raw4",
+      "window_halfwidth": 0.2,
+      "sample_count": 33,
+      "degree": 5,
+      "noise_sigma": 0.0001,
+      "trials": 128,
+      "direct_rms": 0.24547945118215828,
+      "jet_rms": 0.8668773082758985,
+      "direct_projection_mean": 0.9994658046790611,
+      "jet_projection_mean": 0.9999922815115079,
+      "direct_projection_sd": 0.004205432463276518,
+      "jet_projection_sd": 0.016191268351907685,
+      "direct_snr_seed": 370.7622093396594,
+      "jet_snr_seed": 106.94174952101396,
+      "poly_jet_bias_norm": 7.949979921053593e-07,
+      "jet_over_direct_rms": 3.5313640473826515
+    },
+    {
+      "label": "raw6_jet1",
+      "observer": "raw6",
+      "window_halfwidth": 0.2,
+      "sample_count": 33,
+      "degree": 5,
+      "noise_sigma": 0.0001,
+      "trials": 128,
+      "direct_rms": 0.017742813077199954,
+      "jet_rms": 0.032234163778117046,
+      "direct_projection_mean": 0.9999471725744811,
+      "jet_projection_mean": 0.9995541740899825,
+      "direct_projection_sd": 0.0017513878248619774,
+      "jet_projection_sd": 0.00506977585314822,
+      "direct_snr_seed": 989.3894357071048,
+      "jet_snr_seed": 289.79030519611035,
+      "poly_jet_bias_norm": 7.644921485214163e-06,
+      "jet_over_direct_rms": 1.8167448215716655
+    }
+  ]
+}
+{
+  "status": "ORIGINAL_Q550_RAW_SAMPLE_NONLINEAR_VALIDATION_COMPLETED",
+  "max_tangent_error": 1.9104488583865802e-07,
+  "max_phase_difference": 0.0
+}
+SHA256 37 immutable files
+SEND_BACK /root/elab1/hysteresis/q550_kick203_raw_sample_jet_survival_v18_22_sendback.zip
