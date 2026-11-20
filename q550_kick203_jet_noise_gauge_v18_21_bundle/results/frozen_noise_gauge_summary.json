@@ -1,0 +1,200 @@
+{
+  "version": "v18.21",
+  "status": "FROZEN_JET_NOISE_AND_GAUGE_PREFLIGHT",
+  "source_status": "ORIGINAL_Q550_NONLINEAR_JET_VALIDATION_COMPLETED",
+  "provenance": {
+    "source_v18_11_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_11_verified_members": 25,
+    "source_v18_10_sha256": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "v18_10_verified_members": 27,
+    "v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_verified_members": 17,
+    "v18_10_label": "v18.10",
+    "v18_10_server_ode_replay": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    },
+    "source_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_12_members_verified": 18,
+    "v18_12_status": "NO_INTRINSIC_MECHANICAL_METRIC_OR_NONLINEAR_CONSTRAINT_CERTIFIED",
+    "v18_12_input_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_13_original_sha256": "3968e63515e98b60616ad710d3472932b7f0b1134e5245d464be1f8124a59198",
+    "v18_13_verified_members": 23,
+    "v18_13_status": "NUMERICAL_LOCAL_ORIENTATION_PERSISTENCE_GAUGE_DECLARED",
+    "v18_13_nested_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_14_original_sha256": "6e3f5b31ee2b42c6d40c3933613cb8e0103fa3fd41f87e9629349126cf6be25a",
+    "v18_14_verified_members": 24,
+    "v18_14_status": "HISTORY_WINDOW_DIRECTIONAL_ECHO_NUMERIC_GAUGE_DECLARED",
+    "v18_14_events": [
+      2.625653076601633,
+      3.9496097675037007,
+      5.560114949222021,
+      6.958293256917203
+    ],
+    "v18_15_original_sha256": "ad19c1ab78314d6c87130624d58e8f2c63b747c5099c777d9633bede6feb33cd",
+    "v18_15_verified_members": 29,
+    "v18_15_status": "SOURCE_AGE_INTERFERENCE_NUMERIC_GAUGE_DECLARED",
+    "v18_15_original_root": "q550_kick203_age_slab_source_interference_v18_15_bundle/",
+    "v18_16_original_sha256": "a63944dd2612cdeffb767272965be8b96b45e68d387ce774e50487a27b2b2fa8",
+    "v18_16_manifest_members_verified": 30,
+    "v18_16_original_status": "FROZEN_SOURCE_LAG_OBSERVER_AUDIT",
+    "v18_17_original_sha256": "52509228dc39b746316366ea8b391b1decec9a96621c89ca6a45348acaa84cc4",
+    "v18_17_verified_immutable_members": 31,
+    "v18_17_original_status": "FROZEN_SOURCE_RIDGE_OBSERVER_AUDIT",
+    "server_v18_18_sha256": "144b642e6aa5c4e0509a4a1c3a184cc783d3a0595da3f29776925cacdc0c0732",
+    "server_v18_18_verified_members": 29,
+    "server_v18_18_status": "FROZEN_SOURCE_EXACT_CLOSURE_AND_SURROGATE_AUDIT",
+    "v18_19_original_server_sha256": "cc09cff9db658e15fc94c19613010ecf51e6be589319105f8a8dc43e96853f07",
+    "v18_19_verified_immutable_files": 29,
+    "v18_19_server_status": "NONLINEAR_PAIRED_REDUCED_OBSERVER_DIAGNOSTIC_COMPLETED",
+    "v18_20_server_sendback_sha256": "2eb74e46553fa1dcf19a53ac591ea978662994a8f6d3f7e3973e311e726ba5ba",
+    "v18_20_verified_immutable_members": 37,
+    "v18_20_status": "ORIGINAL_Q550_NONLINEAR_JET_VALIDATION_COMPLETED"
+  },
+  "xi_grid": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "taus": [
+    0.03,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "noise_model": "Independent isotropic Gaussian perturbations on scaled jet stack, NOT raw instrument samples.",
+  "unit_state_reconstruction": "Weakest right-singular unit direction in nominal Euclidean 10D gauge",
+  "gauge_model": "Constant invertible material/output transformations with covariance-aware output whitening.",
+  "rank_tolerance": 1e-08,
+  "trials_per_setting": 256,
+  "gauge_max_physical_state_error": 1.0986271010583771e-11,
+  "gauge_max_physical_prediction_error": 8.684508478744452e-14,
+  "rank_full": true,
+  "max_covariance_consistent_rescaling_error": 3.152465325322946e-16,
+  "at_xi4_direct_time_window_examples": {
+    "material3_0.05": {
+      "observer": "material3",
+      "center_xi": 4.0,
+      "half_window": 0.05,
+      "samples": 9,
+      "sigma_min": 2.217945674553675e-05,
+      "condition": 135267.3065190158,
+      "sigma_min_standard": 2.2179456788696748e-05,
+      "weak_unit_state_snr_at_noise_1e4": 0.2217945674553675
+    },
+    "material3_0.5": {
+      "observer": "material3",
+      "center_xi": 4.0,
+      "half_window": 0.5,
+      "samples": 9,
+      "sigma_min": 0.010810430278120859,
+      "condition": 288.590394042508,
+      "sigma_min_standard": 0.010810430299262095,
+      "weak_unit_state_snr_at_noise_1e4": 108.10430278120859
+    },
+    "raw4_0.05": {
+      "observer": "raw4",
+      "center_xi": 4.0,
+      "half_window": 0.05,
+      "samples": 9,
+      "sigma_min": 2.2319929567705122e-05,
+      "condition": 134646.4432638542,
+      "sigma_min_standard": 2.2319929567678824e-05,
+      "weak_unit_state_snr_at_noise_1e4": 0.2231992956770512
+    },
+    "raw4_0.5": {
+      "observer": "raw4",
+      "center_xi": 4.0,
+      "half_window": 0.5,
+      "samples": 9,
+      "sigma_min": 0.001991803891421955,
+      "condition": 1728.771005067419,
+      "sigma_min_standard": 0.0019918038914363222,
+      "weak_unit_state_snr_at_noise_1e4": 19.918038914219547
+    },
+    "raw6_0.05": {
+      "observer": "raw6",
+      "center_xi": 4.0,
+      "half_window": 0.05,
+      "samples": 9,
+      "sigma_min": 0.0009342743677522976,
+      "condition": 3247.2800928685274,
+      "sigma_min_standard": 0.0009342743677477151,
+      "weak_unit_state_snr_at_noise_1e4": 9.342743677522975
+    },
+    "raw6_0.5": {
+      "observer": "raw6",
+      "center_xi": 4.0,
+      "half_window": 0.5,
+      "samples": 9,
+      "sigma_min": 0.01116967675495594,
+      "condition": 417.5699951076387,
+      "sigma_min_standard": 0.011169676732659901,
+      "weak_unit_state_snr_at_noise_1e4": 111.6967675495594
+    }
+  },
+  "most_ill_conditioned": {
+    "xi": 2.0,
+    "observer": "raw4",
+    "tau": 0.03,
+    "order": 3,
+    "rank": 10,
+    "sigma_min": 1.4667272372416795e-05,
+    "sigma_max": 1.0031235450024796,
+    "condition": 68391.96269982339,
+    "sigma_min_standard": 1.4667272372426827e-05,
+    "relative_smin_drift": 6.839893589312865e-13
+  },
+  "at_xi4_tau0_1": {
+    "material3": {
+      "xi": 4.0,
+      "observer": "material3",
+      "tau": 0.1,
+      "order": 3,
+      "rank": 10,
+      "sigma_min": 0.0009396291007516208,
+      "sigma_max": 1.0122955987199145,
+      "condition": 1077.3352995454982,
+      "sigma_min_standard": 0.0009396291028071289,
+      "relative_smin_drift": 2.187573911694884e-09
+    },
+    "raw4": {
+      "xi": 4.0,
+      "observer": "raw4",
+      "tau": 0.1,
+      "order": 3,
+      "rank": 10,
+      "sigma_min": 0.00016309935472455324,
+      "sigma_max": 1.0353352639234772,
+      "condition": 6347.880809657281,
+      "sigma_min_standard": 0.0001630993547249695,
+      "relative_smin_drift": 2.5521395824923764e-12
+    },
+    "raw6": {
+      "xi": 4.0,
+      "observer": "raw6",
+      "tau": 0.1,
+      "order": 3,
+      "rank": 10,
+      "sigma_min": 0.00113703523051982,
+      "sigma_max": 1.1479065236954011,
+      "condition": 1009.5610873645587,
+      "sigma_min_standard": 0.0011370352304013991,
+      "relative_smin_drift": 1.0414883805615951e-10
+    }
+  },
+  "claim_limits": [
+    "Numerical local tangent rank only; no interval or global certificate.",
+    "Noise model assumes directly measured derivatives with equal noise in scaled jet coordinates.",
+    "Real finite-difference jet noise is correlated and can be amplified; not represented by this optimistic test.",
+    "Condition numbers are gauge- and unit-dependent without physical metrics/covariances.",
+    "No physical material constraint manifold is certified.",
+    "Memory/hysteresis is not diagnosed by rank or conditioning alone."
+  ]
+}

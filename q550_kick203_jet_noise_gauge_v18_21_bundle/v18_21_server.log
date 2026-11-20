@@ -1,0 +1,42 @@
+test_covariance_consistent_rescaling (test_noise_gauge.TestNoiseGauge.test_covariance_consistent_rescaling) ... ok
+test_covariance_positive (test_noise_gauge.TestNoiseGauge.test_covariance_positive) ... ok
+test_gauge_prediction (test_noise_gauge.TestNoiseGauge.test_gauge_prediction) ... ok
+test_jet_scale_not_new_information (test_noise_gauge.TestNoiseGauge.test_jet_scale_not_new_information) ... ok
+test_noise_analytic (test_noise_gauge.TestNoiseGauge.test_noise_analytic) ... ok
+test_noise_snr_monotone (test_noise_gauge.TestNoiseGauge.test_noise_snr_monotone) ... ok
+test_observer_transform_invertible (test_noise_gauge.TestNoiseGauge.test_observer_transform_invertible) ... ok
+test_source_gauge_not_automatically_orthogonal (test_noise_gauge.TestNoiseGauge.test_source_gauge_not_automatically_orthogonal) ... ok
+test_unitary (test_noise_gauge.TestNoiseGauge.test_unitary) ... ok
+test_whitened_gauge (test_noise_gauge.TestNoiseGauge.test_whitened_gauge) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.819s
+
+OK
+{
+  "status": "FROZEN_JET_NOISE_AND_GAUGE_PREFLIGHT",
+  "at_xi4_tau0_1": {
+    "material3": {
+      "smin": 0.0009396291007516208,
+      "cond": 1077.3352995454982
+    },
+    "raw4": {
+      "smin": 0.00016309935472455324,
+      "cond": 6347.880809657281
+    },
+    "raw6": {
+      "smin": 0.00113703523051982,
+      "cond": 1009.5610873645587
+    }
+  },
+  "max_gauge_physical_state_error": 1.0986271010583771e-11,
+  "server_nonlinear_v1820": "ORIGINAL_Q550_NONLINEAR_JET_VALIDATION_COMPLETED"
+}
+{
+  "status": "ORIGINAL_Q550_INDEPENDENT_NONLINEAR_SPOT_CHECK_COMPLETED",
+  "pairs": 6,
+  "max_abs_error": 1.9915765717012428e-07
+}
+three diagnostic PNG files generated
+SHA256 42 immutable files, active logs excluded
+SEND_BACK /root/elab1/hysteresis/q550_kick203_jet_noise_gauge_v18_21_sendback.zip
