@@ -1,0 +1,167 @@
+{
+  "version": "Q550-v18.15-age-slab-source-interference-echo-localization",
+  "status": "SOURCE_AGE_INTERFERENCE_NUMERIC_GAUGE_DECLARED",
+  "reference": "frozen v18.14 sendback / v18.13 ODE source genealogy",
+  "metric": "initial co-moving Euclidean 10D (not independently physical)",
+  "age_partition_widths": [
+    0.5,
+    0.25,
+    0.125,
+    0.0625
+  ],
+  "events_xi": {
+    "standard": [
+      2.625653076601633,
+      3.9496097675037007,
+      5.560114949222021,
+      6.958293256917203
+    ],
+    "tight": [
+      2.625653076843487,
+      3.9496097674925497,
+      5.560114949409318,
+      6.958293256633061
+    ]
+  },
+  "by_event_standard": [
+    {
+      "tolerance": "standard",
+      "event": 1,
+      "xi": 2.625653076601633,
+      "type": "radial_max",
+      "rho": 12.943965892441648,
+      "coarse_negative_mass": 0.36309939452965423,
+      "neg_axial_width_025": 0.3630993945296542,
+      "neg_axial_width_00625": 0.3630993945296542,
+      "cancellation_width_025": 0.05312289983177987,
+      "cancellation_width_00625": 0.05312289983177987,
+      "old_recent_cos_h2": -0.5005688369016615,
+      "old_recent_dot_h2": -5.341022012568836,
+      "stable_age_horizon_10deg_025": 1.25,
+      "stable_age_horizon_10deg_00625": 1.25,
+      "negative_age_centroid_00625": 2.3357758938495508,
+      "old2_norm": 0.8006721140459301,
+      "recent2_norm": 13.326185546345197,
+      "quad_independent_total_error": 1.040181693788631e-06
+    },
+    {
+      "tolerance": "standard",
+      "event": 2,
+      "xi": 3.9496097675037007,
+      "type": "radial_min",
+      "rho": 8.941681375177886,
+      "coarse_negative_mass": 0.24191745255769947,
+      "neg_axial_width_025": 0.3310435229262062,
+      "neg_axial_width_00625": 0.3310435229262062,
+      "cancellation_width_025": 0.06894033850322512,
+      "cancellation_width_00625": 0.06894033850322534,
+      "old_recent_cos_h2": -0.5334349513513458,
+      "old_recent_dot_h2": -45.627705365203454,
+      "stable_age_horizon_10deg_025": 2.5,
+      "stable_age_horizon_10deg_00625": 2.6875,
+      "negative_age_centroid_00625": 3.631269930933133,
+      "old2_norm": 9.436001630414557,
+      "recent2_norm": 9.064819346044565,
+      "quad_independent_total_error": 9.112133989458982e-07
+    },
+    {
+      "tolerance": "standard",
+      "event": 3,
+      "xi": 5.560114949222021,
+      "type": "radial_max",
+      "rho": 28.476185474598488,
+      "coarse_negative_mass": 10.823306886888865,
+      "neg_axial_width_025": 10.823306886888867,
+      "neg_axial_width_00625": 10.966982172494916,
+      "cancellation_width_025": 0.4318716053050249,
+      "cancellation_width_00625": 0.4351100804796013,
+      "old_recent_cos_h2": 0.15083596205798377,
+      "old_recent_dot_h2": 37.60887989137537,
+      "stable_age_horizon_10deg_025": 3.75,
+      "stable_age_horizon_10deg_00625": 3.875,
+      "negative_age_centroid_00625": 2.29602187556071,
+      "old2_norm": 9.869196841554198,
+      "recent2_norm": 25.264091772783754,
+      "quad_independent_total_error": 1.290165673158786e-06
+    },
+    {
+      "tolerance": "standard",
+      "event": 4,
+      "xi": 6.958293256917203,
+      "type": "radial_min",
+      "rho": 18.038857772110422,
+      "coarse_negative_mass": 3.6531251938498994,
+      "neg_axial_width_025": 4.568037909661735,
+      "neg_axial_width_00625": 4.791781062293401,
+      "cancellation_width_025": 0.33619496395764337,
+      "cancellation_width_00625": 0.3469486801094026,
+      "old_recent_cos_h2": -0.725536758645298,
+      "old_recent_dot_h2": -429.9535247115278,
+      "stable_age_horizon_10deg_025": 5.5,
+      "stable_age_horizon_10deg_00625": 5.5625,
+      "negative_age_centroid_00625": 2.5264382323755195,
+      "old2_norm": 24.506893443077768,
+      "recent2_norm": 24.180976260587908,
+      "quad_independent_total_error": 1.895272412552455e-05
+    }
+  ],
+  "standard_tight_max_root_drift": 2.8414248731678526e-10,
+  "standard_tight_metrics_differences": {
+    "1": {
+      "negative_mass_difference_width_00625": 3.808769966084924e-11,
+      "old_recent_cos_difference": 7.080480646237675e-11
+    },
+    "2": {
+      "negative_mass_difference_width_00625": 8.570433251975373e-11,
+      "old_recent_cos_difference": 1.2071899035959177e-11
+    },
+    "3": {
+      "negative_mass_difference_width_00625": 6.353140236114996e-11,
+      "old_recent_cos_difference": 8.401210283004446e-11
+    },
+    "4": {
+      "negative_mass_difference_width_00625": 7.448337058235666e-09,
+      "old_recent_cos_difference": 1.1025247381724057e-10
+    }
+  },
+  "provenance": {
+    "source_v18_11_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_11_verified_members": 25,
+    "source_v18_10_sha256": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "v18_10_verified_members": 27,
+    "v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_verified_members": 17,
+    "v18_10_label": "v18.10",
+    "v18_10_server_ode_replay": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    },
+    "source_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_12_members_verified": 18,
+    "v18_12_status": "NO_INTRINSIC_MECHANICAL_METRIC_OR_NONLINEAR_CONSTRAINT_CERTIFIED",
+    "v18_12_input_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_13_original_sha256": "3968e63515e98b60616ad710d3472932b7f0b1134e5245d464be1f8124a59198",
+    "v18_13_verified_members": 23,
+    "v18_13_status": "NUMERICAL_LOCAL_ORIENTATION_PERSISTENCE_GAUGE_DECLARED",
+    "v18_13_nested_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_14_original_sha256": "6e3f5b31ee2b42c6d40c3933613cb8e0103fa3fd41f87e9629349126cf6be25a",
+    "v18_14_verified_members": 24,
+    "v18_14_status": "HISTORY_WINDOW_DIRECTIONAL_ECHO_NUMERIC_GAUGE_DECLARED",
+    "v18_14_events": [
+      2.625653076601633,
+      3.9496097675037007,
+      5.560114949222021,
+      6.958293256917203
+    ]
+  },
+  "warnings": [
+    "Every age slab is an additive partition of one fixed, already observed co-moving source history; the ODE was not altered or re-integrated.",
+    "Norms, dot products, signed reinforcement/opposition, cancellation fraction, angular stabilization horizons and ages of echo depend on declared Euclidean metric.",
+    "Age-bin refinement convergence is checked against changes in partition-dependent interference metrics and independently integrated source g; additive closure alone is an algebraic identity, not a convergence proof.",
+    "The PCHIP of A and the PCHIP of g are separately archived interpolants: independent quadrature differences measure consistency but need not vanish identically.",
+    "A negative signed slab does not mean negative physical energy. No material metric, phase-fixed physical constraint manifold or constitutive hysteresis is certified.",
+    "Only four event anchors from the earlier declared metric; no claim of universal max/min family behavior."
+  ]
+}

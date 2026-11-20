@@ -1,0 +1,4 @@
+# Python >= 3.10 (3.13 preferred on the user's server)
+numpy>=1.24
+scipy>=1.9
+matplotlib>=3.6

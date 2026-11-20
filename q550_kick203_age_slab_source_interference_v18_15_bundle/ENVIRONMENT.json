@@ -1,0 +1,9 @@
+{
+ "audit": "Q550 v18.15 Age-Slab Source Interference and Echo Localization",
+ "python": "3.10+ (3.13 preferred)",
+ "requirements": ["numpy>=1.24", "scipy>=1.9", "matplotlib>=3.6"],
+ "source": "authenticated original Q550 v18.14 server sendback and nested ODE source genealogy",
+ "metric": "Euclidean initial co-moving 10D diagnostic, not certified physical metric",
+ "ode_reintegration": false,
+ "bundle_zip_layout": "exactly one top-level directory matching the v18.15 bundle name"
+}

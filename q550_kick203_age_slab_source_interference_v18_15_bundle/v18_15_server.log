@@ -1,0 +1,48 @@
+test_coordinates_preserve_linear_identity (test_age_slabs.TestAgeSlabs.test_coordinates_preserve_linear_identity) ... ok
+test_full_sum_independent_of_resolution (test_age_slabs.TestAgeSlabs.test_full_sum_independent_of_resolution) ... ok
+test_metric_dependence_of_slabs (test_age_slabs.TestAgeSlabs.test_metric_dependence_of_slabs) ... ok
+test_negative_source_slab_can_oppose (test_age_slabs.TestAgeSlabs.test_negative_source_slab_can_oppose) ... ok
+test_old2_recent2_split (test_age_slabs.TestAgeSlabs.test_old2_recent2_split) ... ok
+test_partition_covers_exact_age (test_age_slabs.TestAgeSlabs.test_partition_covers_exact_age) ... ok
+test_vector_and_pairwise_closure (test_age_slabs.TestAgeSlabs.test_vector_and_pairwise_closure) ... ok
+test_zero_vector_rejected (test_age_slabs.TestAgeSlabs.test_zero_vector_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.080s
+
+OK
+{
+  "status": "SOURCE_AGE_INTERFERENCE_NUMERIC_GAUGE_DECLARED",
+  "events": [
+    {
+      "i": 1,
+      "negative_mass_025": 0.3630993945296542,
+      "negative_mass_00625": 0.3630993945296542,
+      "old_recent_cos_h2": -0.5005688369016615,
+      "h10_00625": 1.25
+    },
+    {
+      "i": 2,
+      "negative_mass_025": 0.3310435229262062,
+      "negative_mass_00625": 0.3310435229262062,
+      "old_recent_cos_h2": -0.5334349513513458,
+      "h10_00625": 2.6875
+    },
+    {
+      "i": 3,
+      "negative_mass_025": 10.823306886888867,
+      "negative_mass_00625": 10.966982172494916,
+      "old_recent_cos_h2": 0.15083596205798377,
+      "h10_00625": 3.875
+    },
+    {
+      "i": 4,
+      "negative_mass_025": 4.568037909661735,
+      "negative_mass_00625": 4.791781062293401,
+      "old_recent_cos_h2": -0.725536758645298,
+      "h10_00625": 5.5625
+    }
+  ],
+  "max_tolerance_event_drift": 2.8414248731678526e-10
+}
+Verified sendback: /root/elab1/hysteresis/q550_kick203_age_slab_source_interference_v18_15_sendback.zip members: 29
