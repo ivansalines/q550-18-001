@@ -1,0 +1,20 @@
+{
+  "README.md": "fd3e1bb0fe24f849c2cb6881fefe5184ae02cc90df9055582c701eaa25adc585",
+  "SOURCE_MANIFEST.json": "bdeef4fa732db589a58b2bcb899eb8339f8c364c6edfa6d05390be2f908e6708",
+  "requirements.txt": "80a99a0c63fa6519d6eea6737550e563e0520a66120e976256264ba1ec7bc143",
+  "inputs/singular_direction_vectors.csv": "c1047dbd6056da6ed81fd5364fea408150a082357772015f17ed485b090e914e",
+  "inputs/q550_kick203_event_micro_v17_9_sendback.zip": "eb317e8d0602a3e785ddc66e3fedd14d3f2902b12f9a87e3bc2261bf95d5e5ca",
+  "validation/archived_centered_exact_recomposition.csv": "67b799903760c6873a549209e10a407132b7d24529b170d78bee3dd6b71ceda8",
+  "validation/offline_tests.txt": "16f6198ab2b5d7f50e0ec3b52bdec5c3c4c66ed4f9d7a605c1da025940bc0d24",
+  "validation/archived_centered_check.json": "0d528aa0045fdc215303ed5cc65d034d33e2604fc16315b8c96658b04a710cb1",
+  "scripts/run_kick203_one_sided_observer_v18_0.py": "db8c52d9bfd587186f831e74e990c253d63effb4bef75c07ce37dbb42e98b07b",
+  "scripts/frame_geometry.py": "595eb81293d9536d15da369c0a0914a0f1ba8d837d21b0e559774f858d8f7e1b",
+  "scripts/run_on_server.sh": "4349e657e7d1a851ad899675948198bcd447864797f0cb23c6b03d50b5de2c95",
+  "scripts/pack_sendback_v18_0.py": "76d3098156336ff75791a3f5e26cef3a88634eaab39652f26497f10f06e468dd",
+  "tests/test_one_sided_frame.py": "0453159162746d7849c6853ae87c7324a63e3dff5a5cde508f7a0fc70e66a8d9",
+  "reference/history_bridge_v16.py": "f0945d39a07980555a7ae79068cca78be425a7c34bd6116f22ecdf0d267c2835",
+  "reference/q550_state_impulse_response_v13.py": "28bb3562a8b6e32b9b1c6f4bd544ade6afc75b6a5758e24fe671a85df28c7506",
+  "reference/run_kick203_event_micro_v17_9.py": "2c0b1b9ce9cf301beca693b7d93e3887c767f67e8a921cdbab9cbd6ad24da55d",
+  "reference/audit_kick203_event_micro_v17_9.py": "44aff9a0d3185331aac6401c8b3604ceea2eb244cc2b1a197b7f4feea14587f9",
+  "reference/observer_math_v17.py": "3b57dbc6c8d70a30882ddda18904b9b6d31c9f9663bee0dfd093a72cade85ec6"
+}

@@ -1,0 +1,33 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+completed standard 1e-08 hhalf n 47 regression 0.0
+completed standard 1e-08 hquarter n 47 regression 0.0
+completed standard 3e-08 hhalf n 47 regression 0.0
+completed standard 3e-08 hquarter n 47 regression 0.0
+completed tight 1e-08 hhalf n 47 regression 0.0
+completed tight 1e-08 hquarter n 47 regression 0.0
+completed tight 3e-08 hhalf n 47 regression 0.0
+completed tight 3e-08 hquarter n 47 regression 0.0
+{
+  "version": "2026-10-16-Q550-kick203-centered-vs-one-sided-observer-v18.0",
+  "crossing_xi": 210.8611366031777,
+  "selected_points": 47,
+  "full_archive_points": 320,
+  "heights_support_s": {
+    "hhalf": 0.0008897569444444444,
+    "hquarter": 0.0004448784722222222
+  },
+  "centered_support_halfwidth_xi": {
+    "hhalf": 0.00694262987960236,
+    "hquarter": 0.00347131493980118
+  },
+  "stencil_halfwidth_ratio": 2.0,
+  "max_central_frame_difference": 0.0,
+  "max_central_projector_difference": 0.0,
+  "max_central_shapley_difference": 0.0,
+  "max_shapley_closure": 6.261997345294087e-17,
+  "source_zip_sha": "09702bc06c5c927ee7656a0fcd510ffddbabdccbe5733ecc1e64f1acd67f8f0d",
+  "reading": "B-only centered/forward/backward/non-straddling comparison reuses the same archived full11D M and section-A frames. The non-straddling observer is backward for xi<xiB, forward for xi>xiB and undefined at xiB. Shapley is off-shell. No material torsion or physical impulse can be inferred from an observer-dependent band."
+}

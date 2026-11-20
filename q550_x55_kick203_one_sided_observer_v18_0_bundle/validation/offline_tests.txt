@@ -1,0 +1,9 @@
+
+test_agree_for_linear_unit_tangent (test_one_sided_frame.TestOneSidedFrame.test_agree_for_linear_unit_tangent) ... ok
+test_shapley_11d_closure (test_one_sided_frame.TestOneSidedFrame.test_shapley_11d_closure) ... ok
+test_transverse_nonlinear_shift (test_one_sided_frame.TestOneSidedFrame.test_transverse_nonlinear_shift) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.005s
+
+OK
