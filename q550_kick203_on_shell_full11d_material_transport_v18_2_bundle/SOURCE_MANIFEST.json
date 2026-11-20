@@ -1,0 +1,10 @@
+{
+  "version": "2026-10-16-v18.2",
+  "sha256": {
+    "v18_1": "7a2af34b93792bd64b59ec5c5a7cb7a4f3273f03690284313149c653ac75a8a8",
+    "singular_vectors": "c1047dbd6056da6ed81fd5364fea408150a082357772015f17ed485b090e914e"
+  },
+  "external_original_source_sha256": "09702bc06c5c927ee7656a0fcd510ffddbabdccbe5733ecc1e64f1acd67f8f0d",
+  "event_xi": 210.8611366031777,
+  "method": "full11D same-support-time material central difference plus variational transport"
+}

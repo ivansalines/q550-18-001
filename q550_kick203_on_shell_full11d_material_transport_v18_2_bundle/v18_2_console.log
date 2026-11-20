@@ -1,0 +1,28 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+computed standard eps=1e-08  material physical states A/B: 47  constraints=NOT_CERTIFIED_OFF_CONSTRAINT  identity=2.50e-14
+computed standard eps=3e-08  material physical states A/B: 47  constraints=NOT_CERTIFIED_OFF_CONSTRAINT  identity=2.65e-14
+computed tight eps=1e-08  material physical states A/B: 47  constraints=NOT_CERTIFIED_OFF_CONSTRAINT  identity=1.67e-14
+computed tight eps=3e-08  material physical states A/B: 47  constraints=NOT_CERTIFIED_OFF_CONSTRAINT  identity=1.57e-14
+{
+  "version": "2026-10-16-Q550-kick203-on-flow-material-transport-v18.2",
+  "s0": 693.6129771367538,
+  "xi_B_crossing": 210.8611366031777,
+  "sample_count": 47,
+  "previous_sample_count": 47,
+  "constraint_module": null,
+  "status": "FLOW_ON_SHELL_ONLY_WITHOUT_CONSTRAINT_CERTIFICATE",
+  "max_discrete_identity_closure": 2.6531910488599702e-14,
+  "max_geometry_step_refinement_fro": 3.8540489973334767e-05,
+  "max_causal_B_response_before_source": 0.0,
+  "invariant_conservation_gate": 1e-10,
+  "limitations": [
+    "Support 11D and dlocal descriptor 11D are different observables; no raw vector subtraction.",
+    "The two-plane moving frame is a baseline Euclidean gauge, not an established SO(11) body symmetry.",
+    "Identity closure is algebraic and does not by itself prove real torsion or a flip.",
+    "Without an independent invariant callback, impulse points are off-constraint diagnostics. A callback passing at sampled times is not an interval enclosure certificate.",
+    "The B-before-source material signal vanishes by causal restart construction; not evidence of delayed force."
+  ]
+}

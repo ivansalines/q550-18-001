@@ -1,0 +1,15 @@
+PASS embedded SHA256 q550_kick203_second_order_observer_v18_1_sendback.zip 7a2af34b93792bd64b59ec5c5a7cb7a4f3273f03690284313149c653ac75a8a8
+PASS embedded SHA256 singular_direction_vectors.csv c1047dbd6056da6ed81fd5364fea408150a082357772015f17ed485b090e914e
+PASS reference samples 47 xi_B 210.8611366031777
+PASS v18.1 lineage integrity and scalar crossing
+NOTE full material ODE replay requires original external server dependencies in README
+test_degeneracy_guard (test_geometry.MaterialGeometryTests.test_degeneracy_guard) ... ok
+test_frame_curvature (test_geometry.MaterialGeometryTests.test_frame_curvature) ... ok
+test_no_physical_flip_from_rigid_turn (test_geometry.MaterialGeometryTests.test_no_physical_flip_from_rigid_turn) ... ok
+test_rotor (test_geometry.MaterialGeometryTests.test_rotor) ... ok
+test_transport_and_identity (test_geometry.MaterialGeometryTests.test_transport_and_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK

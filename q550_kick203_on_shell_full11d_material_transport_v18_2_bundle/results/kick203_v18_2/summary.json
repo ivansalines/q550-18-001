@@ -1,0 +1,224 @@
+{
+  "version": "2026-10-16-Q550-kick203-on-flow-material-transport-v18.2",
+  "s0": 693.6129771367538,
+  "xi_B_crossing": 210.8611366031777,
+  "sample_count": 47,
+  "previous_sample_count": 47,
+  "constraint_module": null,
+  "status": "FLOW_ON_SHELL_ONLY_WITHOUT_CONSTRAINT_CERTIFICATE",
+  "max_discrete_identity_closure": 2.6531910488599702e-14,
+  "max_geometry_step_refinement_fro": 3.8540489973334767e-05,
+  "max_causal_B_response_before_source": 0.0,
+  "invariant_conservation_gate": 1e-10,
+  "experiments": [
+    {
+      "tolerance": "standard",
+      "eps_rel": 1e-08,
+      "amp_absolute": 6.061832545139451e-05,
+      "source_s": 693.6129771367538,
+      "kick_vector_rank": 1,
+      "kick_initial_constraint_error": null,
+      "constraint_drift_max": null,
+      "constraint_status": "NOT_CERTIFIED_OFF_CONSTRAINT",
+      "pre_restart_B_points": 22,
+      "worst_discrete_identity_error": 2.5023749844933407e-14,
+      "geometry_step_refinement_fro": 3.8540489973334767e-05,
+      "geometry_diagnostics": {
+        "rank1_base": {
+          "steps": 179,
+          "rank": 1,
+          "max_principal_step_deg": 0.012678962990418841,
+          "min_curvature": 0.020221493921175608,
+          "max_orthogonality_error": 6.010607210322518e-15
+        },
+        "rank1_refined": {
+          "steps": 287,
+          "rank": 1,
+          "max_principal_step_deg": 0.006374687855191397,
+          "min_curvature": 0.02022051016089955,
+          "max_orthogonality_error": 1.0679517806935523e-14
+        },
+        "rank2_base": {
+          "steps": 179,
+          "rank": 2,
+          "max_principal_step_deg": 8.626576859734307,
+          "min_curvature": 0.020221493921175608,
+          "max_orthogonality_error": 6.310806998794964e-15
+        },
+        "rank2_refined": {
+          "steps": 287,
+          "rank": 2,
+          "max_principal_step_deg": 4.336767615330552,
+          "min_curvature": 0.02022051016089955,
+          "max_orthogonality_error": 1.0359971154942695e-14
+        }
+      }
+    },
+    {
+      "tolerance": "standard",
+      "eps_rel": 3e-08,
+      "amp_absolute": 0.0001818549763541835,
+      "source_s": 693.6129771367538,
+      "kick_vector_rank": 1,
+      "kick_initial_constraint_error": null,
+      "constraint_drift_max": null,
+      "constraint_status": "NOT_CERTIFIED_OFF_CONSTRAINT",
+      "pre_restart_B_points": 22,
+      "worst_discrete_identity_error": 2.6531910488599702e-14,
+      "geometry_step_refinement_fro": 3.8540489973334767e-05,
+      "geometry_diagnostics": {
+        "rank1_base": {
+          "steps": 179,
+          "rank": 1,
+          "max_principal_step_deg": 0.012678962990418841,
+          "min_curvature": 0.020221493921175608,
+          "max_orthogonality_error": 6.010607210322518e-15
+        },
+        "rank1_refined": {
+          "steps": 287,
+          "rank": 1,
+          "max_principal_step_deg": 0.006374687855191397,
+          "min_curvature": 0.02022051016089955,
+          "max_orthogonality_error": 1.0679517806935523e-14
+        },
+        "rank2_base": {
+          "steps": 179,
+          "rank": 2,
+          "max_principal_step_deg": 8.626576859734307,
+          "min_curvature": 0.020221493921175608,
+          "max_orthogonality_error": 6.310806998794964e-15
+        },
+        "rank2_refined": {
+          "steps": 287,
+          "rank": 2,
+          "max_principal_step_deg": 4.336767615330552,
+          "min_curvature": 0.02022051016089955,
+          "max_orthogonality_error": 1.0359971154942695e-14
+        }
+      }
+    },
+    {
+      "tolerance": "tight",
+      "eps_rel": 1e-08,
+      "amp_absolute": 6.061832545140305e-05,
+      "source_s": 693.6129771367538,
+      "kick_vector_rank": 1,
+      "kick_initial_constraint_error": null,
+      "constraint_drift_max": null,
+      "constraint_status": "NOT_CERTIFIED_OFF_CONSTRAINT",
+      "pre_restart_B_points": 22,
+      "worst_discrete_identity_error": 1.6741282235764722e-14,
+      "geometry_step_refinement_fro": 3.8540472498688335e-05,
+      "geometry_diagnostics": {
+        "rank1_base": {
+          "steps": 179,
+          "rank": 1,
+          "max_principal_step_deg": 0.012678963903056787,
+          "min_curvature": 0.020221495501350207,
+          "max_orthogonality_error": 6.596263354047465e-15
+        },
+        "rank1_refined": {
+          "steps": 287,
+          "rank": 1,
+          "max_principal_step_deg": 0.006374688487852318,
+          "min_curvature": 0.020220511753294094,
+          "max_orthogonality_error": 1.1041558694824995e-14
+        },
+        "rank2_base": {
+          "steps": 179,
+          "rank": 2,
+          "max_principal_step_deg": 8.626576838814314,
+          "min_curvature": 0.020221495501350207,
+          "max_orthogonality_error": 1.0544930399404603e-14
+        },
+        "rank2_refined": {
+          "steps": 287,
+          "rank": 2,
+          "max_principal_step_deg": 4.336767635168109,
+          "min_curvature": 0.020220511753294094,
+          "max_orthogonality_error": 1.1071988272159681e-14
+        }
+      }
+    },
+    {
+      "tolerance": "tight",
+      "eps_rel": 3e-08,
+      "amp_absolute": 0.00018185497635420913,
+      "source_s": 693.6129771367538,
+      "kick_vector_rank": 1,
+      "kick_initial_constraint_error": null,
+      "constraint_drift_max": null,
+      "constraint_status": "NOT_CERTIFIED_OFF_CONSTRAINT",
+      "pre_restart_B_points": 22,
+      "worst_discrete_identity_error": 1.570330731321081e-14,
+      "geometry_step_refinement_fro": 3.8540472498688335e-05,
+      "geometry_diagnostics": {
+        "rank1_base": {
+          "steps": 179,
+          "rank": 1,
+          "max_principal_step_deg": 0.012678963903056787,
+          "min_curvature": 0.020221495501350207,
+          "max_orthogonality_error": 6.596263354047465e-15
+        },
+        "rank1_refined": {
+          "steps": 287,
+          "rank": 1,
+          "max_principal_step_deg": 0.006374688487852318,
+          "min_curvature": 0.020220511753294094,
+          "max_orthogonality_error": 1.1041558694824995e-14
+        },
+        "rank2_base": {
+          "steps": 179,
+          "rank": 2,
+          "max_principal_step_deg": 8.626576838814314,
+          "min_curvature": 0.020221495501350207,
+          "max_orthogonality_error": 1.0544930399404603e-14
+        },
+        "rank2_refined": {
+          "steps": 287,
+          "rank": 2,
+          "max_principal_step_deg": 4.336767635168109,
+          "min_curvature": 0.020220511753294094,
+          "max_orthogonality_error": 1.1071988272159681e-14
+        }
+      }
+    }
+  ],
+  "source_provenance": {
+    "audit": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_mobius_monodromy_audit.py",
+      "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864"
+    },
+    "support": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_support_ode_interval_residual_pilot_v1.py",
+      "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+    },
+    "tube": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+      "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+    },
+    "orbit": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/q_550_orbit.npz",
+      "sha256": "537f6326b841f36f963be3736b1034724041994a07f9ac9e5377de6c99048f34"
+    },
+    "events": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/inputs/presence_metrology_events.csv",
+      "sha256": "bc18df957b9dc311978584132b9cf0690e30a9576a306bda6f189a4ba33df892"
+    },
+    "shared": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/support_q550_shared_generator_arc_cocycle_cell49_v1_pilot.json",
+      "sha256": "be9ad38fc157073efeb95890588ead7ff47e2a8a7e381bba1cdea3d5682567aa"
+    },
+    "x500": {
+      "path": "/root/elab1/hysteresis/q550_x55_multiloop_transport_runner_v1_1_bundle/q550_x55_multiloop_transport_x50000_rebased_checked_v1/q550_x55_multiloop_transport_law_v2_bundle.zip",
+      "sha256": "09702bc06c5c927ee7656a0fcd510ffddbabdccbe5733ecc1e64f1acd67f8f0d"
+    }
+  },
+  "limitations": [
+    "Support 11D and dlocal descriptor 11D are different observables; no raw vector subtraction.",
+    "The two-plane moving frame is a baseline Euclidean gauge, not an established SO(11) body symmetry.",
+    "Identity closure is algebraic and does not by itself prove real torsion or a flip.",
+    "Without an independent invariant callback, impulse points are off-constraint diagnostics. A callback passing at sampled times is not an interval enclosure certificate.",
+    "The B-before-source material signal vanishes by causal restart construction; not evidence of delayed force."
+  ]
+}

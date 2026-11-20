@@ -1,0 +1,74 @@
+{
+  "SOURCE_MANIFEST.json": {
+    "sha256": "b0c2d41364087664f640f8df45b76f566e1714606b3fc7ad8cf29ec149f871ad",
+    "size": 461
+  },
+  "requirements.txt": {
+    "sha256": "80a99a0c63fa6519d6eea6737550e563e0520a66120e976256264ba1ec7bc143",
+    "size": 30
+  },
+  "README.md": {
+    "sha256": "fd7c9ef1c7288730fc8396a8bdb1412089fba56a88897e12edc8a87662e8efbf",
+    "size": 6706
+  },
+  "LOCAL_TEST_VERSIONS.json": {
+    "sha256": "5f9b45ee894fba8099a93f8a41984bc0d157fc035c1107c09fc2dc79e9a1d447",
+    "size": 113
+  },
+  "tests/local_validation.log": {
+    "sha256": "ad02825dff580accbd09cf496af4189c5b4aa65c5898644d522a6a1f560b217c",
+    "size": 1005
+  },
+  "tests/test_geometry.py": {
+    "sha256": "9fc5d0d2d0f831980a66ab98c8a665eb0311911bb8828b3e4556d5d8b90a9166",
+    "size": 2953
+  },
+  "inputs/q550_kick203_second_order_observer_v18_1_sendback.zip": {
+    "sha256": "7a2af34b93792bd64b59ec5c5a7cb7a4f3273f03690284313149c653ac75a8a8",
+    "size": 18963107
+  },
+  "inputs/singular_direction_vectors.csv": {
+    "sha256": "c1047dbd6056da6ed81fd5364fea408150a082357772015f17ed485b090e914e",
+    "size": 119423
+  },
+  "reference/observer_math_v17.py": {
+    "sha256": "3b57dbc6c8d70a30882ddda18904b9b6d31c9f9663bee0dfd093a72cade85ec6",
+    "size": 6132
+  },
+  "reference/history_bridge_v16.py": {
+    "sha256": "f0945d39a07980555a7ae79068cca78be425a7c34bd6116f22ecdf0d267c2835",
+    "size": 22188
+  },
+  "reference/q550_state_impulse_response_v13.py": {
+    "sha256": "28bb3562a8b6e32b9b1c6f4bd544ade6afc75b6a5758e24fe671a85df28c7506",
+    "size": 19558
+  },
+  "reference/frame_geometry.py": {
+    "sha256": "595eb81293d9536d15da369c0a0914a0f1ba8d837d21b0e559774f858d8f7e1b",
+    "size": 5701
+  },
+  "reference/run_kick203_second_order_observer_v18_1.py": {
+    "sha256": "46e0317a9c682ef36886ddd63727e1b285221e65bcc58c2476316a48f0ae6bf7",
+    "size": 25850
+  },
+  "scripts/pack_sendback_v18_2.py": {
+    "sha256": "dc0b246e52a3cce6148708deab447fa2c9157d118aa195df44ee56473bbce4de",
+    "size": 1366
+  },
+  "scripts/preflight_v18_2.py": {
+    "sha256": "4c0ec445ad5c622c535871090f3312c2d67945543b4d22cb1d820bfb5868183a",
+    "size": 1719
+  },
+  "scripts/run_kick203_material_transport_v18_2.py": {
+    "sha256": "362b2e4f3b0e66fbab9124c0b25dd964ee7c1e5b43966108225dd28e96ce3fbb",
+    "size": 24735
+  },
+  "scripts/material_geometry.py": {
+    "sha256": "58954096d13edcc642ee6fae3923fd40d2a180871f856be524ce0c471d735e17",
+    "size": 5452
+  },
+  "scripts/run_on_server.sh": {
+    "sha256": "0dc76367a21d32c808b73c087aac0e1b1a5b3f728625ae1f7cad5c86359c2275",
+    "size": 450
+  }
+}
