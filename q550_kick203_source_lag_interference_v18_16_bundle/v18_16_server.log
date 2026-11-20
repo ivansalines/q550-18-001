@@ -1,0 +1,38 @@
+test_additive_source_closure (test_lag_kernel.TestKernel.test_additive_source_closure) ... ok
+test_alternating_source_negative_lag_one (test_lag_kernel.TestKernel.test_alternating_source_negative_lag_one) ... ok
+test_bounded (test_lag_kernel.TestKernel.test_bounded) ... ok
+test_constant_source_has_unit_kernel (test_lag_kernel.TestKernel.test_constant_source_has_unit_kernel) ... ok
+test_coordinate_rescaling_with_metric (test_lag_kernel.TestKernel.test_coordinate_rescaling_with_metric) ... ok
+test_metric_project_exact (test_lag_kernel.TestKernel.test_metric_project_exact) ... ok
+test_support_rejection (test_lag_kernel.TestKernel.test_support_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.013s
+
+OK
+{
+  "status": "FROZEN_SOURCE_LAG_OBSERVER_AUDIT",
+  "event_2_4": [
+    {
+      "event": 2,
+      "xi": 3.9496097675037007,
+      "kernel_lag_1_5": -0.6957253085644417,
+      "strongest_lag_in_1to2": 1.5,
+      "strongest_lag_kernel": -0.6957253085644417
+    },
+    {
+      "event": 4,
+      "xi": 6.958293256917203,
+      "kernel_lag_1_5": -0.8020010842879342,
+      "strongest_lag_in_1to2": 1.5,
+      "strongest_lag_kernel": -0.8020010842879342
+    }
+  ],
+  "max_tight_drift": 1.7504193927653233e-10
+}
+SHA256 30 files
+Traceback (most recent call last):
+  File "/root/elab1/hysteresis/q550_kick203_source_lag_interference_v18_16_bundle/scripts/pack_sendback.py", line 8, in <module>
+    if hashlib.sha256((root/rel).read_bytes()).hexdigest()!=dig:raise RuntimeError('Stale/mismatched SHA256 for '+rel)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Stale/mismatched SHA256 for v18_16_server.log
