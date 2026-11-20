@@ -1,0 +1,8 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "q550_kick203_model_blind_predictive_closure_v18_23_bundle/scripts/blind_math.py": "f6723baf958d980ffeaefe4e6b8d69fbc32b3657e8ce16c325eb7accb04dbc12",
+    "q550_kick203_model_blind_predictive_closure_v18_23_bundle/tests/test_blind_v18_23.py": "d78dd94e8138859cef44c5361ff585e35f5eadcdd8e0517bd30c9029c4d1a98a",
+    "q550_kick203_model_blind_predictive_closure_v18_23_bundle/HOTFIX_v18_23_1_README.md": "b36f9569ae9b55b55dab50e2f7cdc0e20a7973b68cef7548f33776592bdcdbaf"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "version": "v18.23",
+  "status": "ORIGINAL_Q550_MODEL_BLIND_NONLINEAR_TEST_COMPLETED",
+  "source": {
+    "original_q550_pinned_sources": {
+      "audit": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_mobius_monodromy_audit.py",
+        "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864"
+      },
+      "support": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_support_ode_interval_residual_pilot_v1.py",
+        "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+      },
+      "tube": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+        "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+      },
+      "orbit": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/q_550_orbit.npz",
+        "sha256": "537f6326b841f36f963be3736b1034724041994a07f9ac9e5377de6c99048f34"
+      },
+      "events": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/inputs/presence_metrology_events.csv",
+        "sha256": "bc18df957b9dc311978584132b9cf0690e30a9576a306bda6f189a4ba33df892"
+      },
+      "shared": {
+        "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/support_q550_shared_generator_arc_cocycle_cell49_v1_pilot.json",
+        "sha256": "be9ad38fc157073efeb95890588ead7ff47e2a8a7e381bba1cdea3d5682567aa"
+      }
+    },
+    "parent_sha256": "f3f5769759de74bc263deaafc7493e453fa1f76273334d976c0ed15fdf141f71",
+    "parent_original_nonlinear_status": "ORIGINAL_Q550_RAW_SAMPLE_NONLINEAR_VALIDATION_COMPLETED",
+    "sampling_window": "xi 3.5 ... 5.0, match xi 4",
+    "train_eps": 1e-05,
+    "validation_eps": 1e-05,
+    "heldout_eps": 3e-06,
+    "train_val_test_independent_directions": true,
+    "nonlinear_trajectories": 168,
+    "probes": "Random 10D perturbations + matched hidden seeds; all generated from original ODE"
+  },
+  "observer_windows": [
+    -0.5,
+    -0.46875,
+    -0.4375,
+    -0.40625,
+    -0.375,
+    -0.34375,
+    -0.3125,
+    -0.28125,
+    -0.25,
+    -0.21875,
+    -0.1875,
+    -0.15625,
+    -0.125,
+    -0.09375,
+    -0.0625,
+    -0.03125,
+    0.0
+  ],
+  "future_horizons": [
+    0.2,
+    0.5,
+    1.0
+  ],
+  "noise_sigma_normalized": [
+    0.0,
+    0.0001,
+    0.001
+  ],
+  "n_train": 96,
+  "n_val": 32,
+  "n_test_random": 36,
+  "n_test_matched_hidden": 1,
+  "train_test_contamination": "NONE_BY_CONSTRUCTION",
+  "predictor_inputs": [
+    "observed current sample",
+    "observed past windows"
+  ],
+  "predictor_target": "future reduced observation only",
+  "predictor_access_to_ODE_Jacobian_cocycle_or_true_state": false,
+  "reference_oracle_separate_from_predictor": true,
+  "singular_spectra": {
+    "material3_0.0": [
+      17.269442123715827,
+      14.020175092014592,
+      11.607957798411416,
+      4.458754849644603,
+      4.169999624885995,
+      1.4110912247465288,
+      0.5614606701271142,
+      0.2487760624314347,
+      0.018133894841461228,
+      0.008229556258333949,
+      1.8441093822418336e-06,
+      1.334501268395831e-06,
+      7.414252205421255e-07,
+      4.692882624276557e-07,
+      2.987190980026544e-07
+    ],
+    "material3_0.0001": [
+      17.26956180053541,
+      14.020066799048932,
+      11.607778083234448,
+      4.45888252235975,
+      4.170039089127333,
+      1.4111666197370396,
+      0.5613711144769126,
+      0.24872946440573396,
+      0.018224581004967075,
+      0.008281610627002299,
+      0.001558641006799294,
+      0.0014152844454724516,
+      0.0013785665627357967,
+      0.0013582181021103638,
+      0.001340856978577921
+    ],
+    "material3_0.001": [
+      17.2683909715475,
+      14.020671506580916,
+      11.609536473556984,
+      4.45724908157629,
+      4.169756479100248,
+      1.410938792436117,
+      0.5614924110325105,
+      0.24969670488785786,
+      0.022088604135740028,
+      0.015979733805380085,
+      0.015228181901655246,
+      0.014420538935838034,
+      0.0138064801190773,
+      0.013502798696936482,
+      0.013167071560485376
+    ],
+    "raw4_0.0": [
+      16.064335411728656,
+      14.261392339287609,
+      12.113156068144804,
+      10.2204885684701,
+      0.6406563991176933,
+      0.11718836355727336,
+      0.016728968815513834,
+      0.014020141955561038,
+      0.0029626284031498656,
+      0.002035694967102345,
+      3.642200389303142e-06,
+      8.306405050910418e-07,
+      7.168300920657636e-07,
+      5.508156977956825e-07,
+      4.6968919204500905e-07
+    ],
+    "raw4_0.0001": [
+      16.064302779786484,
+      14.261464678784558,
+      12.113273131983203,
+      10.220342445097405,
+      0.6405353218540936,
+      0.11714148078374811,
+      0.016728216624945294,
+      0.014141001738890019,
+      0.0032809362650183284,
+      0.002407233011754572,
+      0.0016755723381864053,
+      0.001572069517832854,
+      0.001561335536381622,
+      0.0015245529561124702,
+      0.001446240460572872
+    ],
+    "raw4_0.001": [
+      16.061321726301934,
+      14.261725633098228,
+      12.11316376140567,
+      10.220389188288712,
+      0.63951235533217,
+      0.11848112386850386,
+      0.021499033910560003,
+      0.019435080708445508,
+      0.01684754397241741,
+      0.015963242805123373,
+      0.015506673637538364,
+      0.015084342754217578,
+      0.014424825390932136,
+      0.01419893311822117,
+      0.013972728111202905
+    ],
+    "raw6_0.0": [
+      21.22767627736941,
+      16.037258830001097,
+      14.302675865735006,
+      11.738639935247795,
+      10.534460553848193,
+      10.031238325718409,
+      1.450673458546117,
+      0.33258985805818775,
+      0.03616643359004338,
+      0.017478112983776044,
+      3.5220147592387285e-05,
+      1.0417083570143919e-05,
+      6.280899438103411e-06,
+      5.27031899248723e-06,
+      4.342616988919057e-06
+    ],
+    "raw6_0.0001": [
+      21.227628076871582,
+      16.037332059945793,
+      14.30267557159329,
+      11.738682331942032,
+      10.534543006550619,
+      10.03142652878591,
+      1.4507227947503596,
+      0.332609518019845,
+      0.036100585300540285,
+      0.017433856005122244,
+      0.001878347664166603,
+      0.0017559988180157699,
+      0.0017000189263256203,
+      0.00168391281199148,
+      0.0016594231465864508
+    ],
+    "raw6_0.001": [
+      21.22778555568994,
+      16.038284445431756,
+      14.30274427341055,
+      11.739898105954714,
+      10.534257220779622,
+      10.03118586036406,
+      1.4510687446786594,
+      0.3304167762660642,
+      0.03972879434333856,
+      0.02301032681672786,
+      0.01882235025142523,
+      0.01758482183603135,
+      0.01724206625972768,
+      0.01658252411279986,
+      0.016516780889301693
+    ]
+  },
+  "delay_latent_selected_ranks": {
+    "material3_0.0": {
+      "rank": 20,
+      "validation_rmse": 4.519832660232654e-06,
+      "test_rmse": 1.3303657290354107e-05,
+      "explained_train_variance": 0.9999999999999994,
+      "validation_best_rmse": 4.519832660232654e-06,
+      "validation_tie_tolerance": 1e-12,
+      "rank_selection_rule": "lowest_rank_within_validation_numerical_tie",
+      "physical_state_dimension_inferred": false
+    },
+    "material3_0.0001": {
+      "rank": 12,
+      "validation_rmse": 0.0019662248309995976,
+      "test_rmse": 0.0019624368379932986,
+      "explained_train_variance": 0.9999999530948052,
+      "validation_best_rmse": 0.0019662248309995976,
+      "validation_tie_tolerance": 1e-12,
+      "rank_selection_rule": "lowest_rank_within_validation_numerical_tie",
+      "physical_state_dimension_inferred": false
+    },
+    "material3_0.001": {
+      "rank": 10,
+      "validation_rmse": 0.016149307121840165,
+      "test_rmse": 0.016480348687503067,
+      "explained_train_variance": 0.999994688352821,
+      "validation_best_rmse": 0.016149307121840165,
+      "validation_tie_tolerance": 1e-12,
+      "rank_selection_rule": "lowest_rank_within_validation_numerical_tie",
+      "physical_state_dimension_inferred": false
+    },
+    "raw4_0.0": {
+      "rank": 20,
+      "validation_rmse": 1.2518207219485243e-06,
+      "test_rmse": 1.745535523568039e-06,
+      "explained_train_variance": 0.9999999999999994,
+      "validation_best_rmse": 1.2518207219485243e-06,
+      "validation_tie_tolerance": 1e-12,
+      "rank_selection_rule": "lowest_rank_within_validation_numerical_tie",
+      "physical_state_dimension_inferred": false
+    },
+    "raw4_0.0001": {
+      "rank": 15,
+      "validation_rmse": 0.0003921237322110136,
+      "test_rmse": 0.0004601847766691931,
+      "explained_train_variance": 0.9999999445664367,
+      "validation_best_rmse": 0.0003921237322110136,
+      "validation_tie_tolerance": 1e-12,
+      "rank_selection_rule": "lowest_rank_within_validation_numerical_tie",
+      "physical_state_dimension_inferred": false
+    },
+    "raw4_0.001": {
+      "rank": 20,
+      "validation_rmse": 0.002309789066410769,
+      "test_rmse": 0.0026032291241343563,
+      "explained_train_variance": 0.9999961090893068,
+      "validation_best_rmse": 0.002309789066410769,
+      "validation_tie_tolerance": 1e-12,
+      "rank_selection_rule": "lowest_rank_within_validation_numerical_tie",
+      "physical_state_dimension_inferred": false
+    },
+    "raw6_0.0": {
+      "rank": 20,
+      "validation_rmse": 1.145068475022674e-06,
+      "test_rmse": 1.22596046398547e-06,
+      "explained_train_variance": 0.9999999999999989,
+      "validation_best_rmse": 1.145068475022674e-06,
+      "validation_tie_tolerance": 1e-12,
+      "rank_selection_rule": "lowest_rank_within_validation_numerical_tie",
+      "physical_state_dimension_inferred": false
+    },
+    "raw6_0.0001": {
+      "rank": 20,
+      "validation_rmse": 0.00018648678843999792,
+      "test_rmse": 0.00020060146029735978,
+      "explained_train_variance": 0.9999999513048673,
+      "validation_best_rmse": 0.00018648678843999792,
+      "validation_tie_tolerance": 1e-12,
+      "rank_selection_rule": "lowest_rank_within_validation_numerical_tie",
+      "physical_state_dimension_inferred": false
+    },
+    "raw6_0.001": {
+      "rank": 15,
+      "validation_rmse": 0.0017974448107148863,
+      "test_rmse": 0.0017175388296172794,
+      "explained_train_variance": 0.9999940455101982,
+      "validation_best_rmse": 0.0017974448107148863,
+      "validation_tie_tolerance": 1e-12,
+      "rank_selection_rule": "lowest_rank_within_validation_numerical_tie",
+      "physical_state_dimension_inferred": false
+    }
+  },
+  "caveats": [
+    "Data are synthesized by original Q550 ODE (server) or frozen tangent propagator (preflight); not real sensors.",
+    "Noise is synthetic on perturbation observables normalized by perturbation amplitude.",
+    "The fixed material3 sensor is a diagnostic basis identified in earlier ODE-aware work; fitting never uses this basis construction.",
+    "One point of the full hidden state cannot be certified by predictive success alone.",
+    "Model-blind means no physics model at fit/test time, not no prior simulation or calibration.",
+    "Nonlinear state estimates and constitutive hysteresis are NOT inferred."
+  ]
+}

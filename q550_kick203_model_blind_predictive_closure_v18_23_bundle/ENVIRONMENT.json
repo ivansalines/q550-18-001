@@ -1,0 +1,1 @@
+{"version":"v18.23","python":"3.13 preferred; 3.10+ compatible","dependencies":{"numpy":">=1.24","scipy":">=1.10","matplotlib":">=3.7"},"replay_policy":"Pinned original Q550 ODE server-only; frozen original checkpoint preflight may run locally","random_seed":182319}

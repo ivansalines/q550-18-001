@@ -1,0 +1,25 @@
+test_blind_linear_exact (test_blind_v18_23.TestBlind.test_blind_linear_exact) ... ok
+test_features (test_blind_v18_23.TestBlind.test_features) ... ok
+test_independent_shuffle (test_blind_v18_23.TestBlind.test_independent_shuffle) ... ok
+test_noise_level_zero (test_blind_v18_23.TestBlind.test_noise_level_zero) ... ok
+test_noise_never_in_target (test_blind_v18_23.TestBlind.test_noise_never_in_target) ... ok
+test_prediction_improves_with_informative_history (test_blind_v18_23.TestBlind.test_prediction_improves_with_informative_history) ... ok
+test_predictor_not_using_hidden_ode (test_blind_v18_23.TestBlind.test_predictor_not_using_hidden_ode) ... ok
+test_ridge_selection_on_validation_only (test_blind_v18_23.TestBlind.test_ridge_selection_on_validation_only) ... ok
+test_triple_split_disjoint (test_blind_v18_23.TestBlind.test_triple_split_disjoint) ... ok
+test_latent_reconstructs_unseen_linear_futures (test_blind_v18_23.TestDelayLatent.test_latent_reconstructs_unseen_linear_futures) ... FAIL
+test_exact_past_future_grid_and_phase (test_sampling_v18_23.TestNonlinearSampling.test_exact_past_future_grid_and_phase) ... ok
+
+======================================================================
+FAIL: test_latent_reconstructs_unseen_linear_futures (test_blind_v18_23.TestDelayLatent.test_latent_reconstructs_unseen_linear_futures)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/elab1/hysteresis/q550_kick203_model_blind_predictive_closure_v18_23_bundle/tests/test_blind_v18_23.py", line 74, in test_latent_reconstructs_unseen_linear_futures
+    self.assertEqual(best['rank'],10)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: 20 != 10
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.149s
+
+FAILED (failures=1)
