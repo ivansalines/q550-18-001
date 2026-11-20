@@ -1,0 +1,49 @@
+test_constant_derivatives (test_jet_math.JetMathTests.test_constant_derivatives) ... ok
+test_equivariant_change_coordinates (test_jet_math.JetMathTests.test_equivariant_change_coordinates) ... ok
+test_exact_taylor_scalar (test_jet_math.JetMathTests.test_exact_taylor_scalar) ... ok
+test_hidden_seed_jet_conditions (test_jet_math.JetMathTests.test_hidden_seed_jet_conditions) ... ok
+test_jet_rank_example (test_jet_math.JetMathTests.test_jet_rank_example) ... ok
+test_nullspace (test_jet_math.JetMathTests.test_nullspace) ... ok
+test_quadratic_time_coefficients (test_jet_math.JetMathTests.test_quadratic_time_coefficients) ... ok
+test_rank (test_jet_math.JetMathTests.test_rank) ... ok
+test_stencil_bounds (test_jet_math.JetMathTests.test_stencil_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.005s
+
+OK
+{
+  "status": "FROZEN_ORIGINAL_SERVER_JACOBIAN_JET_PREFLIGHT_NO_FRESH_NONLINEAR_SOLVES",
+  "ranks": {
+    "material3": [
+      3,
+      6,
+      9,
+      10
+    ],
+    "raw4": [
+      4,
+      7,
+      10,
+      10
+    ],
+    "raw6": [
+      6,
+      9,
+      10,
+      10
+    ]
+  },
+  "max_jet_standard_tight_rel": 1.5782767288598107e-09,
+  "max_third_jet_stencil_rel": 1.171810184029179e-09,
+  "probe_count": 7
+}
+{
+  "status": "ORIGINAL_Q550_NONLINEAR_JET_VALIDATION_COMPLETED",
+  "pair_count": 14,
+  "original_jacobian_rel": 9.855323078677572e-07,
+  "max_phase_gap": 0.0,
+  "max_nonlinear_tangent_abs_err": 3.132502275211974e-07
+}
+SHA256 37 immutable files (active logs excluded)
+SEND_BACK /root/elab1/hysteresis/q550_kick203_reduced_jet_hidden_observability_v18_20_sendback.zip

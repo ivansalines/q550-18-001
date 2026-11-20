@@ -1,0 +1,208 @@
+{
+  "version": "v18.20",
+  "status": "ORIGINAL_Q550_NONLINEAR_JET_VALIDATION_COMPLETED",
+  "pinned_sources": {
+    "audit": {
+      "file": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_mobius_monodromy_audit.py",
+      "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864"
+    },
+    "support": {
+      "file": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_support_ode_interval_residual_pilot_v1.py",
+      "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+    },
+    "tube": {
+      "file": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+      "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+    }
+  },
+  "provenance": {
+    "source_v18_11_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_11_verified_members": 25,
+    "source_v18_10_sha256": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "v18_10_verified_members": 27,
+    "v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_verified_members": 17,
+    "v18_10_label": "v18.10",
+    "v18_10_server_ode_replay": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    },
+    "source_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_12_members_verified": 18,
+    "v18_12_status": "NO_INTRINSIC_MECHANICAL_METRIC_OR_NONLINEAR_CONSTRAINT_CERTIFIED",
+    "v18_12_input_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_13_original_sha256": "3968e63515e98b60616ad710d3472932b7f0b1134e5245d464be1f8124a59198",
+    "v18_13_verified_members": 23,
+    "v18_13_status": "NUMERICAL_LOCAL_ORIENTATION_PERSISTENCE_GAUGE_DECLARED",
+    "v18_13_nested_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_14_original_sha256": "6e3f5b31ee2b42c6d40c3933613cb8e0103fa3fd41f87e9629349126cf6be25a",
+    "v18_14_verified_members": 24,
+    "v18_14_status": "HISTORY_WINDOW_DIRECTIONAL_ECHO_NUMERIC_GAUGE_DECLARED",
+    "v18_14_events": [
+      2.625653076601633,
+      3.9496097675037007,
+      5.560114949222021,
+      6.958293256917203
+    ],
+    "v18_15_original_sha256": "ad19c1ab78314d6c87130624d58e8f2c63b747c5099c777d9633bede6feb33cd",
+    "v18_15_verified_members": 29,
+    "v18_15_status": "SOURCE_AGE_INTERFERENCE_NUMERIC_GAUGE_DECLARED",
+    "v18_15_original_root": "q550_kick203_age_slab_source_interference_v18_15_bundle/",
+    "v18_16_original_sha256": "a63944dd2612cdeffb767272965be8b96b45e68d387ce774e50487a27b2b2fa8",
+    "v18_16_manifest_members_verified": 30,
+    "v18_16_original_status": "FROZEN_SOURCE_LAG_OBSERVER_AUDIT",
+    "v18_17_original_sha256": "52509228dc39b746316366ea8b391b1decec9a96621c89ca6a45348acaa84cc4",
+    "v18_17_verified_immutable_members": 31,
+    "v18_17_original_status": "FROZEN_SOURCE_RIDGE_OBSERVER_AUDIT",
+    "server_v18_18_sha256": "144b642e6aa5c4e0509a4a1c3a184cc783d3a0595da3f29776925cacdc0c0732",
+    "server_v18_18_verified_members": 29,
+    "server_v18_18_status": "FROZEN_SOURCE_EXACT_CLOSURE_AND_SURROGATE_AUDIT",
+    "v18_19_original_server_sha256": "cc09cff9db658e15fc94c19613010ecf51e6be589319105f8a8dc43e96853f07",
+    "v18_19_verified_immutable_files": 29,
+    "v18_19_server_status": "NONLINEAR_PAIRED_REDUCED_OBSERVER_DIAGNOSTIC_COMPLETED"
+  },
+  "original_jacobian_relative_error": 9.855323078677572e-07,
+  "original_max_phase_jacobian_row": 0.0,
+  "eps": [
+    3e-06,
+    1e-05
+  ],
+  "rtol": 4e-12,
+  "atol": 5e-13,
+  "max_step_xi": 0.02,
+  "probe_pair_count": 14,
+  "identical_full_state_control_max_gap": 0.0,
+  "maximum_nonlinear_tangent_abs_error": 3.132502275211974e-07,
+  "max_phase_gap": 0.0,
+  "matched_probe_summaries": [
+    {
+      "label": "material3_jet0",
+      "epsilon": 3e-06,
+      "matched_order": 0,
+      "maximum_nonlinear_tangent_error": 2.645798485507171e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 5.1708537878370153e-08,
+      "scaled_gap_at_0_1": 0.3491131107017247
+    },
+    {
+      "label": "material3_jet0",
+      "epsilon": 1e-05,
+      "matched_order": 0,
+      "maximum_nonlinear_tangent_error": 1.5102420955714262e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 2.9264633713100703e-08,
+      "scaled_gap_at_0_1": 0.34911310083571884
+    },
+    {
+      "label": "material3_jet1",
+      "epsilon": 3e-06,
+      "matched_order": 1,
+      "maximum_nonlinear_tangent_error": 1.5577554800218188e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 7.910007715722394e-08,
+      "scaled_gap_at_0_1": 0.016116738069406136
+    },
+    {
+      "label": "material3_jet1",
+      "epsilon": 1e-05,
+      "matched_order": 1,
+      "maximum_nonlinear_tangent_error": 1.0354143246516771e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 1.399472244762212e-08,
+      "scaled_gap_at_0_1": 0.016116787791784725
+    },
+    {
+      "label": "material3_jet2",
+      "epsilon": 3e-06,
+      "matched_order": 2,
+      "maximum_nonlinear_tangent_error": 1.9915765716630808e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 6.969698534181265e-08,
+      "scaled_gap_at_0_1": 0.0002862463312450508
+    },
+    {
+      "label": "material3_jet2",
+      "epsilon": 1e-05,
+      "matched_order": 2,
+      "maximum_nonlinear_tangent_error": 1.9104488536384587e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 4.224087787142463e-08,
+      "scaled_gap_at_0_1": 0.00028621469786722854
+    },
+    {
+      "label": "raw4_jet0",
+      "epsilon": 3e-06,
+      "matched_order": 0,
+      "maximum_nonlinear_tangent_error": 1.7381399773345376e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 4.744299198033073e-08,
+      "scaled_gap_at_0_1": 0.04043915381331876
+    },
+    {
+      "label": "raw4_jet0",
+      "epsilon": 1e-05,
+      "matched_order": 0,
+      "maximum_nonlinear_tangent_error": 8.095728691611891e-08,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 5.8665096419388174e-08,
+      "scaled_gap_at_0_1": 0.04043925991420815
+    },
+    {
+      "label": "raw4_jet1",
+      "epsilon": 3e-06,
+      "matched_order": 1,
+      "maximum_nonlinear_tangent_error": 3.132502275211974e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 1.6193060430751554e-07,
+      "scaled_gap_at_0_1": 0.0033765768559960675
+    },
+    {
+      "label": "raw4_jet1",
+      "epsilon": 1e-05,
+      "matched_order": 1,
+      "maximum_nonlinear_tangent_error": 9.659367044405433e-08,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 4.811904399319515e-09,
+      "scaled_gap_at_0_1": 0.0033764101261742
+    },
+    {
+      "label": "raw6_jet0",
+      "epsilon": 3e-06,
+      "matched_order": 0,
+      "maximum_nonlinear_tangent_error": 2.66702429946649e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 2.66702429946649e-07,
+      "scaled_gap_at_0_1": 0.10603089110011646
+    },
+    {
+      "label": "raw6_jet0",
+      "epsilon": 1e-05,
+      "matched_order": 0,
+      "maximum_nonlinear_tangent_error": 7.579444384077978e-08,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 6.149688931252678e-09,
+      "scaled_gap_at_0_1": 0.10603078721030325
+    },
+    {
+      "label": "raw6_jet1",
+      "epsilon": 3e-06,
+      "matched_order": 1,
+      "maximum_nonlinear_tangent_error": 3.131660483056445e-07,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 1.6184898750513605e-07,
+      "scaled_gap_at_0_1": 0.008946513877258424
+    },
+    {
+      "label": "raw6_jet1",
+      "epsilon": 1e-05,
+      "matched_order": 1,
+      "maximum_nonlinear_tangent_error": 7.431351224533498e-08,
+      "maximum_phase_gap": 0.0,
+      "nonlinear_vs_tangent_at_delta_0_1": 4.895577509315802e-09,
+      "scaled_gap_at_0_1": 0.008946450618390682
+    }
+  ],
+  "interpretation_limit": "Off-constraint jets for a single full-state deterministic ODE and diagnostic projections. Full-rank local tangent observability neither certifies nonlinear global injectivity nor physical hereditary memory."
+}
