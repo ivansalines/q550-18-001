@@ -1,0 +1,56 @@
+{
+  "version": "v18.25",
+  "scope": "frozen",
+  "metadata": {
+    "status": "AUTHENTICATED_FROZEN_TANGENT_PREFLIGHT_ONLY",
+    "original_v18_24_sha256": "e3533b9450ae5af6b1577afc3d21107fd4950306c48eb7b4487146377494ec94",
+    "parent_proof_status": "ORIGINAL_Q550_ENDPOINT_PRESERVED_BLIND_NONLINEAR_VALIDATION_COMPLETED",
+    "model_free_at_calibration_and_prediction": true,
+    "reference_generator": "CubicSpline interpolated authenticated 11D tangent cocycle; material 10D block"
+  },
+  "tested_anchors": [
+    3.5,
+    4.0,
+    4.5
+  ],
+  "calibration_pairs": 32,
+  "calibration_split_for_lag": {
+    "fit": 24,
+    "holdout": 8
+  },
+  "reference_training_n": 96,
+  "reference_validation_n": 32,
+  "test_n": 37,
+  "rank_values": [
+    10,
+    20
+  ],
+  "sigma_values": [
+    0.0,
+    0.0001,
+    0.001
+  ],
+  "transport_methods": [
+    "none",
+    "past_lag",
+    "orthogonal",
+    "lag_orthogonal",
+    "affine_ridge",
+    "broken_pair_orthogonal"
+  ],
+  "rows": 324,
+  "endpoint_fixed_when_past_shifted": true,
+  "calibration_uses_no_future_observations": true,
+  "calibration_known_pair_correspondence": true,
+  "wrong_pair_negative_control": true,
+  "rank_selection_uses_only_reference_validation_futures": true,
+  "shifted_sections_share_training_directions_only_for_calibration": true,
+  "caveats": [
+    "Relative history alignment requires matched calibration identities across sections; this is additional information compared with zero-shot transfer.",
+    "Rank 20 represents predictive coordinates, not 20 physical degrees of freedom.",
+    "Changing xi moves both material posture and clock phase, not a pure phase intervention.",
+    "Off-constraint Q550 perturbations; no privileged metric or constitutive hysteresis certified.",
+    "Synthetic sensor noise in amplitude-normalized observations, not physical measurement noise.",
+    "Parent material3 diagnostic projection was previously designed using the ODE."
+  ]
+}

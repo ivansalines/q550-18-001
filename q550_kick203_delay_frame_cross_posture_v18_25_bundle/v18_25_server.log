@@ -1,0 +1,112 @@
+test_blind_linear_exact (test_blind_v18_23.TestBlind.test_blind_linear_exact) ... ok
+test_features (test_blind_v18_23.TestBlind.test_features) ... ok
+test_independent_shuffle (test_blind_v18_23.TestBlind.test_independent_shuffle) ... ok
+test_noise_level_zero (test_blind_v18_23.TestBlind.test_noise_level_zero) ... ok
+test_noise_never_in_target (test_blind_v18_23.TestBlind.test_noise_never_in_target) ... ok
+test_prediction_improves_with_informative_history (test_blind_v18_23.TestBlind.test_prediction_improves_with_informative_history) ... ok
+test_predictor_not_using_hidden_ode (test_blind_v18_23.TestBlind.test_predictor_not_using_hidden_ode) ... ok
+test_ridge_selection_on_validation_only (test_blind_v18_23.TestBlind.test_ridge_selection_on_validation_only) ... ok
+test_triple_split_disjoint (test_blind_v18_23.TestBlind.test_triple_split_disjoint) ... ok
+test_latent_reconstructs_unseen_linear_futures (test_blind_v18_23.TestDelayLatent.test_latent_reconstructs_unseen_linear_futures) ... ok
+test_meaningful_validation_gain_keeps_rank_20 (test_blind_v18_23.TestLatentRankSelection.test_meaningful_validation_gain_keeps_rank_20) ... ok
+test_rank_scan_never_uses_test_for_selection (test_blind_v18_23.TestLatentRankSelection.test_rank_scan_never_uses_test_for_selection) ... ok
+test_roundoff_tie_chooses_smallest_rank (test_blind_v18_23.TestLatentRankSelection.test_roundoff_tie_chooses_smallest_rank) ... ok
+test_all_anchor_windows_distinct_and_exact (test_new_sampling_v18_24.TestNewNonlinearGrid.test_all_anchor_windows_distinct_and_exact) ... ok
+test_generator_linear_tracer_phase_and_times (test_new_sampling_v18_24.TestNewNonlinearGrid.test_generator_linear_tracer_phase_and_times) ... ok
+test_shifted_test_not_used_for_fit (test_new_sampling_v18_24.TestNewNonlinearGrid.test_shifted_test_not_used_for_fit) ... ok
+test_all_modes_preserve_endpoint (test_robust_v18_24.TestEndpoint.test_all_modes_preserve_endpoint) ... ok
+test_anchors (test_robust_v18_24.TestEndpoint.test_anchors) ... ok
+test_blind_math_has_no_model_operator (test_robust_v18_24.TestEndpoint.test_blind_math_has_no_model_operator) ... ok
+test_endpoint_bit_for_bit (test_robust_v18_24.TestEndpoint.test_endpoint_bit_for_bit) ... ok
+test_global_reverse_invariance_to_ridge (test_robust_v18_24.TestEndpoint.test_global_reverse_invariance_to_ridge) ... ok
+test_latent_rank10_vs20 (test_robust_v18_24.TestEndpoint.test_latent_rank10_vs20) ... ok
+test_noise_not_applied_to_future (test_robust_v18_24.TestEndpoint.test_noise_not_applied_to_future) ... ok
+test_rank_selection_uses_only_val (test_robust_v18_24.TestEndpoint.test_rank_selection_uses_only_val) ... ok
+test_scramble_destroys_timing (test_robust_v18_24.TestEndpoint.test_scramble_destroys_timing) ... ok
+test_scramble_keeps_past_multiset (test_robust_v18_24.TestEndpoint.test_scramble_keeps_past_multiset) ... ok
+test_shared_permutation_is_global_only (test_robust_v18_24.TestEndpoint.test_shared_permutation_is_global_only) ... ok
+test_exact_past_future_grid_and_phase (test_sampling_v18_23.TestNonlinearSampling.test_exact_past_future_grid_and_phase) ... ok
+test_affine_recovers_shear (test_transport_v18_25.Transport.test_affine_recovers_shear) ... ok
+test_equal_present_under_shift_even_with_noise (test_transport_v18_25.Transport.test_equal_present_under_shift_even_with_noise) ... ok
+test_invalid_shape (test_transport_v18_25.Transport.test_invalid_shape) ... ok
+test_lag_and_calibration_do_not_consume_future (test_transport_v18_25.Transport.test_lag_and_calibration_do_not_consume_future) ... ok
+test_latent_gauge_equivariance (test_transport_v18_25.Transport.test_latent_gauge_equivariance) ... ok
+test_orthogonal_map_recovers_rotation (test_transport_v18_25.Transport.test_orthogonal_map_recovers_rotation) ... ok
+test_past_endpoint_exact (test_transport_v18_25.Transport.test_past_endpoint_exact) ... ok
+test_rank20_not_forced_to_10 (test_transport_v18_25.Transport.test_rank20_not_forced_to_10) ... ok
+test_rank_predictor_independent_of_shifted_labels (test_transport_v18_25.Transport.test_rank_predictor_independent_of_shifted_labels) ... ok
+test_temporal_sections (test_transport_v18_25.Transport.test_temporal_sections) ... ok
+test_test_labels_not_in_alignment_functions (test_transport_v18_25.Transport.test_test_labels_not_in_alignment_functions) ... ok
+test_wrong_pair_not_equivalent (test_transport_v18_25.Transport.test_wrong_pair_not_equivalent) ... ok
+test_zero_lag_exact (test_transport_v18_25.Transport.test_zero_lag_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.205s
+
+OK
+frozen material3 sigma 0.0 anchor 3.5 calibrated lag 0.0
+frozen material3 sigma 0.0 anchor 4.0 calibrated lag 0.0
+frozen material3 sigma 0.0 anchor 4.5 calibrated lag 0.0
+frozen material3 sigma 0.0001 anchor 3.5 calibrated lag 0.0
+frozen material3 sigma 0.0001 anchor 4.0 calibrated lag 0.0
+frozen material3 sigma 0.0001 anchor 4.5 calibrated lag 0.0
+frozen material3 sigma 0.001 anchor 3.5 calibrated lag 0.0
+frozen material3 sigma 0.001 anchor 4.0 calibrated lag 0.0
+frozen material3 sigma 0.001 anchor 4.5 calibrated lag 0.0
+frozen raw4 sigma 0.0 anchor 3.5 calibrated lag 0.0
+frozen raw4 sigma 0.0 anchor 4.0 calibrated lag 0.0
+frozen raw4 sigma 0.0 anchor 4.5 calibrated lag 0.0
+frozen raw4 sigma 0.0001 anchor 3.5 calibrated lag 0.0
+frozen raw4 sigma 0.0001 anchor 4.0 calibrated lag 0.0
+frozen raw4 sigma 0.0001 anchor 4.5 calibrated lag 0.0
+frozen raw4 sigma 0.001 anchor 3.5 calibrated lag 0.0
+frozen raw4 sigma 0.001 anchor 4.0 calibrated lag 0.0
+frozen raw4 sigma 0.001 anchor 4.5 calibrated lag 0.0
+frozen raw6 sigma 0.0 anchor 3.5 calibrated lag 0.0
+frozen raw6 sigma 0.0 anchor 4.0 calibrated lag 0.0
+frozen raw6 sigma 0.0 anchor 4.5 calibrated lag 0.0
+frozen raw6 sigma 0.0001 anchor 3.5 calibrated lag 0.0
+frozen raw6 sigma 0.0001 anchor 4.0 calibrated lag 0.0
+frozen raw6 sigma 0.0001 anchor 4.5 calibrated lag 0.0
+frozen raw6 sigma 0.001 anchor 3.5 calibrated lag 0.0
+frozen raw6 sigma 0.001 anchor 4.0 calibrated lag 0.0
+frozen raw6 sigma 0.001 anchor 4.5 calibrated lag 0.0
+frozen transport rows 324 align records 216
+ORIGINAL_Q550_v18_25 3.5 cal 32
+ORIGINAL_Q550_v18_25 3.5 test 36
+ORIGINAL_Q550_v18_25 4.0 train 96
+ORIGINAL_Q550_v18_25 4.0 val 32
+ORIGINAL_Q550_v18_25 4.0 test 36
+ORIGINAL_Q550_v18_25 4.5 cal 32
+ORIGINAL_Q550_v18_25 4.5 test 36
+original material3 sigma 0.0 anchor 3.5 calibrated lag 0.0
+original material3 sigma 0.0 anchor 4.0 calibrated lag 0.0
+original material3 sigma 0.0 anchor 4.5 calibrated lag 0.0
+original material3 sigma 0.0001 anchor 3.5 calibrated lag 0.0
+original material3 sigma 0.0001 anchor 4.0 calibrated lag 0.0
+original material3 sigma 0.0001 anchor 4.5 calibrated lag 0.0
+original material3 sigma 0.001 anchor 3.5 calibrated lag 0.0
+original material3 sigma 0.001 anchor 4.0 calibrated lag 0.0
+original material3 sigma 0.001 anchor 4.5 calibrated lag 0.0
+original raw4 sigma 0.0 anchor 3.5 calibrated lag 0.0
+original raw4 sigma 0.0 anchor 4.0 calibrated lag 0.0
+original raw4 sigma 0.0 anchor 4.5 calibrated lag 0.0
+original raw4 sigma 0.0001 anchor 3.5 calibrated lag 0.0
+original raw4 sigma 0.0001 anchor 4.0 calibrated lag 0.0
+original raw4 sigma 0.0001 anchor 4.5 calibrated lag 0.0
+original raw4 sigma 0.001 anchor 3.5 calibrated lag 0.0
+original raw4 sigma 0.001 anchor 4.0 calibrated lag 0.0
+original raw4 sigma 0.001 anchor 4.5 calibrated lag 0.0
+original raw6 sigma 0.0 anchor 3.5 calibrated lag 0.0
+original raw6 sigma 0.0 anchor 4.0 calibrated lag 0.0
+original raw6 sigma 0.0 anchor 4.5 calibrated lag 0.0
+original raw6 sigma 0.0001 anchor 3.5 calibrated lag 0.0
+original raw6 sigma 0.0001 anchor 4.0 calibrated lag 0.0
+original raw6 sigma 0.0001 anchor 4.5 calibrated lag 0.0
+original raw6 sigma 0.001 anchor 3.5 calibrated lag 0.0
+original raw6 sigma 0.001 anchor 4.0 calibrated lag 0.0
+original raw6 sigma 0.001 anchor 4.5 calibrated lag 0.0
+original transport rows 324 align records 216
+SERVER_NONLINEAR_PROOF 324 rows; independent integrations 312
+SHA256 56 immutable files
+SEND_BACK /root/elab1/hysteresis/q550_kick203_delay_frame_cross_posture_v18_25_sendback.zip
