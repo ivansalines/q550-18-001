@@ -1,0 +1,30 @@
+test_constant_source_h_boundary_cancel (test_echo.TestHistoryAblation.test_constant_source_h_boundary_cancel) ... ok
+test_degenerate_history_rejected (test_echo.TestHistoryAblation.test_degenerate_history_rejected) ... ok
+test_lines_do_not_depend_on_sign (test_echo.TestHistoryAblation.test_lines_do_not_depend_on_sign) ... ok
+test_moving_window_boundary_is_essential (test_echo.TestHistoryAblation.test_moving_window_boundary_is_essential) ... ok
+test_old_and_recent_can_be_independent (test_echo.TestHistoryAblation.test_old_and_recent_can_be_independent) ... ok
+test_simple_coordinate_rank_invariant (test_echo.TestHistoryAblation.test_simple_coordinate_rank_invariant) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.012s
+
+OK
+{
+  "status": "HISTORY_WINDOW_DIRECTIONAL_ECHO_NUMERIC_GAUGE_DECLARED",
+  "events": [
+    2.625653076601633,
+    3.9496097675037007,
+    5.560114949222021,
+    6.958293256917203
+  ],
+  "angles_h2_deg": [
+    3.069612342205382,
+    63.20198875223258,
+    20.03608832666089,
+    69.21834556650703
+  ],
+  "rank3_min_sigma": 0.46582959300936205,
+  "maximum_standard_tight_angle_drift_deg": 1.9418493479861354e-08
+}
+Plots saved: echo_angle_by_window.png history_echo_profile.png old_history_exclusive_echo.png
+Sendback: /root/elab1/hysteresis/q550_kick203_history_window_echo_v18_14_sendback.zip verified member hashes: 24

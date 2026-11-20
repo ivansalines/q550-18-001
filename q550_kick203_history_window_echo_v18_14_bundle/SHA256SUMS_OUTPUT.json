@@ -1,0 +1,29 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "ENVIRONMENT.json": "a5e998190dca877d59b6687609bef65645b0db4579ea1ad7aa3816daed18e2d0",
+    "README.md": "a2eb4536f3ec0b3ac4c24a024326f8a7a6c4244a2bacf2fb94542b507d4ef1fa",
+    "inputs/v18_13_original_sendback.zip": "3968e63515e98b60616ad710d3472932b7f0b1134e5245d464be1f8124a59198",
+    "q550_kick203_history_window_echo_v18_14_bundle.zip": "9aa681520bce3253e2d14c65f805f803755144de34c027a94fdcf7fd7ab57f51",
+    "reference/analyze_cached_v18_9.py": "9a1825294c4b9d0f3c2fdd8366e9071b651868c1a18b6e369b78c5b4d55374b0",
+    "reference/structural_math_v18_9.py": "6de1b39e73cde62544e3f62b288266a65db2fbb6913c116caf21f85ce7030140",
+    "requirements.txt": "b3db84bedf54ccc99317795192ab50023f67fb27ed7c8a32284a6bf76bb98ffb",
+    "results/REPORT.md": "74c8c8c118eb5961b2a3bbfc81ef8c83a0671f0f6f6e58b3ec50fd53def5fe93",
+    "results/echo_angle_by_window.png": "f1f853bce790ed302165a55b46e51ddafcc5deb3502a6488e2bfbb7796656841",
+    "results/event_echo_windows.csv": "2d103069bde5923df70b991dc06dc55022bf5e8051a650e245a098413a154602",
+    "results/history_echo_profile.png": "ac9a228154c9ef5576d1e3221e2684a32e2cabf519e1ab14b36024a88ab185a6",
+    "results/history_window_profiles.csv": "4b26142290d527b4b94938fd0954de0b7ca1f45013abbcc980ebb340a14c4a1a",
+    "results/old_history_exclusive_echo.png": "efb34e59761bcdf12463e9085d40ccdf4627a4af60ce2e6ee896260d3866cc0f",
+    "results/summary.json": "ef3ed0d35bdebd79c52a5db7a8e155f90763c312bfd76dc85ee1e0250a0f099f",
+    "scripts/analyze_v18_14.py": "486cc6547b6324f5b769f4601e6eb58cf2fac5722f0cba9e10d6db8bc6716d92",
+    "scripts/checkpoint_io_v18_11.py": "ae829166712d3b33d7f85aa79eb7db6888199943aa1e21a25e59f788faf523d6",
+    "scripts/checkpoint_io_v18_13.py": "f1baec5b6718d22965f70cc61451aaebc9204fad4f7bec9970882af6768bf051",
+    "scripts/checkpoint_io_v18_14.py": "c863a0fa4c7a5fa340217038f31aa8dfb2eb6d20b755d49ec436e537c1a627cb",
+    "scripts/history_window_math.py": "43020965da351080536cb6ba305d1c749d8f79b794261836f4d606323cde8f66",
+    "scripts/pack_sendback.py": "6d88506f44367eb3bec0cf6858a71a7146cfeaf7f855d1fe7a37e5448e166b71",
+    "scripts/plot_v18_14.py": "e6bf9f7473da0780ddbee5d18aaeb418e4ed7ab35edc819f4fbba0de33365579",
+    "scripts/reorientation_math.py": "d1cefca3abc4e83f9b26d650714118cd6fe09b3b6f1819df07c5f96d00e00494",
+    "scripts/run_on_server.sh": "dccc42f0e93703b135780bf2c72283c7d0e24b14f69c024596bf3c14edff5c50",
+    "tests/test_echo.py": "13ee417630ed5e49063f56eb5b4eab73d5eecf25ca2e75c21a082bf447ca06a9"
+  }
+}
