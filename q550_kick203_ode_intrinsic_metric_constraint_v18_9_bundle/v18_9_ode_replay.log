@@ -1,0 +1,27 @@
+test_double_sign_change (test_structural_math_v18_9.StructuralTests.test_double_sign_change) ... ok
+test_metric_can_change_sign_independent_vectors (test_structural_math_v18_9.StructuralTests.test_metric_can_change_sign_independent_vectors) ... ok
+test_source_frame_transport (test_structural_math_v18_9.StructuralTests.test_source_frame_transport) ... ok
+test_strain_and_source_split (test_structural_math_v18_9.StructuralTests.test_strain_and_source_split) ... ok
+test_symmetric_screen_has_66_directions (test_structural_math_v18_9.StructuralTests.test_symmetric_screen_has_66_directions) ... ok
+test_tensor_covariance_under_units (test_structural_math_v18_9.StructuralTests.test_tensor_covariance_under_units) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.030s
+
+OK
+{
+  "version": "2026-10-18-q550-v18.9-ode-structure-metric-candidate-audit",
+  "root_std": [
+    4.135198957200635,
+    4.997336555349751,
+    7.174435813608548
+  ],
+  "co_moving_std": [],
+  "physical_metric_status": "NOT_IDENTIFIED_FROM_ODE_TANGENT_CHECKPOINTS"
+}
+{
+  "ode_replay_success": true,
+  "max_rel_jacobian_archive_regression": 9.73154931921378e-12,
+  "structure_input_status": "ABSENT"
+}
+/root/elab1/hysteresis/q550_kick203_ode_intrinsic_metric_constraint_v18_9_sendback.zip

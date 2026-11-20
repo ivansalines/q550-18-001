@@ -1,0 +1,26 @@
+{
+  "version": "v18.9",
+  "ode_module_sha256": {
+    "audit": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_mobius_monodromy_audit.py",
+      "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864"
+    },
+    "support": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_support_ode_interval_residual_pilot_v1.py",
+      "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+    },
+    "tube": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+      "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+    }
+  },
+  "used_archived_s0": 693.6129771367538,
+  "used_archived_source_state": true,
+  "ode_replay_success": true,
+  "max_rel_jacobian_archive_regression": 9.73154931921378e-12,
+  "jacobian_comparison_nodes": 81,
+  "max_step_xi": 0.05,
+  "source_history": "v18.6 full11D original source state; no 400-orbit replay",
+  "structure_input_status": "ABSENT",
+  "physical_certification": "NOT_ESTABLISHED"
+}

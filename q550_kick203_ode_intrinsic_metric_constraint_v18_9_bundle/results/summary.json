@@ -1,0 +1,148 @@
+{
+  "version": "2026-10-18-q550-v18.9-ode-structure-metric-candidate-audit",
+  "input_provenance": {
+    "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+    "v18_7_verified_member_count": 35,
+    "v18_6_verified_member_count": 32
+  },
+  "by_tolerance": [
+    {
+      "tolerance": "standard",
+      "state_dimension": 11,
+      "xi_range": [
+        0.0,
+        8.0
+      ],
+      "xi_step": 0.0125,
+      "ode_slope_ds_dxi": 0.1343837359721647,
+      "euclidean_bracketed_roots_xi": [
+        4.135198957200635,
+        4.997336555349751,
+        7.174435813608548
+      ],
+      "source_frame_bracketed_roots_xi": [],
+      "fixed_nontrivial_unit_rescaling_bracketed_roots_xi": [
+        4.136849618555572,
+        5.141068838702015,
+        7.25670598610416
+      ],
+      "min_source_frame_dot_xi1_to8": 6.515873895406468,
+      "min_source_frame_cosine_xi1_to8": 0.14838696494810638,
+      "min_sine_euclidean_xi1_to8": 2.1073424255447017e-08,
+      "min_sine_source_frame_xi1_to8": 2.5809568279517847e-08,
+      "min_sine_near_euclidean_roots": [
+        0.9999945181371239,
+        0.999982657924442,
+        0.9999976525923094
+      ],
+      "max_transport_identity_residual": 2.1316282072803006e-13,
+      "max_source_early_reconstruction_error": 0.0,
+      "max_source_total_reconstruction_error": 0.0,
+      "linearized_cocycle_fd_residual_relative_median": 0.00012803375152046752,
+      "linearized_cocycle_fd_residual_relative_max": 0.00018625728942888922,
+      "unit_change_tensor_covariance_error": 2.7436865024748357e-16,
+      "jacobian_rows_identically_zero_on_archived_nodes": [
+        10
+      ],
+      "jacobian_columns_identically_zero_on_archived_nodes": [],
+      "constant_quadratic_tangent_metric_screen": {
+        "min_singular": 4.0285218650871993e-14,
+        "max_singular": 570.9724590451187,
+        "relative_min_singular": 7.055544976415162e-17,
+        "candidate_eigen_min": 0.0,
+        "candidate_eigen_max": 1.0,
+        "candidate_definite": false,
+        "candidate_residual_relative_max": 0.0,
+        "candidate_residual_relative_median": 0.0,
+        "tested_nodes": 81,
+        "n_symmetric_unknowns": 66,
+        "interpretation": "necessary_screen_only; neither coordinate-intrinsic nor a search for state-dependent energy metric"
+      },
+      "constant_affine_constraint_necessary_screen": {
+        "singular_min": 0.0,
+        "singular_max": 382.02497993246453,
+        "min_to_max_ratio": 0.0,
+        "interpretation": "Necessary for constant affine first integral only; cannot exclude nonlinear constraints"
+      },
+      "status": "DYNAMICAL_TANGENT_DIAGNOSTIC_NO_INTRINSIC_METRIC_OR_CONSTRAINT_CERTIFICATE",
+      "notes": [
+        "Source-frame metric is pulled back from an INITIAL Euclidean choice, not mechanical energy.",
+        "The sign/number of roots is NOT invariant over all SPD state metrics.",
+        "Finite-difference cocycle diagnostics are not interval validation.",
+        "J^TG+GJ screen is necessary only for a constant tangent quadratic form.",
+        "The archived off-constraint second-order K2 may require a normal curvature component if genuine constraints exist."
+      ]
+    },
+    {
+      "tolerance": "tight",
+      "state_dimension": 11,
+      "xi_range": [
+        0.0,
+        8.0
+      ],
+      "xi_step": 0.0125,
+      "ode_slope_ds_dxi": 0.1343837359721647,
+      "euclidean_bracketed_roots_xi": [
+        4.135198957173348,
+        4.997336555372095,
+        7.174435813641126
+      ],
+      "source_frame_bracketed_roots_xi": [],
+      "fixed_nontrivial_unit_rescaling_bracketed_roots_xi": [
+        4.136849618556148,
+        5.141068838720851,
+        7.256705986148673
+      ],
+      "min_source_frame_dot_xi1_to8": 6.515873894698349,
+      "min_source_frame_cosine_xi1_to8": 0.14838696493410847,
+      "min_sine_euclidean_xi1_to8": 1.4901161193847656e-08,
+      "min_sine_source_frame_xi1_to8": 0.0,
+      "min_sine_near_euclidean_roots": [
+        0.9999945181370729,
+        0.9999826579245508,
+        0.999997652592437
+      ],
+      "max_transport_identity_residual": 1.7053025658242404e-13,
+      "max_source_early_reconstruction_error": 0.0,
+      "max_source_total_reconstruction_error": 0.0,
+      "linearized_cocycle_fd_residual_relative_median": 0.00012803375232390627,
+      "linearized_cocycle_fd_residual_relative_max": 0.00018625728942846465,
+      "unit_change_tensor_covariance_error": 2.7436865025261624e-16,
+      "jacobian_rows_identically_zero_on_archived_nodes": [
+        10
+      ],
+      "jacobian_columns_identically_zero_on_archived_nodes": [],
+      "constant_quadratic_tangent_metric_screen": {
+        "min_singular": 4.028521865083592e-14,
+        "max_singular": 570.9724590447402,
+        "relative_min_singular": 7.055544976413522e-17,
+        "candidate_eigen_min": 0.0,
+        "candidate_eigen_max": 1.0,
+        "candidate_definite": false,
+        "candidate_residual_relative_max": 0.0,
+        "candidate_residual_relative_median": 0.0,
+        "tested_nodes": 81,
+        "n_symmetric_unknowns": 66,
+        "interpretation": "necessary_screen_only; neither coordinate-intrinsic nor a search for state-dependent energy metric"
+      },
+      "constant_affine_constraint_necessary_screen": {
+        "singular_min": 0.0,
+        "singular_max": 382.02497993219106,
+        "min_to_max_ratio": 0.0,
+        "interpretation": "Necessary for constant affine first integral only; cannot exclude nonlinear constraints"
+      },
+      "status": "DYNAMICAL_TANGENT_DIAGNOSTIC_NO_INTRINSIC_METRIC_OR_CONSTRAINT_CERTIFICATE",
+      "notes": [
+        "Source-frame metric is pulled back from an INITIAL Euclidean choice, not mechanical energy.",
+        "The sign/number of roots is NOT invariant over all SPD state metrics.",
+        "Finite-difference cocycle diagnostics are not interval validation.",
+        "J^TG+GJ screen is necessary only for a constant tangent quadratic form.",
+        "The archived off-constraint second-order K2 may require a normal curvature component if genuine constraints exist."
+      ]
+    }
+  ],
+  "standard_tight_max_root_disagreement_xi": 3.2577496256180893e-11,
+  "physical_metric_status": "NOT_IDENTIFIED_FROM_ODE_TANGENT_CHECKPOINTS",
+  "physical_constraint_status": "NOT_IDENTIFIED_FROM_ODE_TANGENT_CHECKPOINTS",
+  "next_gate": "Replay actual f(y) and independently documented C(y), DC(y), D2C(y), G(y) with physical source provenance; audit must not substitute an arbitrary SPD choice."
+}
