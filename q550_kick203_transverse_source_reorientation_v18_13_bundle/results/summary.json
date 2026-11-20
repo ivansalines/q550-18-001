@@ -1,0 +1,337 @@
+{
+  "version": "Q550-v18.13-transverse-source-reorientation",
+  "provenance": {
+    "source_v18_11_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0",
+    "v18_11_verified_members": 25,
+    "source_v18_10_sha256": "c4cf85493a693755349f1b6d48e8fd8123739eb3e4ed8f5174c242fa8d37fb50",
+    "v18_10_verified_members": 27,
+    "v18_9_sha256": "73f6d98ce7f9bdbdc7badac580e5b11aa9fad84ff51f97bd1a0e16b8c9e6b2fa",
+    "v18_9_verified_members": 17,
+    "v18_10_label": "v18.10",
+    "v18_10_server_ode_replay": true,
+    "historical_validation": {
+      "original_v18_7_sha256": "81295876fe1f2c0b88c2cc88e004dc0e367d9aa93912d68806775086f146d141",
+      "v18_7_verified_member_count": 35,
+      "v18_6_verified_member_count": 32
+    },
+    "source_v18_12_sha256": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "v18_12_members_verified": 18,
+    "v18_12_status": "NO_INTRINSIC_MECHANICAL_METRIC_OR_NONLINEAR_CONSTRAINT_CERTIFIED",
+    "v18_12_input_sha256": "2b77f31a90de9b82da8422cac7c2206013dcd06d9743757fd920010beef27aa0"
+  },
+  "status": "NUMERICAL_LOCAL_ORIENTATION_PERSISTENCE_GAUGE_DECLARED",
+  "by_tolerance": [
+    {
+      "tolerance": "standard",
+      "samples": 560,
+      "range_xi": [
+        1.0125,
+        8.0
+      ],
+      "four_pchip_radial_events_xi": [
+        2.625653076601633,
+        3.9496097675037007,
+        5.560114949222021,
+        6.958293256917203
+      ],
+      "max_interpolator_root_difference_xi": 7.479392684306418e-05,
+      "max_even_odd_decimation_root_difference_xi": 6.740134835148126e-06,
+      "radial_derivative_fd_median_relative": 0.00012932992622904414,
+      "speed_positive_count": 560,
+      "max_abs_radial_rate": 35.49936230916418,
+      "min_speed": 0.610229298348387,
+      "median_speed": 1.1172060780573148,
+      "min_fraction_source_outside_plane": 0.008269834104426513,
+      "events": [
+        {
+          "tolerance": "standard",
+          "event": 1,
+          "xi_pchip": 2.625653076601633,
+          "xi_linear": 2.625657101668224,
+          "xi_cubic": 2.625653052107696,
+          "xi_even_decimated": 2.6256529271816405,
+          "xi_odd_decimated": 2.6256531588933996,
+          "radial_rate_at_root_interp": -2.9328790606140148e-06,
+          "rho_at_root": 12.943965892441648,
+          "turn_speed_at_root": 0.6362774206104246,
+          "source_outside_fraction_at_root": 0.9999999999999364,
+          "algebraic_noncollinearity_relative_3volume_gauge": 0.9393030356076252,
+          "radial_sign_left_at_0p05": 0.6792568214605247,
+          "radial_sign_right_at_0p05": -0.6447802582352613,
+          "coherence_at_0p05": 0.9887511920590796,
+          "coherence_at_0p25": 0.7211134687203986,
+          "coherence_at_0p5": 0.02664876104694743
+        },
+        {
+          "tolerance": "standard",
+          "event": 2,
+          "xi_pchip": 3.9496097675037007,
+          "xi_linear": 3.9495961439515224,
+          "xi_cubic": 3.9496100987791336,
+          "xi_even_decimated": 3.949609444815428,
+          "xi_odd_decimated": 3.9496087091192886,
+          "radial_rate_at_root_interp": -4.253959062251733e-05,
+          "rho_at_root": 8.941681375177886,
+          "turn_speed_at_root": 2.136557906045699,
+          "source_outside_fraction_at_root": 0.9999999999975205,
+          "algebraic_noncollinearity_relative_3volume_gauge": 0.712730017785183,
+          "radial_sign_left_at_0p05": -1.0665439483228625,
+          "radial_sign_right_at_0p05": 1.4208882422474518,
+          "coherence_at_0p05": 0.9646685864087934,
+          "coherence_at_0p25": 0.15417269512580337,
+          "coherence_at_0p5": -0.9899750637143484
+        },
+        {
+          "tolerance": "standard",
+          "event": 3,
+          "xi_pchip": 5.560114949222021,
+          "xi_linear": 5.5601123573738995,
+          "xi_cubic": 5.560114869754957,
+          "xi_even_decimated": 5.560115337033221,
+          "xi_odd_decimated": 5.560114246185003,
+          "radial_rate_at_root_interp": 1.2186597786799102e-05,
+          "rho_at_root": 28.476185474598488,
+          "turn_speed_at_root": 0.9747293865042596,
+          "source_outside_fraction_at_root": 0.9999999999999036,
+          "algebraic_noncollinearity_relative_3volume_gauge": 0.9846510247062494,
+          "radial_sign_left_at_0p05": 0.9798214355296374,
+          "radial_sign_right_at_0p05": -0.9899152509803253,
+          "coherence_at_0p05": 0.9915316044496989,
+          "coherence_at_0p25": 0.7830748568250824,
+          "coherence_at_0p5": 0.11876715280211812
+        },
+        {
+          "tolerance": "standard",
+          "event": 4,
+          "xi_pchip": 6.958293256917203,
+          "xi_linear": 6.958368050844046,
+          "xi_cubic": 6.958293803841728,
+          "xi_even_decimated": 6.958288073882206,
+          "xi_odd_decimated": 6.9582999970520385,
+          "radial_rate_at_root_interp": -1.0185838187328914e-05,
+          "rho_at_root": 18.038857772110422,
+          "turn_speed_at_root": 1.9286417630399009,
+          "source_outside_fraction_at_root": 0.9999999999999569,
+          "algebraic_noncollinearity_relative_3volume_gauge": 0.9114866585584306,
+          "radial_sign_left_at_0p05": -0.9962439699572626,
+          "radial_sign_right_at_0p05": 0.8059329043071766,
+          "coherence_at_0p05": 0.9757617664266087,
+          "coherence_at_0p25": 0.4002628994538075,
+          "coherence_at_0p5": -0.8394209671411168
+        }
+      ],
+      "observer_metrics": {
+        "identity": {
+          "turnings_xi": [
+            2.625653076601633,
+            3.9496097675037007,
+            5.560114949222021,
+            6.958293256917203
+          ],
+          "turn_rate_min": 0.610229298348387,
+          "turn_rate_median": 1.1172060780573148,
+          "positive_turn_speed_samples": 560,
+          "metric_scope": "Euclidean after the stated fixed GL(10) map, not a derived physical metric"
+        },
+        "uniform_scale_1p7": {
+          "turnings_xi": [
+            2.625653076601633,
+            3.9496097675037007,
+            5.560114949222021,
+            6.958293256917203
+          ],
+          "turn_rate_min": 0.610229298348387,
+          "turn_rate_median": 1.1172060780573148,
+          "positive_turn_speed_samples": 560,
+          "metric_scope": "Euclidean after the stated fixed GL(10) map, not a derived physical metric"
+        },
+        "mild_diagonal": {
+          "turnings_xi": [
+            2.6381208529293563,
+            3.974525863711677,
+            5.571110780114263,
+            7.038274748015687
+          ],
+          "turn_rate_min": 0.6092461097116737,
+          "turn_rate_median": 1.156700745480015,
+          "positive_turn_speed_samples": 560,
+          "metric_scope": "Euclidean after the stated fixed GL(10) map, not a derived physical metric"
+        },
+        "strong_diagonal": {
+          "turnings_xi": [
+            2.6723186550445654,
+            4.136427647019752,
+            5.557061246156896,
+            7.411539320265458
+          ],
+          "turn_rate_min": 0.5817575953640177,
+          "turn_rate_median": 1.3342315329244867,
+          "positive_turn_speed_samples": 560,
+          "metric_scope": "Euclidean after the stated fixed GL(10) map, not a derived physical metric"
+        }
+      },
+      "interpretation": "Radial turning and angle coherence are gauge/metric dependent. Nonzero algebraic wedge is invertible-coordinate invariant. No mechanical torsion, physical metric or hysteresis proven."
+    },
+    {
+      "tolerance": "tight",
+      "samples": 560,
+      "range_xi": [
+        1.0125,
+        8.0
+      ],
+      "four_pchip_radial_events_xi": [
+        2.625653076843487,
+        3.9496097674925497,
+        5.560114949409318,
+        6.958293256633061
+      ],
+      "max_interpolator_root_difference_xi": 7.479392602682822e-05,
+      "max_even_odd_decimation_root_difference_xi": 6.740109622427326e-06,
+      "radial_derivative_fd_median_relative": 0.00012932963770085246,
+      "speed_positive_count": 560,
+      "max_abs_radial_rate": 35.499362305735325,
+      "min_speed": 0.6102292983781578,
+      "median_speed": 1.117206077930835,
+      "min_fraction_source_outside_plane": 0.008269834002371903,
+      "events": [
+        {
+          "tolerance": "tight",
+          "event": 1,
+          "xi_pchip": 2.625653076843487,
+          "xi_linear": 2.6256571018943267,
+          "xi_cubic": 2.625653052349631,
+          "xi_even_decimated": 2.625652927009321,
+          "xi_odd_decimated": 2.6256531591373355,
+          "radial_rate_at_root_interp": -2.9328739261517807e-06,
+          "rho_at_root": 12.943965892086002,
+          "turn_speed_at_root": 0.6362774210575294,
+          "source_outside_fraction_at_root": 0.9999999999999368,
+          "algebraic_noncollinearity_relative_3volume_gauge": 0.9393030357555243,
+          "radial_sign_left_at_0p05": 0.6792568189338795,
+          "radial_sign_right_at_0p05": -0.6447802583903913,
+          "coherence_at_0p05": 0.9887511920887319,
+          "coherence_at_0p25": 0.7211134683160823,
+          "coherence_at_0p5": 0.026648761034224314
+        },
+        {
+          "tolerance": "tight",
+          "event": 2,
+          "xi_pchip": 3.9496097674925497,
+          "xi_linear": 3.949596143939995,
+          "xi_cubic": 3.9496100987679896,
+          "xi_even_decimated": 3.9496094448040924,
+          "xi_odd_decimated": 3.9496087091081162,
+          "radial_rate_at_root_interp": -4.253959156791219e-05,
+          "rho_at_root": 8.941681374800147,
+          "turn_speed_at_root": 2.1365579061320967,
+          "source_outside_fraction_at_root": 0.999999999997521,
+          "algebraic_noncollinearity_relative_3volume_gauge": 0.7127300178050514,
+          "radial_sign_left_at_0p05": -1.0665439485236794,
+          "radial_sign_right_at_0p05": 1.4208882424421898,
+          "coherence_at_0p05": 0.9646685864090112,
+          "coherence_at_0p25": 0.15417269533410854,
+          "coherence_at_0p5": -0.9899750636841017
+        },
+        {
+          "tolerance": "tight",
+          "event": 3,
+          "xi_pchip": 5.560114949409318,
+          "xi_linear": 5.5601123575363,
+          "xi_cubic": 5.5601148699356875,
+          "xi_even_decimated": 5.560115337260058,
+          "xi_odd_decimated": 5.560114246139968,
+          "radial_rate_at_root_interp": 1.2186428154915915e-05,
+          "rho_at_root": 28.476185473541946,
+          "turn_speed_at_root": 0.9747293858673846,
+          "source_outside_fraction_at_root": 0.9999999999999036,
+          "algebraic_noncollinearity_relative_3volume_gauge": 0.9846510247287202,
+          "radial_sign_left_at_0p05": 0.9798214312077667,
+          "radial_sign_right_at_0p05": -0.9899152563566987,
+          "coherence_at_0p05": 0.9915316044523312,
+          "coherence_at_0p25": 0.7830748570134729,
+          "coherence_at_0p5": 0.11876715231328504
+        },
+        {
+          "tolerance": "tight",
+          "event": 4,
+          "xi_pchip": 6.958293256633061,
+          "xi_linear": 6.958368050559088,
+          "xi_cubic": 6.958293803558677,
+          "xi_even_decimated": 6.958288073597392,
+          "xi_odd_decimated": 6.958299996742683,
+          "radial_rate_at_root_interp": -1.0185840142123668e-05,
+          "rho_at_root": 18.038857773000565,
+          "turn_speed_at_root": 1.9286417629700716,
+          "source_outside_fraction_at_root": 0.9999999999999574,
+          "algebraic_noncollinearity_relative_3volume_gauge": 0.9114866586312673,
+          "radial_sign_left_at_0p05": -0.9962439700359687,
+          "radial_sign_right_at_0p05": 0.805932904245972,
+          "coherence_at_0p05": 0.9757617664734839,
+          "coherence_at_0p25": 0.40026289954858707,
+          "coherence_at_0p5": -0.8394209668598758
+        }
+      ],
+      "observer_metrics": {
+        "identity": {
+          "turnings_xi": [
+            2.625653076843487,
+            3.9496097674925497,
+            5.560114949409318,
+            6.958293256633061
+          ],
+          "turn_rate_min": 0.6102292983781578,
+          "turn_rate_median": 1.117206077930835,
+          "positive_turn_speed_samples": 560,
+          "metric_scope": "Euclidean after the stated fixed GL(10) map, not a derived physical metric"
+        },
+        "uniform_scale_1p7": {
+          "turnings_xi": [
+            2.625653076843487,
+            3.9496097674925497,
+            5.560114949409318,
+            6.958293256633061
+          ],
+          "turn_rate_min": 0.6102292983781576,
+          "turn_rate_median": 1.1172060779308355,
+          "positive_turn_speed_samples": 560,
+          "metric_scope": "Euclidean after the stated fixed GL(10) map, not a derived physical metric"
+        },
+        "mild_diagonal": {
+          "turnings_xi": [
+            2.638120852789044,
+            3.9745258636971075,
+            5.5711107801313995,
+            7.038274747456971
+          ],
+          "turn_rate_min": 0.6092461097422365,
+          "turn_rate_median": 1.156700745389362,
+          "positive_turn_speed_samples": 560,
+          "metric_scope": "Euclidean after the stated fixed GL(10) map, not a derived physical metric"
+        },
+        "strong_diagonal": {
+          "turnings_xi": [
+            2.672318655277446,
+            4.1364276470233845,
+            5.55706124623414,
+            7.411539320090367
+          ],
+          "turn_rate_min": 0.5817575954010519,
+          "turn_rate_median": 1.3342315329539645,
+          "positive_turn_speed_samples": 560,
+          "metric_scope": "Euclidean after the stated fixed GL(10) map, not a derived physical metric"
+        }
+      },
+      "interpretation": "Radial turning and angle coherence are gauge/metric dependent. Nonzero algebraic wedge is invertible-coordinate invariant. No mechanical torsion, physical metric or hysteresis proven."
+    }
+  ],
+  "standard_tight_max_event_xi_diff": 2.8414248731678526e-10,
+  "standard_tight_max_direction_coherence_diff": 4.888330851215983e-10,
+  "limitations": [
+    "Radial turning counts, positions, angles and direction-coherence cosines depend on the chosen metric and initial gauge.",
+    "Wedge rank under invertible coordinate changes is invariant; normalized three-volumes and their magnitudes are not.",
+    "Interpolation and decimation are numerical stability evidence, not interval certificates between samples.",
+    "At radial turning the source is tangential to rho-levels by construction, so source_outside_fraction~=1 is an identity, not an independent discovery.",
+    "Nonzero residual turning is not by itself a proof of nonholonomic torsion, material metric, or physical hysteresis.",
+    "No two distinct histories brought to the same phase-fixed material state were compared."
+  ]
+}

@@ -1,0 +1,36 @@
+test_metric_scaling_invariance (test_geometry.TestGeometry.test_metric_scaling_invariance) ... ok
+test_nonzero_wedge_rank_not_metric (test_geometry.TestGeometry.test_nonzero_wedge_rank_not_metric) ... ok
+test_radial_event_continued_rotation (test_geometry.TestGeometry.test_radial_event_continued_rotation) ... ok
+test_root_interpolation (test_geometry.TestGeometry.test_root_interpolation) ... ok
+test_spherical_parallel_transport_orthogonality (test_geometry.TestGeometry.test_spherical_parallel_transport_orthogonality) ... ok
+test_tangent_flip_control (test_geometry.TestGeometry.test_tangent_flip_control) ... ok
+test_zero_source_no_rotation (test_geometry.TestGeometry.test_zero_source_no_rotation) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.114s
+
+OK
+{
+  "status": "NUMERICAL_LOCAL_ORIENTATION_PERSISTENCE_GAUGE_DECLARED",
+  "events": [
+    2.625653076601633,
+    3.9496097675037007,
+    5.560114949222021,
+    6.958293256917203
+  ],
+  "coherence_pm0p05": [
+    0.9887511920590796,
+    0.9646685864087934,
+    0.9915316044496989,
+    0.9757617664266087
+  ],
+  "coherence_pm0p50": [
+    0.02664876104694743,
+    -0.9899750637143484,
+    0.11876715280211812,
+    -0.8394209671411168
+  ],
+  "standard_tight_max_event_drift": 2.8414248731678526e-10
+}
+plots complete
+packaged: /root/elab1/hysteresis/q550_kick203_transverse_source_reorientation_v18_13_sendback.zip verified files: 23

@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "ENVIRONMENT.json": "e417af62a1b016391e071b6334b13803d8e99bce1ed5da41af2c063d602049c2",
+    "README.md": "bd84fd6c6de2a8a38ee0b10f9cea3eb916d5be53f93aa9e382605e46d557d4cd",
+    "inputs/v18_12_original_sendback.zip": "9962d9ff7f99e1b1f381e166c5147711e851bd5ade57ebad19099b98ca575172",
+    "reference/analyze_cached_v18_9.py": "9a1825294c4b9d0f3c2fdd8366e9071b651868c1a18b6e369b78c5b4d55374b0",
+    "reference/structural_math_v18_9.py": "6de1b39e73cde62544e3f62b288266a65db2fbb6913c116caf21f85ce7030140",
+    "requirements.txt": "b3db84bedf54ccc99317795192ab50023f67fb27ed7c8a32284a6bf76bb98ffb",
+    "results/REPORT.md": "5a4dcbaf23f5987423c77998de85f7350bda5c54336af1b82095c9f2826c0fea",
+    "results/event_orientation_coherence.png": "bea956f8e3fb5d5bdaa337ee13635e80d81d22f6c3ffa410bdc99929e729df3f",
+    "results/event_orientation_windows.csv": "bbba4ff4dd74970fe5ff30ddb56c198b72f562126c50aa0470ff26324f6bc0aa",
+    "results/event_turnings.csv": "836227e0c0f9b42d019412648fa5d0a7a0e9837f7e758ac9961e0e3f317520b1",
+    "results/radial_source_turnings.png": "34a270091d7cc9ec51ea2e52ce987f395f6fd776b032da73813a87956ca88772",
+    "results/residual_direction_speed_events.png": "d2c1f9e4f0e25ca2279d591d37cbad997a206e1ffaf39391a5603834912c255b",
+    "results/source_components_profile.csv": "e7633f75a42e348752a30c86407ff774e1ab5c35304cb4ba91f0b89f5ebec321",
+    "results/summary.json": "5326f62bb7a7540d2724ef1f1ce07d8fcfff6de9b6a2cae97d307261f93cf9f8",
+    "scripts/analyze_v18_13.py": "8826f284dba6e512367411b9cc529b54b1ffe76c3ac1a993a2a3e183ded9c0a0",
+    "scripts/checkpoint_io_v18_11.py": "ae829166712d3b33d7f85aa79eb7db6888199943aa1e21a25e59f788faf523d6",
+    "scripts/checkpoint_io_v18_13.py": "f1baec5b6718d22965f70cc61451aaebc9204fad4f7bec9970882af6768bf051",
+    "scripts/pack_sendback.py": "3beb1d4c429f993e163a44f9240f3bbfbf817cc9b1d66b2b051394a8a7def566",
+    "scripts/plot_v18_13.py": "dd43885ba83361ef04c83adc1884cca3583ec0319af7dded3ae8ca471e81f66b",
+    "scripts/reorientation_math.py": "d1cefca3abc4e83f9b26d650714118cd6fe09b3b6f1819df07c5f96d00e00494",
+    "scripts/residual_plane_math_v18_12.py": "b81e4265711467cd101678bb87880c141a1642c04032d35b1132f7bedfaa4228",
+    "scripts/run_on_server.sh": "f599c17ac942f0e45d1dc1aa54cae071dde9f0b6ede17c704412cef6bd07e0fe",
+    "tests/test_geometry.py": "562417ac5d514531ce7d83677adc403d0fec22fa1dafbff2253b88afa4b07f8c"
+  }
+}

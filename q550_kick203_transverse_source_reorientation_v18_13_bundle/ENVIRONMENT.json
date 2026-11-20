@@ -1,0 +1,1 @@
+{"audit":"Q550-v18.13","python_min":"3.10","implementation":"python3.13 preferred on server","seed":"none deterministic","frozen_checkpoint_source":"inputs/v18_12_original_sendback.zip","runtime_mode":"frozen, no 400 orbit replay","source_integrity":"SHA256SUMS_OUTPUT.json and validated nested v18.12-v18.9 manifests"}
