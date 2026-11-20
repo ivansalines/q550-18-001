@@ -1,0 +1,9 @@
+{
+  "version": "v18.18",
+  "python": "3.10 or newer; automatic preference python3.13",
+  "input": "Authenticated original server v18.17 sendback and nested v18.16 through v18.7",
+  "scientific_mode": "offline frozen Q550 source diagnostics; no ODE replay",
+  "dependencies": ["numpy", "scipy", "matplotlib"],
+  "log_policy": "Live .log files excluded from immutable SHA256 and sendback",
+  "root_policy": "exactly one directory root in bundle and sendback ZIP"
+}

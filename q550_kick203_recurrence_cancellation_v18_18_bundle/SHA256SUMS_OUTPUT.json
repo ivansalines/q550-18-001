@@ -1,0 +1,33 @@
+{
+  "files": {
+    "ENVIRONMENT.json": "0548b9327ad79851019c5b5790830ef3514d3c158547a11467ef8cd877e94864",
+    "README.md": "c9d5e1b7128bd32897b8b10c8fc530325d0fddbe5f0872acd60bc884ee54e203",
+    "inputs/v18_17_original_sendback.zip": "52509228dc39b746316366ea8b391b1decec9a96621c89ca6a45348acaa84cc4",
+    "reference/analyze_v18_17.py": "83ef569be43a9aafee86a2cd6cdf157b06987c2fbe63c1baaf368701a1a4dea8",
+    "reference/ridge_math_v18_17.py": "c81af2a0aa5fbb091948b8a970eaa831d9cedaf3423d2c5d31e989dd0fa66b82",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "results/REPORT.md": "dd0473378b712bdd61f65c6c3cc39d637b5e1d6d155df3a598165ad8b730f2d2",
+    "results/event_probe.csv": "452110c79a184655e839443807f19adeba78181f0ab664f41d41d17412eee3d4",
+    "results/source_kernel_decomposition.csv": "1ce118c140498eacf7b6aa9abcbec48454946e4266c0a7b2bee767bf17f95872",
+    "results/source_recurrence_residual_maps.png": "de963cdcf068a1f5f271e68002e6de2a412a9d4541a6d817b7391f273c1af45d",
+    "results/source_ridge_baseline_comparison.png": "0320baad582b7d00770f23f29532a5033251666232343cadedfb4c8795b29ca5",
+    "results/summary.json": "2ce88530487b263eb1d5d3f69b0282de78e61ae4e067c35f6d3a59a26aa4c646",
+    "results/time_residual_and_ridge.csv": "298b88ce7040c820f6f6a6b12b2faeb9934a224ecbbeafece1264e2a111ca8a3",
+    "scripts/analyze_cached_v18_9.py": "9a1825294c4b9d0f3c2fdd8366e9071b651868c1a18b6e369b78c5b4d55374b0",
+    "scripts/analyze_v18_18.py": "1f49b96c11cd3fd351639e75c19c747c89f2ba3cff22351836a4f0033f1653ab",
+    "scripts/build_manifest.py": "aba52c3991a84a506b886b154a1b27bd7fd11c2234bfad535d5cb082a79eacb0",
+    "scripts/checkpoint_io_v18_11.py": "ae829166712d3b33d7f85aa79eb7db6888199943aa1e21a25e59f788faf523d6",
+    "scripts/checkpoint_io_v18_13.py": "f1baec5b6718d22965f70cc61451aaebc9204fad4f7bec9970882af6768bf051",
+    "scripts/checkpoint_io_v18_14.py": "c863a0fa4c7a5fa340217038f31aa8dfb2eb6d20b755d49ec436e537c1a627cb",
+    "scripts/checkpoint_io_v18_15.py": "fb2b3ef5b203c4a733d3c496804bb800a9ff050b767a50d1939849e3a224cf59",
+    "scripts/checkpoint_io_v18_16.py": "caef21247c0f10242003bc2d510acbe17bb7daa62a2ec17d34218d3c213b7a17",
+    "scripts/checkpoint_io_v18_17.py": "cc5a9002bf68bfc6b8efe32c227e62e0a77699bef9e727ccd98f7a36c15803c4",
+    "scripts/checkpoint_io_v18_18.py": "81402182f5f1d7629ed8ac7f5d0fe0d5fc65f1bcbeacc73fd647809bd696449f",
+    "scripts/pack_sendback.py": "1c91d07ecef7ee029163d8f34350e349ba16811936fa7ee1742961d49bdafd39",
+    "scripts/plot_v18_18.py": "afeb7c1297b635cc8d6a55f750fd39509966e96daa93bc08de1b7b673d56bd8d",
+    "scripts/recurrence_math.py": "efc606cd91a8abf8603bd103ab12f66f1702fb80c354cf27e9f894e75107b0ee",
+    "scripts/run_on_server.sh": "7917ee1a1c8cfa3a9040462b0533188cbd4211ea245831dc39d289e91781c05a",
+    "scripts/structural_math_v18_9.py": "6de1b39e73cde62544e3f62b288266a65db2fbb6913c116caf21f85ce7030140",
+    "tests/test_recurrence_math.py": "24de6156476b659d4dcfcfd05e453c29f276b0b632ba4ec8493bc2943bc071c3"
+  }
+}

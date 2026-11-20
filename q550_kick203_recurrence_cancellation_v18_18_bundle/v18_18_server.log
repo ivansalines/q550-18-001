@@ -1,0 +1,28 @@
+test_constant_source (test_recurrence_math.Tests.test_constant_source) ... ok
+test_counterfactual_detects_corrupted_closure (test_recurrence_math.Tests.test_counterfactual_detects_corrupted_closure) ... ok
+test_exact_closure (test_recurrence_math.Tests.test_exact_closure) ... ok
+test_heldout_calibrator_train_only (test_recurrence_math.Tests.test_heldout_calibrator_train_only) ... ok
+test_metric_change_without_transform_does_change_result (test_recurrence_math.Tests.test_metric_change_without_transform_does_change_result) ... ok
+test_metric_covariant_with_transform (test_recurrence_math.Tests.test_metric_covariant_with_transform) ... ok
+test_negative_periodic (test_recurrence_math.Tests.test_negative_periodic) ... ok
+test_projection (test_recurrence_math.Tests.test_projection) ... ok
+test_reject_zero_projected_source (test_recurrence_math.Tests.test_reject_zero_projected_source) ... ok
+test_ridge (test_recurrence_math.Tests.test_ridge) ... ok
+test_scramble_changes_age_pairing (test_recurrence_math.Tests.test_scramble_changes_age_pairing) ... ok
+test_source_weighting_matters (test_recurrence_math.Tests.test_source_weighting_matters) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.069s
+
+OK
+{
+  "status": "FROZEN_SOURCE_EXACT_CLOSURE_AND_SURROGATE_AUDIT",
+  "closure_max": 2.220446049250313e-16,
+  "source_integrand_max_drift": 0.00018665772636983213,
+  "endpoint_holdout_rmse": 0.07269855280619063,
+  "endpoint_fitted_holdout_rmse": 0.07320264765183589,
+  "amplitude_gated_residual_rmse": 0.01293411604026608,
+  "standard_tight_max": 1.3838488688300288e-10
+}
+SHA256 29 immutable files (live .log excluded)
+Certified output: /root/elab1/hysteresis/q550_kick203_recurrence_cancellation_v18_18_sendback.zip

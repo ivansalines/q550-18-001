@@ -1,0 +1,5 @@
+event,event_xi,coverage,sample_xi,ridge_exact,ridge_instantaneous,ridge_unit_only,rms_amplitude_covariance,rms_endpoint_residual
+1,2.625653076601633,xi_below_profile_range,,,,,,
+2,3.9496097675037007,xi_below_profile_range,,,,,,
+3,5.560114949222021,nearest_profile_xi,5.55,1.4,1.475,1.375,0.008328564841444345,0.05170970014612754
+4,6.958293256917203,nearest_profile_xi,6.95,1.4,1.45,1.4,0.002386427790847857,0.06521471483520322
