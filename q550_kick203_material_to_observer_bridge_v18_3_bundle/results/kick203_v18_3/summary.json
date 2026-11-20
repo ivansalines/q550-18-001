@@ -1,0 +1,74 @@
+{
+  "version": "2026-10-16-Q550-kick203-material-to-observer-full11D-bridge-v18.3",
+  "outer_source_sha256": "691354796c87c5fca6ffa3b8da0b8f57e6b260cf945915601ed0f1a9e0e4f402",
+  "nested_source_sha256": {
+    "v18_1_zip_sha256": "7a2af34b93792bd64b59ec5c5a7cb7a4f3273f03690284313149c653ac75a8a8",
+    "v17_9_zip_sha256": "eb317e8d0602a3e785ddc66e3fedd14d3f2902b12f9a87e3bc2261bf95d5e5ca"
+  },
+  "n_xi": 47,
+  "xi_B_crossing": 210.8611366031777,
+  "s0": 693.6129771367538,
+  "hquarter_B_support": 0.0004448784722222222,
+  "h16_B_support": 0.00011121961805555555,
+  "centered_event_stencil_halfwidth_xi": 0.0034713149398058136,
+  "n_clean_before": 17,
+  "n_clean_after": 19,
+  "n_centered_stencil_straddling": 11,
+  "event_exact_point_censored": 1,
+  "max_identity_errors": {
+    "source_frame_descriptor": 0.0,
+    "archived_shapley": 5.725901504361963e-17,
+    "factor_split": 0.0,
+    "observer_shapley": 5.620655062059423e-17,
+    "observer_identity": 1.130121503276712e-17,
+    "material_causality_before_B": 0.0
+  },
+  "experiments": [
+    {
+      "tolerance": "standard",
+      "eps_rel": 1e-08,
+      "absolute_kick_amplitude": 6.061832545139451e-05,
+      "clean_before_n": 17,
+      "clean_after_n": 19,
+      "sign_before_positive": true,
+      "sign_after_negative": true,
+      "post_signed_median": -0.00012041340524054277,
+      "material_A_at_B_crossing_minus_plus_angle_deg": 7.050226836614346e-05
+    },
+    {
+      "tolerance": "standard",
+      "eps_rel": 3e-08,
+      "absolute_kick_amplitude": 0.0001818549763541835,
+      "clean_before_n": 17,
+      "clean_after_n": 19,
+      "sign_before_positive": true,
+      "sign_after_negative": true,
+      "post_signed_median": -0.0003552874083389411,
+      "material_A_at_B_crossing_minus_plus_angle_deg": 7.050226836614346e-05
+    },
+    {
+      "tolerance": "tight",
+      "eps_rel": 1e-08,
+      "absolute_kick_amplitude": 6.061832545140305e-05,
+      "clean_before_n": 17,
+      "clean_after_n": 19,
+      "sign_before_positive": true,
+      "sign_after_negative": true,
+      "post_signed_median": -0.00012041176908159406,
+      "material_A_at_B_crossing_minus_plus_angle_deg": 7.051777529877707e-05
+    },
+    {
+      "tolerance": "tight",
+      "eps_rel": 3e-08,
+      "absolute_kick_amplitude": 0.00018185497635420913,
+      "clean_before_n": 17,
+      "clean_after_n": 19,
+      "sign_before_positive": true,
+      "sign_after_negative": true,
+      "post_signed_median": -0.00035503842430738405,
+      "material_A_at_B_crossing_minus_plus_angle_deg": 7.051260670014816e-05
+    }
+  ],
+  "physical_constraint_status": "FLOW_ON_SHELL_ONLY_WITHOUT_CONSTRAINT_CERTIFICATE",
+  "interpretation": "Exact secants split the archival centered physical-history dlocal response into factor-conditional A/B/M terms plus a measured nonlinear interaction. The difference between archived centered dlocal response and v18.1 B one-sided second-order response is an exact observer change for the SAME +/- histories. Material 11D states are tracked as causal controls, not equated to geometric descriptor 11D. The B observer response has an impulse-entry discontinuity, which is NOT a material torsional flip. No certified conserved physical invariant or globally identified full 11x11 pushforward."
+}

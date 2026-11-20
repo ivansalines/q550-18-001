@@ -1,0 +1,76 @@
+v18.3 postprocessing-only bridge; original Q550 orbit is NOT replayed
+test_alignment (test_bridge.TestBridge.test_alignment) ... ok
+test_conditional_exact_nonlinear (test_bridge.TestBridge.test_conditional_exact_nonlinear) ... ok
+test_exact_frame_descriptor (test_bridge.TestBridge.test_exact_frame_descriptor) ... ok
+test_factor_rejection (test_bridge.TestBridge.test_factor_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.008s
+
+OK
+{
+  "status": "OK",
+  "xi_samples": 47,
+  "clean_before": 17,
+  "clean_after": 19,
+  "straddling": 11,
+  "errors": {
+    "source_frame_descriptor": 0.0,
+    "archived_shapley": 5.725901504361963e-17,
+    "factor_split": 0.0,
+    "observer_shapley": 5.620655062059423e-17,
+    "observer_identity": 1.130121503276712e-17,
+    "material_causality_before_B": 0.0
+  },
+  "signs": [
+    {
+      "tolerance": "standard",
+      "eps_rel": 1e-08,
+      "n_pre": 17,
+      "n_post": 19,
+      "pre_positive": 17,
+      "post_negative": 19,
+      "median_pre_signed": 0.06553785176174233,
+      "median_post_signed": -0.00012041340524054277,
+      "median_post_stencil_correction_over_delta": 0.00149816977674265,
+      "median_post_interaction_over_centered": 0.32408680442040605
+    },
+    {
+      "tolerance": "standard",
+      "eps_rel": 3e-08,
+      "n_pre": 17,
+      "n_post": 19,
+      "pre_positive": 17,
+      "post_negative": 19,
+      "median_pre_signed": 0.19488234566881474,
+      "median_post_signed": -0.0003552874083389411,
+      "median_post_stencil_correction_over_delta": 0.000865640123292228,
+      "median_post_interaction_over_centered": 2.864073515158248
+    },
+    {
+      "tolerance": "tight",
+      "eps_rel": 1e-08,
+      "n_pre": 17,
+      "n_post": 19,
+      "pre_positive": 17,
+      "post_negative": 19,
+      "median_pre_signed": 0.06553801604085183,
+      "median_post_signed": -0.00012041176908159406,
+      "median_post_stencil_correction_over_delta": 0.0012669471849852685,
+      "median_post_interaction_over_centered": 0.3241310836325767
+    },
+    {
+      "tolerance": "tight",
+      "eps_rel": 3e-08,
+      "n_pre": 17,
+      "n_post": 19,
+      "pre_positive": 17,
+      "post_negative": 19,
+      "median_pre_signed": 0.1948823421764715,
+      "median_post_signed": -0.00035503842430738405,
+      "median_post_stencil_correction_over_delta": 0.0009143415592208127,
+      "median_post_interaction_over_centered": 2.864098773654037
+    }
+  ]
+}
+Sendback archive: /root/elab1/hysteresis/q550_kick203_material_to_observer_bridge_v18_3_bundle/q550_kick203_material_to_observer_bridge_v18_3_sendback.zip files: 27

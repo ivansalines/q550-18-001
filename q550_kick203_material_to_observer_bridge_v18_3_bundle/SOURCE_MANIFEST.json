@@ -1,0 +1,5 @@
+{
+  "v18_2_sendback_sha256": "691354796c87c5fca6ffa3b8da0b8f57e6b260cf945915601ed0f1a9e0e4f402",
+  "upstream": "v18.2 contains v18.1 contains v17.9 input",
+  "description": "Pinned complete v18.2 sendback; all old source scripts and embedded results retained."
+}
