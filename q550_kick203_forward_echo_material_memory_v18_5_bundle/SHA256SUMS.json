@@ -1,0 +1,18 @@
+{
+  "README.md": "f5723ee3bd4ec4e6fb8d2c9aa9f419900ee3d073060bf2204fedd5ccf353c8e9",
+  "SOURCE_MANIFEST.json": "942a111e75140f4d174c9984e104f4f662683db8d69c6ea5025b9d660a3ac335",
+  "inputs/q550_kick203_five_amplitude_scaling_v18_4_sendback.zip": "0fafb1d3a74fd18e867863a6d9145336f02f83b9153ae5f6ee6f5e793ef52cef",
+  "inputs/singular_direction_vectors.csv": "c1047dbd6056da6ed81fd5364fea408150a082357772015f17ed485b090e914e",
+  "reference/history_bridge_v16.py": "f0945d39a07980555a7ae79068cca78be425a7c34bd6116f22ecdf0d267c2835",
+  "reference/q550_state_impulse_response_v13.py": "28bb3562a8b6e32b9b1c6f4bd544ade6afc75b6a5758e24fe671a85df28c7506",
+  "requirements.txt": "2bb0bf356036acc8420eb84c77a633318a99a6e6aadfda981931220246e49a63",
+  "scripts/analyze_echo_v18_5.py": "3a0504c91830b867b9b0277067e2bed0590a2693a1e8e7e4587e87fcff682bcb",
+  "scripts/echo_math.py": "57438437250f4fe064c89ab83988b29871d1639ab41d1f00df3f00641f5b4817",
+  "scripts/pack_sendback_v18_5.py": "cde35b5f6ef0143ed5b20d39a5b2138bf818cba85a6876e553dcd0d0cd40de4a",
+  "scripts/preflight_v18_5.py": "af234c4483c62cabfc882d4bf9e609e36ae03eaf741938bdbaf89e558fdd3c91",
+  "scripts/run_echo_v18_5.py": "427f22de064fbb8a080b9a8966171d03852ab61947d410fe211c02aae45ee627",
+  "scripts/run_on_server.sh": "7421cf591aa85e17f288cca659c762ed3f1f4e758e38cace85ce371b5dc19af3",
+  "tests/local_software_versions.json": "cf6112f556eed94665e00a77f23651cbb307e9d65f79fd375699018ee30d6a2a",
+  "tests/local_validation.log": "a986e7b3b8a4143d7613dae444b1d01df318191d14ab1901b4d0a3220c5ec2eb",
+  "tests/test_echo_math.py": "aec344db5ea10bff2edf1b5c42b5c14b3318f3b39067b2e3aeac1371f8988d74"
+}

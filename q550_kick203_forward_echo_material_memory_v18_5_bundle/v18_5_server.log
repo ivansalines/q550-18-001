@@ -1,0 +1,103 @@
+test_condition_gate (test_echo_math.TestEcho.test_condition_gate) ... ok
+test_even_odd_and_angle (test_echo_math.TestEcho.test_even_odd_and_angle) ... ok
+test_linear_evolved_echo (test_echo_math.TestEcho.test_linear_evolved_echo) ... ok
+test_linear_zero_lag (test_echo_math.TestEcho.test_linear_zero_lag) ... ok
+test_nonlinear_quadratic_echo (test_echo_math.TestEcho.test_nonlinear_quadratic_echo) ... ok
+test_transport (test_echo_math.TestEcho.test_transport) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.147s
+
+OK
+PASS pinned historical v18.4, original Q550 solver ancestry, 3 eps x 6 delays x 2 tolerance x 2 signs
+No Q550 solver input is required for preflight. Historical Q550 source is verified on server at runtime.
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+SAVED standard_eps1e-08_delay0.25.npz: delay=0.25 xi eps=1e-08 ||r+ pulse||=1.368803e-09 cond(P)=2.54
+SAVED standard_eps1e-08_delay0.5.npz: delay=0.5 xi eps=1e-08 ||r+ pulse||=2.903607e-09 cond(P)=4.66
+SAVED standard_eps1e-08_delay1.npz: delay=1 xi eps=1e-08 ||r+ pulse||=6.970722e-09 cond(P)=11.1
+SAVED standard_eps1e-08_delay2.npz: delay=2 xi eps=1e-08 ||r+ pulse||=2.079003e-08 cond(P)=23.5
+SAVED standard_eps1e-08_delay4.npz: delay=4 xi eps=1e-08 ||r+ pulse||=3.610412e-08 cond(P)=46.5
+SAVED standard_eps1e-08_delay8.npz: delay=8 xi eps=1e-08 ||r+ pulse||=6.139879e-08 cond(P)=333
+SAVED standard_eps3e-08_delay0.25.npz: delay=0.25 xi eps=3e-08 ||r+ pulse||=1.231721e-08 cond(P)=2.54
+SAVED standard_eps3e-08_delay0.5.npz: delay=0.5 xi eps=3e-08 ||r+ pulse||=2.612773e-08 cond(P)=4.66
+SAVED standard_eps3e-08_delay1.npz: delay=1 xi eps=3e-08 ||r+ pulse||=6.274179e-08 cond(P)=11.1
+SAVED standard_eps3e-08_delay2.npz: delay=2 xi eps=3e-08 ||r+ pulse||=1.871958e-07 cond(P)=23.5
+SAVED standard_eps3e-08_delay4.npz: delay=4 xi eps=3e-08 ||r+ pulse||=3.252255e-07 cond(P)=46.5
+SAVED standard_eps3e-08_delay8.npz: delay=8 xi eps=3e-08 ||r+ pulse||=5.531621e-07 cond(P)=333
+SAVED standard_eps1e-07_delay0.25.npz: delay=0.25 xi eps=1e-07 ||r+ pulse||=1.368095e-07 cond(P)=2.54
+SAVED standard_eps1e-07_delay0.5.npz: delay=0.5 xi eps=1e-07 ||r+ pulse||=2.902535e-07 cond(P)=4.66
+SAVED standard_eps1e-07_delay1.npz: delay=1 xi eps=1e-07 ||r+ pulse||=6.973271e-07 cond(P)=11.1
+SAVED standard_eps1e-07_delay2.npz: delay=2 xi eps=1e-07 ||r+ pulse||=2.081253e-06 cond(P)=23.5
+SAVED standard_eps1e-07_delay4.npz: delay=4 xi eps=1e-07 ||r+ pulse||=3.620297e-06 cond(P)=46.5
+SAVED standard_eps1e-07_delay8.npz: delay=8 xi eps=1e-07 ||r+ pulse||=6.158637e-06 cond(P)=333
+SAVED tight_eps1e-08_delay0.25.npz: delay=0.25 xi eps=1e-08 ||r+ pulse||=1.368592e-09 cond(P)=2.54
+SAVED tight_eps1e-08_delay0.5.npz: delay=0.5 xi eps=1e-08 ||r+ pulse||=2.902548e-09 cond(P)=4.66
+SAVED tight_eps1e-08_delay1.npz: delay=1 xi eps=1e-08 ||r+ pulse||=6.968663e-09 cond(P)=11.1
+SAVED tight_eps1e-08_delay2.npz: delay=2 xi eps=1e-08 ||r+ pulse||=2.078305e-08 cond(P)=23.5
+SAVED tight_eps1e-08_delay4.npz: delay=4 xi eps=1e-08 ||r+ pulse||=3.610514e-08 cond(P)=46.5
+SAVED tight_eps1e-08_delay8.npz: delay=8 xi eps=1e-08 ||r+ pulse||=6.139840e-08 cond(P)=333
+SAVED tight_eps3e-08_delay0.25.npz: delay=0.25 xi eps=3e-08 ||r+ pulse||=1.231690e-08 cond(P)=2.54
+SAVED tight_eps3e-08_delay0.5.npz: delay=0.5 xi eps=3e-08 ||r+ pulse||=2.612691e-08 cond(P)=4.66
+SAVED tight_eps3e-08_delay1.npz: delay=1 xi eps=3e-08 ||r+ pulse||=6.274104e-08 cond(P)=11.1
+SAVED tight_eps3e-08_delay2.npz: delay=2 xi eps=3e-08 ||r+ pulse||=1.871852e-07 cond(P)=23.5
+SAVED tight_eps3e-08_delay4.npz: delay=4 xi eps=3e-08 ||r+ pulse||=3.251881e-07 cond(P)=46.5
+SAVED tight_eps3e-08_delay8.npz: delay=8 xi eps=3e-08 ||r+ pulse||=5.531296e-07 cond(P)=333
+SAVED tight_eps1e-07_delay0.25.npz: delay=0.25 xi eps=1e-07 ||r+ pulse||=1.368093e-07 cond(P)=2.54
+SAVED tight_eps1e-07_delay0.5.npz: delay=0.5 xi eps=1e-07 ||r+ pulse||=2.902528e-07 cond(P)=4.66
+SAVED tight_eps1e-07_delay1.npz: delay=1 xi eps=1e-07 ||r+ pulse||=6.973254e-07 cond(P)=11.1
+SAVED tight_eps1e-07_delay2.npz: delay=2 xi eps=1e-07 ||r+ pulse||=2.081248e-06 cond(P)=23.5
+SAVED tight_eps1e-07_delay4.npz: delay=4 xi eps=1e-07 ||r+ pulse||=3.620291e-06 cond(P)=46.5
+SAVED tight_eps1e-07_delay8.npz: delay=8 xi eps=1e-07 ||r+ pulse||=6.158631e-06 cond(P)=333
+{
+  "version": "2026-10-16-v18.5-forward-echo",
+  "status": "FORWARD_ECHO_MATERIAL_MEMORY_DIAGNOSTIC_OFF_CONSTRAINT",
+  "samples": 180,
+  "checkpoints": 36,
+  "lag_xi": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "amplitude_relative": [
+    1e-08,
+    3e-08,
+    1e-07
+  ],
+  "read_age_xi": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "min_max_immediate_echo_fraction_of_write": [
+    2.0356152114060137e-05,
+    0.0011372314355344389
+  ],
+  "median_immediate_echo_fraction_by_lag": {
+    "0.25": 6.107228911742061e-05,
+    "0.5": 0.00010790787155116614,
+    "1.0": 0.00018042696803415267,
+    "2.0": 0.00031590834584193576,
+    "4.0": 0.00034115711835997224,
+    "8.0": 0.00028276020097691166
+  },
+  "median_even_exponent": 2.000128939695503,
+  "median_odd_exponent": 2.5642231785102902,
+  "max_even_solver_disagreement": 0.00575260087364344,
+  "interpretation_boundaries": [
+    "Echo uses forward time and exact variational anti-kick; NOT time-reversed dynamics.",
+    "Response is physical 11D numerical state, NOT 11D dlocal descriptor.",
+    "Without invariants plugin no physical constraint certification.",
+    "A nonzero echo is nonlinear path residue in state, NOT proof of thermodynamic or rate-independent hysteresis.",
+    "The model is deterministic Markovian in full state: identical full states and identical future forcing imply identical futures.",
+    "Zero epsilon would have zero echo; small-amp scaling must be checked against standard/tight errors."
+  ]
+}
+Packed /root/elab1/hysteresis/q550_kick203_forward_echo_material_memory_v18_5_bundle/q550_kick203_forward_echo_material_memory_v18_5_sendback.zip, 66 files, 22138934 bytes

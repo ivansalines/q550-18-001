@@ -1,0 +1,40 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+SAVED standard_eps1e-08_delay0.25.npz: delay=0.25 xi eps=1e-08 ||r+ pulse||=1.368803e-09 cond(P)=2.54
+SAVED standard_eps1e-08_delay0.5.npz: delay=0.5 xi eps=1e-08 ||r+ pulse||=2.903607e-09 cond(P)=4.66
+SAVED standard_eps1e-08_delay1.npz: delay=1 xi eps=1e-08 ||r+ pulse||=6.970722e-09 cond(P)=11.1
+SAVED standard_eps1e-08_delay2.npz: delay=2 xi eps=1e-08 ||r+ pulse||=2.079003e-08 cond(P)=23.5
+SAVED standard_eps1e-08_delay4.npz: delay=4 xi eps=1e-08 ||r+ pulse||=3.610412e-08 cond(P)=46.5
+SAVED standard_eps1e-08_delay8.npz: delay=8 xi eps=1e-08 ||r+ pulse||=6.139879e-08 cond(P)=333
+SAVED standard_eps3e-08_delay0.25.npz: delay=0.25 xi eps=3e-08 ||r+ pulse||=1.231721e-08 cond(P)=2.54
+SAVED standard_eps3e-08_delay0.5.npz: delay=0.5 xi eps=3e-08 ||r+ pulse||=2.612773e-08 cond(P)=4.66
+SAVED standard_eps3e-08_delay1.npz: delay=1 xi eps=3e-08 ||r+ pulse||=6.274179e-08 cond(P)=11.1
+SAVED standard_eps3e-08_delay2.npz: delay=2 xi eps=3e-08 ||r+ pulse||=1.871958e-07 cond(P)=23.5
+SAVED standard_eps3e-08_delay4.npz: delay=4 xi eps=3e-08 ||r+ pulse||=3.252255e-07 cond(P)=46.5
+SAVED standard_eps3e-08_delay8.npz: delay=8 xi eps=3e-08 ||r+ pulse||=5.531621e-07 cond(P)=333
+SAVED standard_eps1e-07_delay0.25.npz: delay=0.25 xi eps=1e-07 ||r+ pulse||=1.368095e-07 cond(P)=2.54
+SAVED standard_eps1e-07_delay0.5.npz: delay=0.5 xi eps=1e-07 ||r+ pulse||=2.902535e-07 cond(P)=4.66
+SAVED standard_eps1e-07_delay1.npz: delay=1 xi eps=1e-07 ||r+ pulse||=6.973271e-07 cond(P)=11.1
+SAVED standard_eps1e-07_delay2.npz: delay=2 xi eps=1e-07 ||r+ pulse||=2.081253e-06 cond(P)=23.5
+SAVED standard_eps1e-07_delay4.npz: delay=4 xi eps=1e-07 ||r+ pulse||=3.620297e-06 cond(P)=46.5
+SAVED standard_eps1e-07_delay8.npz: delay=8 xi eps=1e-07 ||r+ pulse||=6.158637e-06 cond(P)=333
+SAVED tight_eps1e-08_delay0.25.npz: delay=0.25 xi eps=1e-08 ||r+ pulse||=1.368592e-09 cond(P)=2.54
+SAVED tight_eps1e-08_delay0.5.npz: delay=0.5 xi eps=1e-08 ||r+ pulse||=2.902548e-09 cond(P)=4.66
+SAVED tight_eps1e-08_delay1.npz: delay=1 xi eps=1e-08 ||r+ pulse||=6.968663e-09 cond(P)=11.1
+SAVED tight_eps1e-08_delay2.npz: delay=2 xi eps=1e-08 ||r+ pulse||=2.078305e-08 cond(P)=23.5
+SAVED tight_eps1e-08_delay4.npz: delay=4 xi eps=1e-08 ||r+ pulse||=3.610514e-08 cond(P)=46.5
+SAVED tight_eps1e-08_delay8.npz: delay=8 xi eps=1e-08 ||r+ pulse||=6.139840e-08 cond(P)=333
+SAVED tight_eps3e-08_delay0.25.npz: delay=0.25 xi eps=3e-08 ||r+ pulse||=1.231690e-08 cond(P)=2.54
+SAVED tight_eps3e-08_delay0.5.npz: delay=0.5 xi eps=3e-08 ||r+ pulse||=2.612691e-08 cond(P)=4.66
+SAVED tight_eps3e-08_delay1.npz: delay=1 xi eps=3e-08 ||r+ pulse||=6.274104e-08 cond(P)=11.1
+SAVED tight_eps3e-08_delay2.npz: delay=2 xi eps=3e-08 ||r+ pulse||=1.871852e-07 cond(P)=23.5
+SAVED tight_eps3e-08_delay4.npz: delay=4 xi eps=3e-08 ||r+ pulse||=3.251881e-07 cond(P)=46.5
+SAVED tight_eps3e-08_delay8.npz: delay=8 xi eps=3e-08 ||r+ pulse||=5.531296e-07 cond(P)=333
+SAVED tight_eps1e-07_delay0.25.npz: delay=0.25 xi eps=1e-07 ||r+ pulse||=1.368093e-07 cond(P)=2.54
+SAVED tight_eps1e-07_delay0.5.npz: delay=0.5 xi eps=1e-07 ||r+ pulse||=2.902528e-07 cond(P)=4.66
+SAVED tight_eps1e-07_delay1.npz: delay=1 xi eps=1e-07 ||r+ pulse||=6.973254e-07 cond(P)=11.1
+SAVED tight_eps1e-07_delay2.npz: delay=2 xi eps=1e-07 ||r+ pulse||=2.081248e-06 cond(P)=23.5
+SAVED tight_eps1e-07_delay4.npz: delay=4 xi eps=1e-07 ||r+ pulse||=3.620291e-06 cond(P)=46.5
+SAVED tight_eps1e-07_delay8.npz: delay=8 xi eps=1e-07 ||r+ pulse||=6.158631e-06 cond(P)=333

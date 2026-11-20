@@ -1,0 +1,12 @@
+{
+  "version": "2026-10-16-v18.5",
+  "historical_v18_4_sendback": "q550_kick203_five_amplitude_scaling_v18_4_sendback.zip",
+  "historical_v18_4_sha256": "0fafb1d3a74fd18e867863a6d9145336f02f83b9153ae5f6ee6f5e793ef52cef",
+  "singular_direction_sha256": "c1047dbd6056da6ed81fd5364fea408150a082357772015f17ed485b090e914e",
+  "method": "forward on-flow write, tangent-matched anti-kick at delayed time, forward readout",
+  "constraint_status": "OFF_CONSTRAINT_DIAGNOSTIC",
+  "history_genealogy": [
+    "v18.4 sendback contains historical lineage including v18.3/v18.2/v18.1/v17.9",
+    "v13 validates original Q550 server source hashes"
+  ]
+}

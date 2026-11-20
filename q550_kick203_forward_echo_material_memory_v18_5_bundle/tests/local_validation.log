@@ -1,0 +1,13 @@
+test_condition_gate (test_echo_math.TestEcho.test_condition_gate) ... ok
+test_even_odd_and_angle (test_echo_math.TestEcho.test_even_odd_and_angle) ... ok
+test_linear_evolved_echo (test_echo_math.TestEcho.test_linear_evolved_echo) ... ok
+test_linear_zero_lag (test_echo_math.TestEcho.test_linear_zero_lag) ... ok
+test_nonlinear_quadratic_echo (test_echo_math.TestEcho.test_nonlinear_quadratic_echo) ... ok
+test_transport (test_echo_math.TestEcho.test_transport) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+PASS pinned historical v18.4, original Q550 solver ancestry, 3 eps x 6 delays x 2 tolerance x 2 signs
+No Q550 solver input is required for preflight. Historical Q550 source is verified on server at runtime.

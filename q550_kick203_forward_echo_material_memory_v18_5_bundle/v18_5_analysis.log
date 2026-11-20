@@ -1,0 +1,49 @@
+{
+  "version": "2026-10-16-v18.5-forward-echo",
+  "status": "FORWARD_ECHO_MATERIAL_MEMORY_DIAGNOSTIC_OFF_CONSTRAINT",
+  "samples": 180,
+  "checkpoints": 36,
+  "lag_xi": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "amplitude_relative": [
+    1e-08,
+    3e-08,
+    1e-07
+  ],
+  "read_age_xi": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "min_max_immediate_echo_fraction_of_write": [
+    2.0356152114060137e-05,
+    0.0011372314355344389
+  ],
+  "median_immediate_echo_fraction_by_lag": {
+    "0.25": 6.107228911742061e-05,
+    "0.5": 0.00010790787155116614,
+    "1.0": 0.00018042696803415267,
+    "2.0": 0.00031590834584193576,
+    "4.0": 0.00034115711835997224,
+    "8.0": 0.00028276020097691166
+  },
+  "median_even_exponent": 2.000128939695503,
+  "median_odd_exponent": 2.5642231785102902,
+  "max_even_solver_disagreement": 0.00575260087364344,
+  "interpretation_boundaries": [
+    "Echo uses forward time and exact variational anti-kick; NOT time-reversed dynamics.",
+    "Response is physical 11D numerical state, NOT 11D dlocal descriptor.",
+    "Without invariants plugin no physical constraint certification.",
+    "A nonzero echo is nonlinear path residue in state, NOT proof of thermodynamic or rate-independent hysteresis.",
+    "The model is deterministic Markovian in full state: identical full states and identical future forcing imply identical futures.",
+    "Zero epsilon would have zero echo; small-amp scaling must be checked against standard/tight errors."
+  ]
+}
