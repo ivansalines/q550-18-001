@@ -1,0 +1,36 @@
+{
+  "version": "2026-10-16-q550-v18.4",
+  "pinned_input": "q550_kick203_material_to_observer_bridge_v18_3_bundle.zip",
+  "pinned_input_sha256": "e3adcd5a7831603a99db0435639998300f5f7faa56b3af776bd80c2a6ef8ae9d",
+  "archive_genealogy": "v18.3 ZIP > embedded v18.2 sendback > embedded v18.1 sendback > embedded v17.9 arrays",
+  "previous_source": "v18.3 direct fixed-axis vectors + v17.9 original code and coefficients",
+  "new_amplitudes": [
+    5e-09,
+    1.5e-08,
+    2e-08
+  ],
+  "old_amplitudes_reused": [
+    1e-08,
+    3e-08
+  ],
+  "replayable_original_external_dependencies": true,
+  "active_python_sha256": {
+    "scripts/analyze_scan_v18_4.py": "c5c615369d31e3ca5a589d3e8719bc23deb3d36212ba731567727e26fb870981",
+    "scripts/pack_sendback_v18_4.py": "6dfede52d1ae65e139246f1cc5bb603a1de8564e59d14e7b437c8655b0f02a0e",
+    "scripts/preflight_v18_4.py": "0861fb2e210ff817c284a51513dbe18ebc0e74bf44accebff544fd2a12b6e9b0",
+    "scripts/run_scan_v18_4.py": "4fd100ab60494b61e5f6403479e49d7cd7fe840a373fcca0379e680434eae277",
+    "scripts/scaling_math.py": "fc4f5ed52334476d8045f9057e9d8b2afef724ba255757ac7524d9d85acdf99f",
+    "reference/bridge_math.py": "9d5de69041b7b73875b36aff40c1cd8beed44d47d86225cd2c1e9d0068ef5acd",
+    "reference/frame_geometry.py": "595eb81293d9536d15da369c0a0914a0f1ba8d837d21b0e559774f858d8f7e1b",
+    "reference/history_bridge_v16.py": "f0945d39a07980555a7ae79068cca78be425a7c34bd6116f22ecdf0d267c2835",
+    "reference/q550_state_impulse_response_v13.py": "28bb3562a8b6e32b9b1c6f4bd544ade6afc75b6a5758e24fe671a85df28c7506",
+    "reference/run_kick203_event_micro_v17_9.py": "2c0b1b9ce9cf301beca693b7d93e3887c767f67e8a921cdbab9cbd6ad24da55d",
+    "reference/run_kick203_second_order_observer_v18_1.py": "46e0317a9c682ef36886ddd63727e1b285221e65bcc58c2476316a48f0ae6bf7",
+    "reference/run_material_to_observer_bridge_v18_3.py": "3c2691dde5c077a2ee55e68077a4c2ed1984d3135e0f3507a1fe7f34f8fe2576",
+    "tests/test_scaling_math.py": "c71193feb44b891747258eece80603a7a4e1dbef9859c3f7adce3ece4f036f47"
+  },
+  "source_input_sha256": {
+    "inputs/q550_kick203_material_to_observer_bridge_v18_3_bundle.zip": "e3adcd5a7831603a99db0435639998300f5f7faa56b3af776bd80c2a6ef8ae9d",
+    "inputs/singular_direction_vectors.csv": "c1047dbd6056da6ed81fd5364fea408150a082357772015f17ed485b090e914e"
+  }
+}

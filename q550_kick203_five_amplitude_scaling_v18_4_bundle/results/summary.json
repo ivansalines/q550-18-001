@@ -1,0 +1,84 @@
+{
+  "version": "2026-10-16-q550-kick203-v18.4-five-amplitude-scaling",
+  "amplitudes_relative": [
+    5e-09,
+    1e-08,
+    1.5e-08,
+    2e-08,
+    3e-08
+  ],
+  "reference_amplitude": 1e-08,
+  "tolerances": [
+    "standard",
+    "tight"
+  ],
+  "xi_B_crossing": 210.8611366031777,
+  "clean_after_B_count": 19,
+  "clean_before_B_count": 17,
+  "common_axis_source": "v18.3 standard epsilon 1e-8 frozen A; fixed for all amplitudes/tolerances",
+  "constraint_certificate": "NOT_CERTIFIED; histories solve the ODE only",
+  "interpretation": "I_ABC is a descriptor-factor mixed secant, not independently measured physical hysteresis",
+  "standard": {
+    "interaction_effective_p_1e8_to_3e8_postB_median": 2.9765295405010312,
+    "interaction_cubic_normalized_vector_norm_rel_range_postB_median": 0.027994619492931222,
+    "quintic_to_cubic_at_largest_epsilon_postB_median": 0.030884193175401115,
+    "centered_delta_odd_fit_design_condition": 309.0838429648707,
+    "interaction_odd_fit_design_condition": 48.228043988179884,
+    "order2_odd_fit_design_condition": 309.0838429648707,
+    "postB_all_interaction_signed_positive": true,
+    "postB_all_residual_signed_negative": true,
+    "postB_signed_linear_residual_normalized_median": -0.00011993212561116393,
+    "postB_max_abs_interaction_over_delta_norm": 2.8973923550543224,
+    "preB_material_zero_max": 0.0
+  },
+  "tight": {
+    "interaction_effective_p_1e8_to_3e8_postB_median": 2.9765291479209135,
+    "interaction_cubic_normalized_vector_norm_rel_range_postB_median": 0.027994588359442046,
+    "quintic_to_cubic_at_largest_epsilon_postB_median": 0.030885801222671434,
+    "centered_delta_odd_fit_design_condition": 309.0838429648707,
+    "interaction_odd_fit_design_condition": 48.228043988179884,
+    "order2_odd_fit_design_condition": 309.0838429648707,
+    "postB_all_interaction_signed_positive": true,
+    "postB_all_residual_signed_negative": true,
+    "postB_signed_linear_residual_normalized_median": -0.00011989461797548775,
+    "postB_max_abs_interaction_over_delta_norm": 2.8978309107672127,
+    "preB_material_zero_max": 0.0
+  },
+  "max_factor_identity_closure": 0.0,
+  "max_before_B_material_sensitivity_norm": 0.0,
+  "all_amplitudes_validated": true,
+  "conclusion_gate": "DIAGNOSTIC_ONLY_PENDING_ASYMPTOTIC_AND_CONSTRAINT_AND_REVERSE_PATH",
+  "cross_tolerance_postB": [
+    {
+      "eps_rel": 5e-09,
+      "median_postB_interaction_relative_solver_difference": 3.774343230411992e-06,
+      "maximum_postB_interaction_relative_solver_difference": 8.398409059239116e-06,
+      "median_postB_delta_relative_solver_difference": 0.0006868353286270941
+    },
+    {
+      "eps_rel": 1e-08,
+      "median_postB_interaction_relative_solver_difference": 1.9038441897248982e-06,
+      "maximum_postB_interaction_relative_solver_difference": 6.160186502969236e-06,
+      "median_postB_delta_relative_solver_difference": 0.00020842807243255716
+    },
+    {
+      "eps_rel": 1.5e-08,
+      "median_postB_interaction_relative_solver_difference": 1.316754476332412e-06,
+      "maximum_postB_interaction_relative_solver_difference": 3.5223536661289627e-06,
+      "median_postB_delta_relative_solver_difference": 0.00023038575329277492
+    },
+    {
+      "eps_rel": 2e-08,
+      "median_postB_interaction_relative_solver_difference": 1.0180193627803843e-06,
+      "maximum_postB_interaction_relative_solver_difference": 2.6721012779584738e-06,
+      "median_postB_delta_relative_solver_difference": 0.00012673878704513283
+    },
+    {
+      "eps_rel": 3e-08,
+      "median_postB_interaction_relative_solver_difference": 8.692416985613091e-07,
+      "maximum_postB_interaction_relative_solver_difference": 3.460291795809525e-06,
+      "median_postB_delta_relative_solver_difference": 0.00014208075263756603
+    }
+  ],
+  "smallest_amplitude_numerical_floor_flag": false
+}

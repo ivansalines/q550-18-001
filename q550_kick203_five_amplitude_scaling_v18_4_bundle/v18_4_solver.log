@@ -1,0 +1,24 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 400/400]
+baseline ready standard norm(y0)= 6061.83254513945
+  completed standard 5e-09 history -1
+  completed standard 5e-09 history 1
+SAVED /root/elab1/hysteresis/q550_kick203_five_amplitude_scaling_v18_4_bundle/checkpoint/standard_eps5e-09.npz
+  completed standard 1.5e-08 history -1
+  completed standard 1.5e-08 history 1
+SAVED /root/elab1/hysteresis/q550_kick203_five_amplitude_scaling_v18_4_bundle/checkpoint/standard_eps1.5e-08.npz
+  completed standard 2e-08 history -1
+  completed standard 2e-08 history 1
+SAVED /root/elab1/hysteresis/q550_kick203_five_amplitude_scaling_v18_4_bundle/checkpoint/standard_eps2e-08.npz
+baseline ready tight norm(y0)= 6061.832545140305
+  completed tight 5e-09 history -1
+  completed tight 5e-09 history 1
+SAVED /root/elab1/hysteresis/q550_kick203_five_amplitude_scaling_v18_4_bundle/checkpoint/tight_eps5e-09.npz
+  completed tight 1.5e-08 history -1
+  completed tight 1.5e-08 history 1
+SAVED /root/elab1/hysteresis/q550_kick203_five_amplitude_scaling_v18_4_bundle/checkpoint/tight_eps1.5e-08.npz
+  completed tight 2e-08 history -1
+  completed tight 2e-08 history 1
+SAVED /root/elab1/hysteresis/q550_kick203_five_amplitude_scaling_v18_4_bundle/checkpoint/tight_eps2e-08.npz
